@@ -1,0 +1,59 @@
+appId: ${APP_ID}
+name: Master Test Suite
+# Generated Consolidated Test Suite Information:
+# Each screen has a single consolidated flow file containing all its test cases
+# Suite: Login
+# Consolidated flow file: login.yaml
+# Contains 23 test case(s):
+
+# Suite: SignUp
+# Consolidated flow file: signUp.yaml
+# Contains 37 test case(s):
+
+# Suite: CreateQuote
+# Consolidated flow file: createQuote.yaml
+# Contains 64 test case(s):
+
+# Suite: CreateRecepient
+# Consolidated flow file: createRecepient.yaml
+# Contains 72 test case(s):
+
+# Suite: UpdateQuote
+# Consolidated flow file: updateQuote.yaml
+# Contains 53 test case(s):
+
+# Suite: CreateTransfer
+# Consolidated flow file: createTransfer.yaml
+# Contains 43 test case(s):
+
+# Suite: FundTransfer
+# Consolidated flow file: fundTransfer.yaml
+# Contains 54 test case(s):
+
+# Suite: FinishScreen
+# Consolidated flow file: finishScreen.yaml
+# Contains 34 test case(s):
+
+# Suite: WelcomeScreen
+# Consolidated flow file: welcomeScreen.yaml
+# Contains 39 test case(s):
+
+---
+- runFlow:
+    file: login.yaml
+- runFlow:
+    file: signUp.yaml
+- runFlow:
+    file: createQuote.yaml
+- runFlow:
+    file: createRecepient.yaml
+- runFlow:
+    file: updateQuote.yaml
+- runFlow:
+    file: createTransfer.yaml
+- runFlow:
+    file: fundTransfer.yaml
+- runFlow:
+    file: finishScreen.yaml
+- runFlow:
+    file: welcomeScreen.yaml

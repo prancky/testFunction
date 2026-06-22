@@ -1,0 +1,113 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Inter-100-italic.ttf",
+      "sha1": "f140419abd350521846f82f976e38026e2e77f0c"
+    },
+    {
+      "path": "src/assets/fonts/Inter-100-normal.ttf",
+      "sha1": "dd22feb06dc18f02a9672e5e971ee005f44022c5"
+    },
+    {
+      "path": "src/assets/fonts/Inter-200-italic.ttf",
+      "sha1": "11c584d89eecb57dfd3b68e92567a5518d464e09"
+    },
+    {
+      "path": "src/assets/fonts/Inter-200-normal.ttf",
+      "sha1": "055645ef0dcdfe5af33bde1040ad906072c03619"
+    },
+    {
+      "path": "src/assets/fonts/Inter-300-italic.ttf",
+      "sha1": "94e4de3f9d1c2596e28765b0a3ff629b33ee2eb4"
+    },
+    {
+      "path": "src/assets/fonts/Inter-300-normal.ttf",
+      "sha1": "2d547f5c6a4e12f4900a30323b0999de2f1a69cb"
+    },
+    {
+      "path": "src/assets/fonts/Inter-400-italic.ttf",
+      "sha1": "c2edb5e7c162705ebdb8107feb7e64d416c17cd4"
+    },
+    {
+      "path": "src/assets/fonts/Inter-400-normal.ttf",
+      "sha1": "7a3fa76705ad586f6410a1b5b0059dd17db20c26"
+    },
+    {
+      "path": "src/assets/fonts/Inter-500-italic.ttf",
+      "sha1": "3227f873c3bde77f4f644c643cd44245473089d5"
+    },
+    {
+      "path": "src/assets/fonts/Inter-500-normal.ttf",
+      "sha1": "a961cb10310cf86b23bfbe21a637614d1046d795"
+    },
+    {
+      "path": "src/assets/fonts/Inter-600-italic.ttf",
+      "sha1": "726374f0819ba0d359c0e3f7158f6b727e0cb747"
+    },
+    {
+      "path": "src/assets/fonts/Inter-600-normal.ttf",
+      "sha1": "863e1483cb0cad642b80fc840072596afd5ff144"
+    },
+    {
+      "path": "src/assets/fonts/Inter-700-italic.ttf",
+      "sha1": "c6305ce75096968df640c5c58dfd4775125aaae8"
+    },
+    {
+      "path": "src/assets/fonts/Inter-700-normal.ttf",
+      "sha1": "5a912e0600350ef7bb9c7c2e6c585815bb30ca16"
+    },
+    {
+      "path": "src/assets/fonts/Inter-800-italic.ttf",
+      "sha1": "80b735de0b9783f722afe6c93617c572582abc4d"
+    },
+    {
+      "path": "src/assets/fonts/Inter-800-normal.ttf",
+      "sha1": "22f9890b2c77874a15bfd9c0b731fd10376497b4"
+    },
+    {
+      "path": "src/assets/fonts/Inter-900-italic.ttf",
+      "sha1": "1922b47e2c8c9f5325a129f5a829c1d7fb584639"
+    },
+    {
+      "path": "src/assets/fonts/Inter-900-normal.ttf",
+      "sha1": "27890301d7813ded5b0acab96f3b825ca177eded"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-500-normal.ttf",
+      "sha1": "b5e2c6265e0919163142bb8eac9b6450fb91f920"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-700-normal.ttf",
+      "sha1": "dbc0b874ad8b9f3415d0e9b4e22907890ca72327"
+    },
+    {
+      "path": "src/assets/fonts/Manrope-800-normal.ttf",
+      "sha1": "df131208d5c08ff782fbf12c264f473d8dacd83e"
+    },
+    {
+      "path": "src/assets/fonts/MaterialIcon.ttf",
+      "sha1": "086557d16c3e5bfcca1356f6d266b8f71595f913"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-400-normal.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-500-normal.ttf",
+      "sha1": "283f21b44efbdbf276ba802be2d949a36bbc4233"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-600-normal.ttf",
+      "sha1": "8a4ace9392d06bcb7f8ea2f5169b07e4c383a90d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-700-normal.ttf",
+      "sha1": "875cf0cecd647bcf22e79d633d868c1b1ec98dfa"
+    },
+    {
+      "path": "src/assets/fonts/materialIconsGlyphmap.json",
+      "sha1": "5256b9c82faf405ae13293e2a8f8d67d012540c5"
+    }
+  ]
+}

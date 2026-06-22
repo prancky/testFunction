@@ -1,0 +1,460 @@
+appId: "${APP_ID}"
+name: "fundTransferTestFlow"
+# Suite: FundTransfer
+# Consolidated test flow for FundTransfer screen
+# Contains 54 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:FundTransfer_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:FundTransfer_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-FundTransfer_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:FundTransfer_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:FundTransfer_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-FundTransfer_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-FundTransfer_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:FundTransfer_Image_Icon_Image is displayed on the screen: Verifies that the widget:FundTransfer_Image_Icon_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Image_Icon_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:FundTransfer_Title_UserName_Text is displayed on the screen: Verifies that the widget:FundTransfer_Title_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Title_UserName_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:FundTransfer_Title_UserName_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Title_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Title_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Title_UserName_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:FundTransfer_Image_Icon_Image_2 is displayed on the screen: Verifies that the widget:FundTransfer_Image_Icon_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Image_Icon_Image_2"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:FundTransfer_Label_UserName_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:FundTransfer_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:FundTransfer_Label_TransferId_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_TransferId_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_TransferId_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:FundTransfer_Label_TransferId_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_TransferId_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_TransferId_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_TransferId_Text"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:FundTransfer_Label_Tfr7712X92_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_Tfr7712X92_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Tfr7712X92_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:FundTransfer_Label_Tfr7712X92_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_Tfr7712X92_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Tfr7712X92_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Tfr7712X92_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASIconButton:FundTransfer_Icon_Container_Icon is displayed on the screen: Verifies that the widget:FundTransfer_Icon_Container_Icon renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Container_Icon"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASIconButton:FundTransfer_Icon_Container_Icon functionalities: Verifies that tapping button widget:FundTransfer_Icon_Container_Icon works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Container_Icon"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Container_Icon"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:FundTransfer_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:FundTransfer_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:FundTransfer_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASText:FundTransfer_Label_Available_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_Available_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Available_Text"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:FundTransfer_Label_Available_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_Available_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Available_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Available_Text"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASIconButton:FundTransfer_Icon_Background_Icon is displayed on the screen: Verifies that the widget:FundTransfer_Icon_Background_Icon renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Background_Icon"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASIconButton:FundTransfer_Icon_Background_Icon functionalities: Verifies that tapping button widget:FundTransfer_Icon_Background_Icon works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Background_Icon"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Background_Icon"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:text55 is displayed on the screen: Verifies that the widget:text55 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text55"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:text55 is displayed on the screen: Verifies that the label of widget:text55 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text55"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text55"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:BusinessDays is displayed on the screen: Verifies that the widget:BusinessDays renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BusinessDays"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:BusinessDays is displayed on the screen: Verifies that the label of widget:BusinessDays appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BusinessDays"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BusinessDays"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASIconButton:FundTransfer_Icon_Container_Icon_2 is displayed on the screen: Verifies that the widget:FundTransfer_Icon_Container_Icon_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Container_Icon_2"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASIconButton:FundTransfer_Icon_Container_Icon_2 functionalities: Verifies that tapping button widget:FundTransfer_Icon_Container_Icon_2 works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Container_Icon_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Container_Icon_2"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:FundTransfer_Label_Balance_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_Balance_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Balance_Text"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:FundTransfer_Label_Balance_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_Balance_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Balance_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Balance_Text"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASButton:FundTransfer_Cta_Instant_Button is displayed on the screen: Verifies that the widget:FundTransfer_Cta_Instant_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-FundTransfer_Cta_Instant_Button"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASButton:FundTransfer_Cta_Instant_Button functionalities: Verifies that tapping button widget:FundTransfer_Cta_Instant_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-FundTransfer_Cta_Instant_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-FundTransfer_Cta_Instant_Button"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:FundTransfer_Label_Current1245080_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_Current1245080_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Current1245080_Text"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASText:FundTransfer_Label_Current1245080_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_Current1245080_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Current1245080_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Current1245080_Text"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASImage:FundTransfer_Image_Background_Image is displayed on the screen: Verifies that the widget:FundTransfer_Image_Background_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Image_Background_Image"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASText:FundTransfer_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:FundTransfer_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASText:FundTransfer_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASTextField:FundTransfer_Input_PartnerReferenceOptional_Input is displayed on the screen: Verifies that the widget:FundTransfer_Input_PartnerReferenceOptional_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-FundTransfer_Input_PartnerReferenceOptional_Input"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASTextField:FundTransfer_Input_PartnerReferenceOptional_Input functionalities: Verifies that input widget:FundTransfer_Input_PartnerReferenceOptional_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-FundTransfer_Input_PartnerReferenceOptional_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-FundTransfer_Input_PartnerReferenceOptional_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-FundTransfer_Input_PartnerReferenceOptional_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-FundTransfer_Input_PartnerReferenceOptional_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-FundTransfer_Input_PartnerReferenceOptional_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-FundTransfer_Input_PartnerReferenceOptional_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-FundTransfer_Input_PartnerReferenceOptional_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-FundTransfer_Input_PartnerReferenceOptional_Input"
+- waitForAnimationToEnd: {}
+# 38. Verify widget ASIconButton:FundTransfer_Icon_Container_Icon_3 is displayed on the screen: Verifies that the widget:FundTransfer_Icon_Container_Icon_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Container_Icon_3"
+- waitForAnimationToEnd: {}
+# 39. Verify widget ASIconButton:FundTransfer_Icon_Container_Icon_3 functionalities: Verifies that tapping button widget:FundTransfer_Icon_Container_Icon_3 works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Container_Icon_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FundTransfer_Icon_Container_Icon_3"
+- waitForAnimationToEnd: {}
+# 40. Verify widget ASText:FundTransfer_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:FundTransfer_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 41. Verify widget ASText:FundTransfer_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 42. Verify widget ASText:FundTransfer_Label_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Text"
+- waitForAnimationToEnd: {}
+# 43. Verify widget ASText:FundTransfer_Label_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Text"
+- waitForAnimationToEnd: {}
+# 44. Verify widget ASText:FundTransfer_Label_Apy_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_Apy_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Apy_Text"
+- waitForAnimationToEnd: {}
+# 45. Verify widget ASText:FundTransfer_Label_Apy_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_Apy_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Apy_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Apy_Text"
+- waitForAnimationToEnd: {}
+# 46. Verify widget ASImage:FundTransfer_Image_Icon_Image_3 is displayed on the screen: Verifies that the widget:FundTransfer_Image_Icon_Image_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Image_Icon_Image_3"
+- waitForAnimationToEnd: {}
+# 47. Verify widget ASText:FundTransfer_Label_UserName_Text_5 is displayed on the screen: Verifies that the widget:FundTransfer_Label_UserName_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 48. Verify widget ASText:FundTransfer_Label_UserName_Text_5 is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_UserName_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 49. Verify widget ASText:FundTransfer_Label_Target25K_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_Target25K_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Target25K_Text"
+- waitForAnimationToEnd: {}
+# 50. Verify widget ASText:FundTransfer_Label_Target25K_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_Target25K_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Target25K_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_Target25K_Text"
+- waitForAnimationToEnd: {}
+# 51. Verify widget ASButton:FundTransfer_Cta_FundTransfer_Button is displayed on the screen: Verifies that the widget:FundTransfer_Cta_FundTransfer_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-FundTransfer_Cta_FundTransfer_Button"
+- waitForAnimationToEnd: {}
+# 52. Verify widget ASButton:FundTransfer_Cta_FundTransfer_Button functionalities: Verifies that tapping button widget:FundTransfer_Cta_FundTransfer_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-FundTransfer_Cta_FundTransfer_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-FundTransfer_Cta_FundTransfer_Button"
+- waitForAnimationToEnd: {}
+# 53. Verify widget ASText:FundTransfer_Label_ByContinuingYouAgreeToCo_Text is displayed on the screen: Verifies that the widget:FundTransfer_Label_ByContinuingYouAgreeToCo_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_ByContinuingYouAgreeToCo_Text"
+- waitForAnimationToEnd: {}
+# 54. Verify widget ASText:FundTransfer_Label_ByContinuingYouAgreeToCo_Text is displayed on the screen: Verifies that the label of widget:FundTransfer_Label_ByContinuingYouAgreeToCo_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_ByContinuingYouAgreeToCo_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FundTransfer_Label_ByContinuingYouAgreeToCo_Text"

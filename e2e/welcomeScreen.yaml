@@ -1,0 +1,307 @@
+appId: "${APP_ID}"
+name: "welcomeScreenTestFlow"
+# Suite: WelcomeScreen
+# Consolidated test flow for WelcomeScreen screen
+# Contains 38 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:WelcomeScreen_AppBar_HeaderTopAppBar_AppBar is displayed on the screen: Verifies that the widget:WelcomeScreen_AppBar_HeaderTopAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-WelcomeScreen_AppBar_HeaderTopAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:WelcomeScreen_AppBar_HeaderTopAppBar_AppBar is displayed on the screen: Verifies that the label of widget:WelcomeScreen_AppBar_HeaderTopAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-WelcomeScreen_AppBar_HeaderTopAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-WelcomeScreen_AppBar_HeaderTopAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:WelcomeScreen_Title_UserName_Text is displayed on the screen: Verifies that the widget:WelcomeScreen_Title_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Title_UserName_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:WelcomeScreen_Title_UserName_Text is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Title_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Title_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Title_UserName_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASImage:WelcomeScreen_Image_UserProfile_Image is displayed on the screen: Verifies that the widget:WelcomeScreen_Image_UserProfile_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Image_UserProfile_Image"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASButton:WelcomeScreen_Cta_FastSecureTransfers_Button is displayed on the screen: Verifies that the widget:WelcomeScreen_Cta_FastSecureTransfers_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-WelcomeScreen_Cta_FastSecureTransfers_Button"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASButton:WelcomeScreen_Cta_FastSecureTransfers_Button functionalities: Verifies that tapping button widget:WelcomeScreen_Cta_FastSecureTransfers_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-WelcomeScreen_Cta_FastSecureTransfers_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-WelcomeScreen_Cta_FastSecureTransfers_Button"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:WelcomeScreen_Label_SendMoneyWorldwideEasily_Text is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_SendMoneyWorldwideEasily_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_SendMoneyWorldwideEasily_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:WelcomeScreen_Label_SendMoneyWorldwideEasily_Text is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_SendMoneyWorldwideEasily_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_SendMoneyWorldwideEasily_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_SendMoneyWorldwideEasily_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:WelcomeScreen_Label_TransferMoneyInternationally_Text is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_TransferMoneyInternationally_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_TransferMoneyInternationally_Text"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:WelcomeScreen_Label_TransferMoneyInternationally_Text is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_TransferMoneyInternationally_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_TransferMoneyInternationally_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_TransferMoneyInternationally_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASButton:WelcomeScreen_Cta_SignUp_Button is displayed on the screen: Verifies that the widget:WelcomeScreen_Cta_SignUp_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-WelcomeScreen_Cta_SignUp_Button"
+- waitForAnimationToEnd: {}
+# 13. Verify event:onPress using widget ASButton:WelcomeScreen_Cta_SignUp_Button in screen WelcomeScreen should navigate to SignUp: Verify that triggering event:onPress using widget: WelcomeScreen_Cta_SignUp_Button in screen WelcomeScreen correctly navigates to the next screen SignUp with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-WelcomeScreen_Cta_SignUp_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-WelcomeScreen_Cta_SignUp_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "0b5576ab-5a17-4f93-b58b-a406151336ed"
+    optional: true
+- waitForAnimationToEnd: {}
+# 14. Navigate back after verifying event:onPress from ASButton:WelcomeScreen_Cta_SignUp_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:WelcomeScreen_Cta_SignUp_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASButton:WelcomeScreen_Cta_Continue_Button is displayed on the screen: Verifies that the widget:WelcomeScreen_Cta_Continue_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-WelcomeScreen_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASButton:WelcomeScreen_Cta_Continue_Button functionalities: Verifies that tapping button widget:WelcomeScreen_Cta_Continue_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-WelcomeScreen_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-WelcomeScreen_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASText:WelcomeScreen_Label_Text is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_Text"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:WelcomeScreen_Label_Text is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_Text"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:WelcomeScreen_Label_UserName_Text is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:WelcomeScreen_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASImage:WelcomeScreen_Image_Icon_Image is displayed on the screen: Verifies that the widget:WelcomeScreen_Image_Icon_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Image_Icon_Image"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:WelcomeScreen_Label_SecureTransfers_Text is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_SecureTransfers_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_SecureTransfers_Text"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:WelcomeScreen_Label_SecureTransfers_Text is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_SecureTransfers_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_SecureTransfers_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_SecureTransfers_Text"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASIconButton:WelcomeScreen_Icon_Container_Icon is displayed on the screen: Verifies that the widget:WelcomeScreen_Icon_Container_Icon renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-WelcomeScreen_Icon_Container_Icon"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASIconButton:WelcomeScreen_Icon_Container_Icon functionalities: Verifies that tapping button widget:WelcomeScreen_Icon_Container_Icon works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-WelcomeScreen_Icon_Container_Icon"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-WelcomeScreen_Icon_Container_Icon"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:WelcomeScreen_Label_TrustedByMillions_Text is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_TrustedByMillions_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_TrustedByMillions_Text"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:WelcomeScreen_Label_TrustedByMillions_Text is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_TrustedByMillions_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_TrustedByMillions_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_TrustedByMillions_Text"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASImage:WelcomeScreen_Background_FinancialVisual_Image is displayed on the screen: Verifies that the widget:WelcomeScreen_Background_FinancialVisual_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Background_FinancialVisual_Image"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:WelcomeScreen_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:WelcomeScreen_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:WelcomeScreen_Label_Price_Text is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_Price_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASText:WelcomeScreen_Label_Price_Text is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_Price_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_Price_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASIconButton:WelcomeScreen_Icon is displayed on the screen: Verifies that the widget:WelcomeScreen_Icon renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-WelcomeScreen_Icon"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASIconButton:WelcomeScreen_Icon functionalities: Verifies that tapping button widget:WelcomeScreen_Icon works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-WelcomeScreen_Icon"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-WelcomeScreen_Icon"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASText:WelcomeScreen_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASText:WelcomeScreen_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASText:WelcomeScreen_Label_Complete_Text is displayed on the screen: Verifies that the widget:WelcomeScreen_Label_Complete_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_Complete_Text"
+- waitForAnimationToEnd: {}
+# 38. Verify widget ASText:WelcomeScreen_Label_Complete_Text is displayed on the screen: Verifies that the label of widget:WelcomeScreen_Label_Complete_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_Complete_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "WelcomeScreen_Label_Complete_Text"
+- waitForAnimationToEnd: {}

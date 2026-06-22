@@ -1,0 +1,476 @@
+appId: "${APP_ID}"
+name: "createTransferTestFlow"
+# Suite: CreateTransfer
+# Consolidated test flow for CreateTransfer screen
+# Contains 43 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:CreateTransfer_AppBar_HeaderTopAppBarFromSharedCompon_AppBar is displayed on the screen: Verifies that the widget:CreateTransfer_AppBar_HeaderTopAppBarFromSharedCompon_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-CreateTransfer_AppBar_HeaderTopAppBarFromSharedCompon_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:CreateTransfer_AppBar_HeaderTopAppBarFromSharedCompon_AppBar is displayed on the screen: Verifies that the label of widget:CreateTransfer_AppBar_HeaderTopAppBarFromSharedCompon_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-CreateTransfer_AppBar_HeaderTopAppBarFromSharedCompon_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-CreateTransfer_AppBar_HeaderTopAppBarFromSharedCompon_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:CreateTransfer_Label_ReviewAndConfirmYourTransf_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_ReviewAndConfirmYourTransf_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_ReviewAndConfirmYourTransf_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:CreateTransfer_Label_ReviewAndConfirmYourTransf_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_ReviewAndConfirmYourTransf_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_ReviewAndConfirmYourTransf_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_ReviewAndConfirmYourTransf_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:CreateTransfer_Label_CheckTheDetailsBelowBefore_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_CheckTheDetailsBelowBefore_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_CheckTheDetailsBelowBefore_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:CreateTransfer_Label_CheckTheDetailsBelowBefore_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_CheckTheDetailsBelowBefore_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_CheckTheDetailsBelowBefore_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_CheckTheDetailsBelowBefore_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:CreateTransfer_Label_CustomerTransactionId_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_CustomerTransactionId_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_CustomerTransactionId_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:CreateTransfer_Label_CustomerTransactionId_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_CustomerTransactionId_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_CustomerTransactionId_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_CustomerTransactionId_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASTextField:CreateTransfer_Input_Background_Input is displayed on the screen: Verifies that the widget:CreateTransfer_Input_Background_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Background_Input"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASTextField:CreateTransfer_Input_Background_Input functionalities: Verifies that input widget:CreateTransfer_Input_Background_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Background_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Background_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_Background_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Background_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_Background_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Background_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_Background_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Background_Input"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:CreateTransfer_Label_QuoteId_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_QuoteId_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_QuoteId_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:CreateTransfer_Label_QuoteId_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_QuoteId_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_QuoteId_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_QuoteId_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASTextField:CreateTransfer_Input_SymQ20248812_Input is displayed on the screen: Verifies that the widget:CreateTransfer_Input_SymQ20248812_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_SymQ20248812_Input"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASTextField:CreateTransfer_Input_SymQ20248812_Input functionalities: Verifies that input widget:CreateTransfer_Input_SymQ20248812_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_SymQ20248812_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_SymQ20248812_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_SymQ20248812_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_SymQ20248812_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_SymQ20248812_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_SymQ20248812_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_SymQ20248812_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_SymQ20248812_Input"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:CreateTransfer_Label_UserName_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:CreateTransfer_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASTextField:CreateTransfer_Input_Rec99234410_Input is displayed on the screen: Verifies that the widget:CreateTransfer_Input_Rec99234410_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Rec99234410_Input"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASTextField:CreateTransfer_Input_Rec99234410_Input functionalities: Verifies that input widget:CreateTransfer_Input_Rec99234410_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Rec99234410_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Rec99234410_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_Rec99234410_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Rec99234410_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_Rec99234410_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Rec99234410_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_Rec99234410_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_Rec99234410_Input"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:CreateTransfer_Label_ReferenceOptional_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_ReferenceOptional_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_ReferenceOptional_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:CreateTransfer_Label_ReferenceOptional_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_ReferenceOptional_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_ReferenceOptional_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_ReferenceOptional_Text"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASTextField:CreateTransfer_Input_EgrentPayment_Input is displayed on the screen: Verifies that the widget:CreateTransfer_Input_EgrentPayment_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_EgrentPayment_Input"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASTextField:CreateTransfer_Input_EgrentPayment_Input functionalities: Verifies that input widget:CreateTransfer_Input_EgrentPayment_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_EgrentPayment_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_EgrentPayment_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_EgrentPayment_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_EgrentPayment_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_EgrentPayment_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_EgrentPayment_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateTransfer_Input_EgrentPayment_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateTransfer_Input_EgrentPayment_Input"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:CreateTransfer_Label_PurposeOfTransferOptional_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_PurposeOfTransferOptional_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_PurposeOfTransferOptional_Text"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:CreateTransfer_Label_PurposeOfTransferOptional_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_PurposeOfTransferOptional_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_PurposeOfTransferOptional_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_PurposeOfTransferOptional_Text"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASDropDown:CreateTransfer_Container_Options_DropDown is displayed on the screen: Verifies that the widget:CreateTransfer_Container_Options_DropDown renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateTransfer_Container_Options_DropDown"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASDropDown:CreateTransfer_Container_Options_DropDown functionalities: Verifies that dropdown widget:CreateTransfer_Container_Options_DropDown opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateTransfer_Container_Options_DropDown"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateTransfer_Container_Options_DropDown"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateTransfer_Container_Options_DropDown"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASImage:CreateTransfer_Image_Icon_Image is displayed on the screen: Verifies that the widget:CreateTransfer_Image_Icon_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Image_Icon_Image"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:CreateTransfer_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:CreateTransfer_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:CreateTransfer_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:CreateTransfer_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:CreateTransfer_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:CreateTransfer_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASText:CreateTransfer_Label_Within30Minutes_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_Within30Minutes_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_Within30Minutes_Text"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASText:CreateTransfer_Label_Within30Minutes_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_Within30Minutes_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_Within30Minutes_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_Within30Minutes_Text"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASText:CreateTransfer_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:CreateTransfer_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASText:CreateTransfer_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASText:CreateTransfer_Label_Price_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_Price_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASText:CreateTransfer_Label_Price_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_Price_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_Price_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 38. Verify widget ASText:CreateTransfer_Label_UserName_Text_5 is displayed on the screen: Verifies that the widget:CreateTransfer_Label_UserName_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 39. Verify widget ASText:CreateTransfer_Label_UserName_Text_5 is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_UserName_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 40. Verify widget ASButton:CreateTransfer_Cta_Confirm_Button is displayed on the screen: Verifies that the widget:CreateTransfer_Cta_Confirm_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateTransfer_Cta_Confirm_Button"
+- waitForAnimationToEnd: {}
+# 41. Verify widget ASButton:CreateTransfer_Cta_Confirm_Button functionalities: Verifies that tapping button widget:CreateTransfer_Cta_Confirm_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateTransfer_Cta_Confirm_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateTransfer_Cta_Confirm_Button"
+- waitForAnimationToEnd: {}
+# 42. Verify widget ASText:CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text is displayed on the screen: Verifies that the widget:CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text"
+- waitForAnimationToEnd: {}
+# 43. Verify widget ASText:CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text is displayed on the screen: Verifies that the label of widget:CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text"

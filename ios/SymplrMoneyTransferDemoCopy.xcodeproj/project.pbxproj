@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C80B921A6F3F58F76C31292 /* libPods-SymplrMoneyTransferDemoCopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SymplrMoneyTransferDemoCopy.a */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		7329D9A27D31206D72C2658A /* FontAliasHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B32A99F7DE30518474DF0E /* FontAliasHelper.swift */; };
+		1BE1A49413C371D080FEB590 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B342181D265BA5115941ABCE /* CoreText.framework */; };
+		78AB7A4F0D65416F812764FA /* Inter-100-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE8FC84F7A264127ACFB60B5 /* Inter-100-italic.ttf */; };
+		0388C8AF47BB4A13A673F357 /* Inter-100-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F2F0F51D0604A49AA24EF70 /* Inter-100-normal.ttf */; };
+		179389578EE940D2AF7B346B /* Inter-200-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B24C036BB1354C458C5BA8E2 /* Inter-200-italic.ttf */; };
+		F80B43F8F50D41FF87689B23 /* Inter-200-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E6C2929E2924B9DBA176A41 /* Inter-200-normal.ttf */; };
+		71400E52DB8342AB8356E61C /* Inter-300-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E091576536A40AFB1ECE270 /* Inter-300-italic.ttf */; };
+		D10E205BAF654CEAA0871E91 /* Inter-300-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7068BF0037AC4EB1964309A0 /* Inter-300-normal.ttf */; };
+		71F131B9BF324DD0BFD13869 /* Inter-400-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61774F4B6E2E481D93E19AF3 /* Inter-400-italic.ttf */; };
+		8EB3380AFF814249B2FC0D0D /* Inter-400-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DD79569E3BC456D85DD24BC /* Inter-400-normal.ttf */; };
+		261B51EF4D3547668071CA59 /* Inter-500-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D3C1C12619974A2B8CAEF0FE /* Inter-500-italic.ttf */; };
+		5E7781046F734376802CDD9E /* Inter-500-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020A6B0E4071488392D541CA /* Inter-500-normal.ttf */; };
+		B3EC98676FEC466A81F11A83 /* Inter-600-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDEDBF6BC4364D83BE9CE296 /* Inter-600-italic.ttf */; };
+		D85AFF7DC40747E1BF38470E /* Inter-600-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 726E0A3FA7E641A482532680 /* Inter-600-normal.ttf */; };
+		E27D7759B2DE425AB6C9E80F /* Inter-700-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D075A1BBA83548C0AE737BCD /* Inter-700-italic.ttf */; };
+		13B9E9770E55433596CBB927 /* Inter-700-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E951B840B26448A5B46F4B36 /* Inter-700-normal.ttf */; };
+		77213346183D4527817F151B /* Inter-800-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5452E8C231E49F19094B13A /* Inter-800-italic.ttf */; };
+		49D9E8B4048548C988DD6AE3 /* Inter-800-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 165D6E4A81F246BCA8C002FF /* Inter-800-normal.ttf */; };
+		C354E4A37B8A4E40BF6C274C /* Inter-900-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9DC10214CCA540059DA0B42F /* Inter-900-italic.ttf */; };
+		3C1B3D37532145A1932F2D28 /* Inter-900-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC1BD58496134C6199D2EE1D /* Inter-900-normal.ttf */; };
+		C08165AD37D6416CA522815B /* Manrope-500-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66865BB167C048798DBE2961 /* Manrope-500-normal.ttf */; };
+		D4E08E9068CC4F379B768E7B /* Manrope-700-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF6047EE40194A1C82AADE7B /* Manrope-700-normal.ttf */; };
+		31591E7845654158936ACFFA /* Manrope-800-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31B69D3CDEED4A1DBBEFD4EA /* Manrope-800-normal.ttf */; };
+		E2F1C90C98E24AD7A4C39C47 /* MaterialIcon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29F7FA43E696422AAC10939C /* MaterialIcon.ttf */; };
+		FC2E6A0D12FC4783BC844A9C /* Poppins-400-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AF02C6C18EE4D42B8275C1D /* Poppins-400-normal.ttf */; };
+		BDAAAB76ED734F578E1CAFB2 /* Poppins-500-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61F48B5187A845579FC5706F /* Poppins-500-normal.ttf */; };
+		467096313EA54F4B93632937 /* Poppins-600-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CB13BC7105D40E396554992 /* Poppins-600-normal.ttf */; };
+		C1C68926A6AB48F7B81D3AEF /* Poppins-700-normal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77833A588330418C941CE487 /* Poppins-700-normal.ttf */; };
+		AFB85892AB1749B28D5A9419 /* materialIconsGlyphmap.json in Resources */ = {isa = PBXBuildFile; fileRef = 61555DC5FD59416AA6640073 /* materialIconsGlyphmap.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = "SymplrMoneyTransferDemoCopy";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SymplrMoneyTransferDemoCopy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SymplrMoneyTransferDemoCopy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "SymplrMoneyTransferDemoCopy/Images.xcassets"; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "SymplrMoneyTransferDemoCopy/Info.plist"; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = SymplrMoneyTransferDemoCopy/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-SymplrMoneyTransferDemoCopy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SymplrMoneyTransferDemoCopy.debug.xcconfig"; path = "Target Support Files/Pods-SymplrMoneyTransferDemoCopy/Pods-SymplrMoneyTransferDemoCopy.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-SymplrMoneyTransferDemoCopy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SymplrMoneyTransferDemoCopy.release.xcconfig"; path = "Target Support Files/Pods-SymplrMoneyTransferDemoCopy/Pods-SymplrMoneyTransferDemoCopy.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-SymplrMoneyTransferDemoCopy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SymplrMoneyTransferDemoCopy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SymplrMoneyTransferDemoCopy/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = "SymplrMoneyTransferDemoCopy/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		60B32A99F7DE30518474DF0E /* FontAliasHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FontAliasHelper.swift; path = SymplrMoneyTransferDemoCopy/FontAliasHelper.swift; sourceTree = "<group>"; };
+		B342181D265BA5115941ABCE /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EE8FC84F7A264127ACFB60B5 /* Inter-100-italic.ttf */ = {isa = PBXFileReference; name = "Inter-100-italic.ttf"; path = "../src/assets/fonts/Inter-100-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6F2F0F51D0604A49AA24EF70 /* Inter-100-normal.ttf */ = {isa = PBXFileReference; name = "Inter-100-normal.ttf"; path = "../src/assets/fonts/Inter-100-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B24C036BB1354C458C5BA8E2 /* Inter-200-italic.ttf */ = {isa = PBXFileReference; name = "Inter-200-italic.ttf"; path = "../src/assets/fonts/Inter-200-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1E6C2929E2924B9DBA176A41 /* Inter-200-normal.ttf */ = {isa = PBXFileReference; name = "Inter-200-normal.ttf"; path = "../src/assets/fonts/Inter-200-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E091576536A40AFB1ECE270 /* Inter-300-italic.ttf */ = {isa = PBXFileReference; name = "Inter-300-italic.ttf"; path = "../src/assets/fonts/Inter-300-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7068BF0037AC4EB1964309A0 /* Inter-300-normal.ttf */ = {isa = PBXFileReference; name = "Inter-300-normal.ttf"; path = "../src/assets/fonts/Inter-300-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61774F4B6E2E481D93E19AF3 /* Inter-400-italic.ttf */ = {isa = PBXFileReference; name = "Inter-400-italic.ttf"; path = "../src/assets/fonts/Inter-400-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6DD79569E3BC456D85DD24BC /* Inter-400-normal.ttf */ = {isa = PBXFileReference; name = "Inter-400-normal.ttf"; path = "../src/assets/fonts/Inter-400-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D3C1C12619974A2B8CAEF0FE /* Inter-500-italic.ttf */ = {isa = PBXFileReference; name = "Inter-500-italic.ttf"; path = "../src/assets/fonts/Inter-500-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		020A6B0E4071488392D541CA /* Inter-500-normal.ttf */ = {isa = PBXFileReference; name = "Inter-500-normal.ttf"; path = "../src/assets/fonts/Inter-500-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDEDBF6BC4364D83BE9CE296 /* Inter-600-italic.ttf */ = {isa = PBXFileReference; name = "Inter-600-italic.ttf"; path = "../src/assets/fonts/Inter-600-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		726E0A3FA7E641A482532680 /* Inter-600-normal.ttf */ = {isa = PBXFileReference; name = "Inter-600-normal.ttf"; path = "../src/assets/fonts/Inter-600-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D075A1BBA83548C0AE737BCD /* Inter-700-italic.ttf */ = {isa = PBXFileReference; name = "Inter-700-italic.ttf"; path = "../src/assets/fonts/Inter-700-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E951B840B26448A5B46F4B36 /* Inter-700-normal.ttf */ = {isa = PBXFileReference; name = "Inter-700-normal.ttf"; path = "../src/assets/fonts/Inter-700-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B5452E8C231E49F19094B13A /* Inter-800-italic.ttf */ = {isa = PBXFileReference; name = "Inter-800-italic.ttf"; path = "../src/assets/fonts/Inter-800-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		165D6E4A81F246BCA8C002FF /* Inter-800-normal.ttf */ = {isa = PBXFileReference; name = "Inter-800-normal.ttf"; path = "../src/assets/fonts/Inter-800-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9DC10214CCA540059DA0B42F /* Inter-900-italic.ttf */ = {isa = PBXFileReference; name = "Inter-900-italic.ttf"; path = "../src/assets/fonts/Inter-900-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BC1BD58496134C6199D2EE1D /* Inter-900-normal.ttf */ = {isa = PBXFileReference; name = "Inter-900-normal.ttf"; path = "../src/assets/fonts/Inter-900-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		66865BB167C048798DBE2961 /* Manrope-500-normal.ttf */ = {isa = PBXFileReference; name = "Manrope-500-normal.ttf"; path = "../src/assets/fonts/Manrope-500-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BF6047EE40194A1C82AADE7B /* Manrope-700-normal.ttf */ = {isa = PBXFileReference; name = "Manrope-700-normal.ttf"; path = "../src/assets/fonts/Manrope-700-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		31B69D3CDEED4A1DBBEFD4EA /* Manrope-800-normal.ttf */ = {isa = PBXFileReference; name = "Manrope-800-normal.ttf"; path = "../src/assets/fonts/Manrope-800-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		29F7FA43E696422AAC10939C /* MaterialIcon.ttf */ = {isa = PBXFileReference; name = "MaterialIcon.ttf"; path = "../src/assets/fonts/MaterialIcon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1AF02C6C18EE4D42B8275C1D /* Poppins-400-normal.ttf */ = {isa = PBXFileReference; name = "Poppins-400-normal.ttf"; path = "../src/assets/fonts/Poppins-400-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61F48B5187A845579FC5706F /* Poppins-500-normal.ttf */ = {isa = PBXFileReference; name = "Poppins-500-normal.ttf"; path = "../src/assets/fonts/Poppins-500-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8CB13BC7105D40E396554992 /* Poppins-600-normal.ttf */ = {isa = PBXFileReference; name = "Poppins-600-normal.ttf"; path = "../src/assets/fonts/Poppins-600-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		77833A588330418C941CE487 /* Poppins-700-normal.ttf */ = {isa = PBXFileReference; name = "Poppins-700-normal.ttf"; path = "../src/assets/fonts/Poppins-700-normal.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		61555DC5FD59416AA6640073 /* materialIconsGlyphmap.json */ = {isa = PBXFileReference; name = "materialIconsGlyphmap.json"; path = "../src/assets/fonts/materialIconsGlyphmap.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BE1A49413C371D080FEB590 /* CoreText.framework in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-SymplrMoneyTransferDemoCopy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* SymplrMoneyTransferDemoCopy */ = {
+			isa = PBXGroup;
+			children = (
+				60B32A99F7DE30518474DF0E /* FontAliasHelper.swift */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = "SymplrMoneyTransferDemoCopy";
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B342181D265BA5115941ABCE /* CoreText.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-SymplrMoneyTransferDemoCopy.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* SymplrMoneyTransferDemoCopy */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				5D2BF7175B6D44C189043E6D /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* SymplrMoneyTransferDemoCopy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-SymplrMoneyTransferDemoCopy.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-SymplrMoneyTransferDemoCopy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5D2BF7175B6D44C189043E6D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				EE8FC84F7A264127ACFB60B5 /* Inter-100-italic.ttf */,
+				6F2F0F51D0604A49AA24EF70 /* Inter-100-normal.ttf */,
+				B24C036BB1354C458C5BA8E2 /* Inter-200-italic.ttf */,
+				1E6C2929E2924B9DBA176A41 /* Inter-200-normal.ttf */,
+				8E091576536A40AFB1ECE270 /* Inter-300-italic.ttf */,
+				7068BF0037AC4EB1964309A0 /* Inter-300-normal.ttf */,
+				61774F4B6E2E481D93E19AF3 /* Inter-400-italic.ttf */,
+				6DD79569E3BC456D85DD24BC /* Inter-400-normal.ttf */,
+				D3C1C12619974A2B8CAEF0FE /* Inter-500-italic.ttf */,
+				020A6B0E4071488392D541CA /* Inter-500-normal.ttf */,
+				EDEDBF6BC4364D83BE9CE296 /* Inter-600-italic.ttf */,
+				726E0A3FA7E641A482532680 /* Inter-600-normal.ttf */,
+				D075A1BBA83548C0AE737BCD /* Inter-700-italic.ttf */,
+				E951B840B26448A5B46F4B36 /* Inter-700-normal.ttf */,
+				B5452E8C231E49F19094B13A /* Inter-800-italic.ttf */,
+				165D6E4A81F246BCA8C002FF /* Inter-800-normal.ttf */,
+				9DC10214CCA540059DA0B42F /* Inter-900-italic.ttf */,
+				BC1BD58496134C6199D2EE1D /* Inter-900-normal.ttf */,
+				66865BB167C048798DBE2961 /* Manrope-500-normal.ttf */,
+				BF6047EE40194A1C82AADE7B /* Manrope-700-normal.ttf */,
+				31B69D3CDEED4A1DBBEFD4EA /* Manrope-800-normal.ttf */,
+				29F7FA43E696422AAC10939C /* MaterialIcon.ttf */,
+				1AF02C6C18EE4D42B8275C1D /* Poppins-400-normal.ttf */,
+				61F48B5187A845579FC5706F /* Poppins-500-normal.ttf */,
+				8CB13BC7105D40E396554992 /* Poppins-600-normal.ttf */,
+				77833A588330418C941CE487 /* Poppins-700-normal.ttf */,
+				61555DC5FD59416AA6640073 /* materialIconsGlyphmap.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* SymplrMoneyTransferDemoCopy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SymplrMoneyTransferDemoCopy" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SymplrMoneyTransferDemoCopy";
+			productName = "SymplrMoneyTransferDemoCopy";
+			productReference = 13B07F961A680F5B00A75B9A /* SymplrMoneyTransferDemoCopy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SymplrMoneyTransferDemoCopy" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* SymplrMoneyTransferDemoCopy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				78AB7A4F0D65416F812764FA /* Inter-100-italic.ttf in Resources */,
+				0388C8AF47BB4A13A673F357 /* Inter-100-normal.ttf in Resources */,
+				179389578EE940D2AF7B346B /* Inter-200-italic.ttf in Resources */,
+				F80B43F8F50D41FF87689B23 /* Inter-200-normal.ttf in Resources */,
+				71400E52DB8342AB8356E61C /* Inter-300-italic.ttf in Resources */,
+				D10E205BAF654CEAA0871E91 /* Inter-300-normal.ttf in Resources */,
+				71F131B9BF324DD0BFD13869 /* Inter-400-italic.ttf in Resources */,
+				8EB3380AFF814249B2FC0D0D /* Inter-400-normal.ttf in Resources */,
+				261B51EF4D3547668071CA59 /* Inter-500-italic.ttf in Resources */,
+				5E7781046F734376802CDD9E /* Inter-500-normal.ttf in Resources */,
+				B3EC98676FEC466A81F11A83 /* Inter-600-italic.ttf in Resources */,
+				D85AFF7DC40747E1BF38470E /* Inter-600-normal.ttf in Resources */,
+				E27D7759B2DE425AB6C9E80F /* Inter-700-italic.ttf in Resources */,
+				13B9E9770E55433596CBB927 /* Inter-700-normal.ttf in Resources */,
+				77213346183D4527817F151B /* Inter-800-italic.ttf in Resources */,
+				49D9E8B4048548C988DD6AE3 /* Inter-800-normal.ttf in Resources */,
+				C354E4A37B8A4E40BF6C274C /* Inter-900-italic.ttf in Resources */,
+				3C1B3D37532145A1932F2D28 /* Inter-900-normal.ttf in Resources */,
+				C08165AD37D6416CA522815B /* Manrope-500-normal.ttf in Resources */,
+				D4E08E9068CC4F379B768E7B /* Manrope-700-normal.ttf in Resources */,
+				31591E7845654158936ACFFA /* Manrope-800-normal.ttf in Resources */,
+				E2F1C90C98E24AD7A4C39C47 /* MaterialIcon.ttf in Resources */,
+				FC2E6A0D12FC4783BC844A9C /* Poppins-400-normal.ttf in Resources */,
+				BDAAAB76ED734F578E1CAFB2 /* Poppins-500-normal.ttf in Resources */,
+				467096313EA54F4B93632937 /* Poppins-600-normal.ttf in Resources */,
+				C1C68926A6AB48F7B81D3AEF /* Poppins-700-normal.ttf in Resources */,
+				AFB85892AB1749B28D5A9419 /* materialIconsGlyphmap.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SymplrMoneyTransferDemoCopy/Pods-SymplrMoneyTransferDemoCopy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SymplrMoneyTransferDemoCopy/Pods-SymplrMoneyTransferDemoCopy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SymplrMoneyTransferDemoCopy/Pods-SymplrMoneyTransferDemoCopy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SymplrMoneyTransferDemoCopy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SymplrMoneyTransferDemoCopy/Pods-SymplrMoneyTransferDemoCopy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SymplrMoneyTransferDemoCopy/Pods-SymplrMoneyTransferDemoCopy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SymplrMoneyTransferDemoCopy/Pods-SymplrMoneyTransferDemoCopy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7329D9A27D31206D72C2658A /* FontAliasHelper.swift in Sources */,
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* SymplrMoneyTransferDemoCopy */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-SymplrMoneyTransferDemoCopy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "SymplrMoneyTransferDemoCopy/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SymplrMoneyTransferDemoCopy";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.symplrmoneytransferdemocopy";
+				PRODUCT_NAME = "SymplrMoneyTransferDemoCopy";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-SymplrMoneyTransferDemoCopy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "SymplrMoneyTransferDemoCopy/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SymplrMoneyTransferDemoCopy";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.symplrmoneytransferdemocopy";
+				PRODUCT_NAME = "SymplrMoneyTransferDemoCopy";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SymplrMoneyTransferDemoCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SymplrMoneyTransferDemoCopy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

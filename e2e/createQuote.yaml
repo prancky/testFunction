@@ -1,0 +1,538 @@
+appId: "${APP_ID}"
+name: "createQuoteTestFlow"
+# Suite: CreateQuote
+# Consolidated test flow for CreateQuote screen
+# Contains 64 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:CreateQuote_AppBar_HeaderTopAppBar_AppBar is displayed on the screen: Verifies that the widget:CreateQuote_AppBar_HeaderTopAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-CreateQuote_AppBar_HeaderTopAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:CreateQuote_AppBar_HeaderTopAppBar_AppBar is displayed on the screen: Verifies that the label of widget:CreateQuote_AppBar_HeaderTopAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-CreateQuote_AppBar_HeaderTopAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-CreateQuote_AppBar_HeaderTopAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:CreateQuote_Label_UserName_Text is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:CreateQuote_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:CreateQuote_Label_SendMoneyWorldwideWithReal_Text is displayed on the screen: Verifies that the widget:CreateQuote_Label_SendMoneyWorldwideWithReal_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_SendMoneyWorldwideWithReal_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:CreateQuote_Label_SendMoneyWorldwideWithReal_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_SendMoneyWorldwideWithReal_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_SendMoneyWorldwideWithReal_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_SendMoneyWorldwideWithReal_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:CreateQuote_Label_RealExchangeRateApplied_Text is displayed on the screen: Verifies that the widget:CreateQuote_Label_RealExchangeRateApplied_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_RealExchangeRateApplied_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:CreateQuote_Label_RealExchangeRateApplied_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_RealExchangeRateApplied_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_RealExchangeRateApplied_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_RealExchangeRateApplied_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:CreateQuote_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:CreateQuote_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASDropDown:CreateQuote_Container_BackgroundBorder_DropDown is displayed on the screen: Verifies that the widget:CreateQuote_Container_BackgroundBorder_DropDown renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_BackgroundBorder_DropDown"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASDropDown:CreateQuote_Container_BackgroundBorder_DropDown functionalities: Verifies that dropdown widget:CreateQuote_Container_BackgroundBorder_DropDown opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_BackgroundBorder_DropDown"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_BackgroundBorder_DropDown"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_BackgroundBorder_DropDown"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:CreateQuote_Label_Phone_Text is displayed on the screen: Verifies that the widget:CreateQuote_Label_Phone_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Phone_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:CreateQuote_Label_Phone_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_Phone_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Phone_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Phone_Text"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:CreateQuote_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:CreateQuote_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASImage:CreateQuote_Image_Icon_Image is displayed on the screen: Verifies that the widget:CreateQuote_Image_Icon_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Image_Icon_Image"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:CreateQuote_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:CreateQuote_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASDropDown:CreateQuote_Container_BackgroundBorder_DropDown_2 is displayed on the screen: Verifies that the widget:CreateQuote_Container_BackgroundBorder_DropDown_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_BackgroundBorder_DropDown_2"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASDropDown:CreateQuote_Container_BackgroundBorder_DropDown_2 functionalities: Verifies that dropdown widget:CreateQuote_Container_BackgroundBorder_DropDown_2 opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_BackgroundBorder_DropDown_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_BackgroundBorder_DropDown_2"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_BackgroundBorder_DropDown_2"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:CreateQuote_Label_Text is displayed on the screen: Verifies that the widget:CreateQuote_Label_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Text"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:CreateQuote_Label_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Text"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:CreateQuote_Label_UserName_Text_5 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASText:CreateQuote_Label_UserName_Text_5 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:CreateQuote_Label_Calculating_Text is displayed on the screen: Verifies that the widget:CreateQuote_Label_Calculating_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Calculating_Text"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:CreateQuote_Label_Calculating_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_Calculating_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Calculating_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Calculating_Text"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:CreateQuote_Body_Text is displayed on the screen: Verifies that the widget:CreateQuote_Body_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Body_Text"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:CreateQuote_Body_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Body_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Body_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Body_Text"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:CreateQuote_Label_UserName_Text_6 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_6 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_6"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:CreateQuote_Label_UserName_Text_6 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_6 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_6"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_6"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASButton:CreateQuote_Cta_Action_Button is displayed on the screen: Verifies that the widget:CreateQuote_Cta_Action_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASButton:CreateQuote_Cta_Action_Button functionalities: Verifies that tapping button widget:CreateQuote_Cta_Action_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Action_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASIconButton:CreateQuote_Icon is displayed on the screen: Verifies that the widget:CreateQuote_Icon renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-CreateQuote_Icon"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASIconButton:CreateQuote_Icon functionalities: Verifies that tapping button widget:CreateQuote_Icon works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-CreateQuote_Icon"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-CreateQuote_Icon"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASText:CreateQuote_Label_UserName_Text_7 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_7 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_7"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASText:CreateQuote_Label_UserName_Text_7 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_7 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_7"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_7"
+- waitForAnimationToEnd: {}
+# 38. Verify widget ASButton:CreateQuote_Cta_Action_Button_2 is displayed on the screen: Verifies that the widget:CreateQuote_Cta_Action_Button_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Action_Button_2"
+- waitForAnimationToEnd: {}
+# 39. Verify widget ASButton:CreateQuote_Cta_Action_Button_2 functionalities: Verifies that tapping button widget:CreateQuote_Cta_Action_Button_2 works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Action_Button_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Action_Button_2"
+- waitForAnimationToEnd: {}
+# 40. Verify widget ASIconButton:CreateQuote_Icon_2 is displayed on the screen: Verifies that the widget:CreateQuote_Icon_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-CreateQuote_Icon_2"
+- waitForAnimationToEnd: {}
+# 41. Verify widget ASIconButton:CreateQuote_Icon_2 functionalities: Verifies that tapping button widget:CreateQuote_Icon_2 works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-CreateQuote_Icon_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-CreateQuote_Icon_2"
+- waitForAnimationToEnd: {}
+# 42. Verify widget ASText:CreateQuote_Label_UserName_Text_8 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_8 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_8"
+- waitForAnimationToEnd: {}
+# 43. Verify widget ASText:CreateQuote_Label_UserName_Text_8 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_8 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_8"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_8"
+- waitForAnimationToEnd: {}
+# 44. Verify widget ASButton:CreateQuote_Cta_Action_Button_3 is displayed on the screen: Verifies that the widget:CreateQuote_Cta_Action_Button_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Action_Button_3"
+- waitForAnimationToEnd: {}
+# 45. Verify widget ASButton:CreateQuote_Cta_Action_Button_3 functionalities: Verifies that tapping button widget:CreateQuote_Cta_Action_Button_3 works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Action_Button_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Action_Button_3"
+- waitForAnimationToEnd: {}
+# 46. Verify widget ASImage:CreateQuote_Image_Icon_Image_2 is displayed on the screen: Verifies that the widget:CreateQuote_Image_Icon_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Image_Icon_Image_2"
+- waitForAnimationToEnd: {}
+# 47. Verify widget ASText:CreateQuote_Label_UserName_Text_9 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_9 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_9"
+- waitForAnimationToEnd: {}
+# 48. Verify widget ASText:CreateQuote_Label_UserName_Text_9 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_9 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_9"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_9"
+- waitForAnimationToEnd: {}
+# 49. Verify widget ASText:CreateQuote_Label_PurposeOfTransfer_Text is displayed on the screen: Verifies that the widget:CreateQuote_Label_PurposeOfTransfer_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_PurposeOfTransfer_Text"
+- waitForAnimationToEnd: {}
+# 50. Verify widget ASText:CreateQuote_Label_PurposeOfTransfer_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_PurposeOfTransfer_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_PurposeOfTransfer_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_PurposeOfTransfer_Text"
+- waitForAnimationToEnd: {}
+# 51. Verify widget ASDropDown:CreateQuote_Container_Options_DropDown is displayed on the screen: Verifies that the widget:CreateQuote_Container_Options_DropDown renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_Options_DropDown"
+- waitForAnimationToEnd: {}
+# 52. Verify widget ASDropDown:CreateQuote_Container_Options_DropDown functionalities: Verifies that dropdown widget:CreateQuote_Container_Options_DropDown opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_Options_DropDown"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_Options_DropDown"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateQuote_Container_Options_DropDown"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 53. Verify widget ASText:CreateQuote_Label_UserName_Text_10 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_10 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_10"
+- waitForAnimationToEnd: {}
+# 54. Verify widget ASText:CreateQuote_Label_UserName_Text_10 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_10 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_10"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_10"
+- waitForAnimationToEnd: {}
+# 55. Verify widget ASText:CreateQuote_Label_Usd0924Eur_Text is displayed on the screen: Verifies that the widget:CreateQuote_Label_Usd0924Eur_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Usd0924Eur_Text"
+- waitForAnimationToEnd: {}
+# 56. Verify widget ASText:CreateQuote_Label_Usd0924Eur_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_Usd0924Eur_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Usd0924Eur_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_Usd0924Eur_Text"
+- waitForAnimationToEnd: {}
+# 57. Verify widget ASText:CreateQuote_Label_UserName_Text_11 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_11 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_11"
+- waitForAnimationToEnd: {}
+# 58. Verify widget ASText:CreateQuote_Label_UserName_Text_11 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_11 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_11"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_11"
+- waitForAnimationToEnd: {}
+# 59. Verify widget ASText:CreateQuote_Label_UserName_Text_12 is displayed on the screen: Verifies that the widget:CreateQuote_Label_UserName_Text_12 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_12"
+- waitForAnimationToEnd: {}
+# 60. Verify widget ASText:CreateQuote_Label_UserName_Text_12 is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_UserName_Text_12 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_12"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_UserName_Text_12"
+- waitForAnimationToEnd: {}
+# 61. Verify widget ASText:CreateQuote_Label_CalculatedBasedOnLiveMidM_Text is displayed on the screen: Verifies that the widget:CreateQuote_Label_CalculatedBasedOnLiveMidM_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_CalculatedBasedOnLiveMidM_Text"
+- waitForAnimationToEnd: {}
+# 62. Verify widget ASText:CreateQuote_Label_CalculatedBasedOnLiveMidM_Text is displayed on the screen: Verifies that the label of widget:CreateQuote_Label_CalculatedBasedOnLiveMidM_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_CalculatedBasedOnLiveMidM_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateQuote_Label_CalculatedBasedOnLiveMidM_Text"
+- waitForAnimationToEnd: {}
+# 63. Verify widget ASButton:CreateQuote_Cta_Continue_Button is displayed on the screen: Verifies that the widget:CreateQuote_Cta_Continue_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 64. Verify widget ASButton:CreateQuote_Cta_Continue_Button functionalities: Verifies that tapping button widget:CreateQuote_Cta_Continue_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateQuote_Cta_Continue_Button"

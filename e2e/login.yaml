@@ -1,0 +1,248 @@
+appId: "${APP_ID}"
+name: "loginTestFlow"
+# Suite: Login
+# Consolidated test flow for Login screen
+# Contains 23 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:Login_AppBar_HeaderTopAppBar_AppBar is displayed on the screen: Verifies that the widget:Login_AppBar_HeaderTopAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Login_AppBar_HeaderTopAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:Login_AppBar_HeaderTopAppBar_AppBar is displayed on the screen: Verifies that the label of widget:Login_AppBar_HeaderTopAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Login_AppBar_HeaderTopAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Login_AppBar_HeaderTopAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:Login_Label_WelcomeBack_Text is displayed on the screen: Verifies that the widget:Login_Label_WelcomeBack_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_WelcomeBack_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:Login_Label_WelcomeBack_Text is displayed on the screen: Verifies that the label of widget:Login_Label_WelcomeBack_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_WelcomeBack_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_WelcomeBack_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:Login_Label_LogInToManageYourGlobalA_Text is displayed on the screen: Verifies that the widget:Login_Label_LogInToManageYourGlobalA_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_LogInToManageYourGlobalA_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:Login_Label_LogInToManageYourGlobalA_Text is displayed on the screen: Verifies that the label of widget:Login_Label_LogInToManageYourGlobalA_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_LogInToManageYourGlobalA_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_LogInToManageYourGlobalA_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:Login_Label_EmailOrUsername_Text is displayed on the screen: Verifies that the widget:Login_Label_EmailOrUsername_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_EmailOrUsername_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:Login_Label_EmailOrUsername_Text is displayed on the screen: Verifies that the label of widget:Login_Label_EmailOrUsername_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_EmailOrUsername_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_EmailOrUsername_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASTextField:Login_Input_EgalexExampleCom_Input is displayed on the screen: Verifies that the widget:Login_Input_EgalexExampleCom_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Login_Input_EgalexExampleCom_Input"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASTextField:Login_Input_EgalexExampleCom_Input functionalities: Verifies that input widget:Login_Input_EgalexExampleCom_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Login_Input_EgalexExampleCom_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Login_Input_EgalexExampleCom_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-Login_Input_EgalexExampleCom_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Login_Input_EgalexExampleCom_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-Login_Input_EgalexExampleCom_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Login_Input_EgalexExampleCom_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-Login_Input_EgalexExampleCom_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-Login_Input_EgalexExampleCom_Input"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:Login_Label_UserName_Text is displayed on the screen: Verifies that the widget:Login_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:Login_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:Login_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:Login_Label_ForgotPassword_Text is displayed on the screen: Verifies that the widget:Login_Label_ForgotPassword_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_ForgotPassword_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:Login_Label_ForgotPassword_Text is displayed on the screen: Verifies that the label of widget:Login_Label_ForgotPassword_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_ForgotPassword_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_ForgotPassword_Text"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASPasswordTextField:Login_Input is displayed on the screen: Verifies that the widget:Login_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-Login_Input"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASPasswordTextField:Login_Input functionalities: Verifies that input widget:Login_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-Login_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-Login_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-Login_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-Login_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-Login_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-Login_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-Login_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-Login_Input"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASButton:Login_Cta_LogIn_Button is displayed on the screen: Verifies that the widget:Login_Cta_LogIn_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Login_Cta_LogIn_Button"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASButton:Login_Cta_LogIn_Button functionalities: Verifies that tapping button widget:Login_Cta_LogIn_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Login_Cta_LogIn_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Login_Cta_LogIn_Button"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:Login_Label_NewToWiseLedger_Text is displayed on the screen: Verifies that the widget:Login_Label_NewToWiseLedger_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_NewToWiseLedger_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:Login_Label_NewToWiseLedger_Text is displayed on the screen: Verifies that the label of widget:Login_Label_NewToWiseLedger_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_NewToWiseLedger_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_NewToWiseLedger_Text"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:Login_Label_OpenAnAccount_Text is displayed on the screen: Verifies that the widget:Login_Label_OpenAnAccount_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_OpenAnAccount_Text"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:Login_Label_OpenAnAccount_Text is displayed on the screen: Verifies that the label of widget:Login_Label_OpenAnAccount_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_OpenAnAccount_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Label_OpenAnAccount_Text"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASImage:Login_Background_FinancialLifestyleImage_Image is displayed on the screen: Verifies that the widget:Login_Background_FinancialLifestyleImage_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Login_Background_FinancialLifestyleImage_Image"

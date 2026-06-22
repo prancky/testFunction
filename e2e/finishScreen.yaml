@@ -1,0 +1,274 @@
+appId: "${APP_ID}"
+name: "finishScreenTestFlow"
+# Suite: FinishScreen
+# Consolidated test flow for FinishScreen screen
+# Contains 34 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:FinishScreen_AppBar_HeaderTopNavigationAnchor_AppBar is displayed on the screen: Verifies that the widget:FinishScreen_AppBar_HeaderTopNavigationAnchor_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-FinishScreen_AppBar_HeaderTopNavigationAnchor_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:FinishScreen_AppBar_HeaderTopNavigationAnchor_AppBar is displayed on the screen: Verifies that the label of widget:FinishScreen_AppBar_HeaderTopNavigationAnchor_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-FinishScreen_AppBar_HeaderTopNavigationAnchor_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-FinishScreen_AppBar_HeaderTopNavigationAnchor_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:FinishScreen_Image_UserProfile_Image is displayed on the screen: Verifies that the widget:FinishScreen_Image_UserProfile_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Image_UserProfile_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASIconButton:FinishScreen_Icon_Container_Icon is displayed on the screen: Verifies that the widget:FinishScreen_Icon_Container_Icon renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FinishScreen_Icon_Container_Icon"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASIconButton:FinishScreen_Icon_Container_Icon functionalities: Verifies that tapping button widget:FinishScreen_Icon_Container_Icon works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FinishScreen_Icon_Container_Icon"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-FinishScreen_Icon_Container_Icon"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:FinishScreen_Label_UserName_Text is displayed on the screen: Verifies that the widget:FinishScreen_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:FinishScreen_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:FinishScreen_Label_YourFundsAreBeingMovedThr_Text is displayed on the screen: Verifies that the widget:FinishScreen_Label_YourFundsAreBeingMovedThr_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_YourFundsAreBeingMovedThr_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:FinishScreen_Label_YourFundsAreBeingMovedThr_Text is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_YourFundsAreBeingMovedThr_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_YourFundsAreBeingMovedThr_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_YourFundsAreBeingMovedThr_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:FinishScreen_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:FinishScreen_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:FinishScreen_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:FinishScreen_Label_Usd_Text is displayed on the screen: Verifies that the widget:FinishScreen_Label_Usd_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Usd_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:FinishScreen_Label_Usd_Text is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_Usd_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Usd_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Usd_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:FinishScreen_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:FinishScreen_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:FinishScreen_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:FinishScreen_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:FinishScreen_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASText:FinishScreen_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:FinishScreen_Label_Ah_Text is displayed on the screen: Verifies that the widget:FinishScreen_Label_Ah_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Ah_Text"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:FinishScreen_Label_Ah_Text is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_Ah_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Ah_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Ah_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:FinishScreen_Label_UserName_Text_5 is displayed on the screen: Verifies that the widget:FinishScreen_Label_UserName_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:FinishScreen_Label_UserName_Text_5 is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_UserName_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:FinishScreen_Label_UserName_Text_6 is displayed on the screen: Verifies that the widget:FinishScreen_Label_UserName_Text_6 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_6"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:FinishScreen_Label_UserName_Text_6 is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_UserName_Text_6 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_6"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_UserName_Text_6"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:FinishScreen_Label_TransferId_Text is displayed on the screen: Verifies that the widget:FinishScreen_Label_TransferId_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_TransferId_Text"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASText:FinishScreen_Label_TransferId_Text is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_TransferId_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_TransferId_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_TransferId_Text"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:FinishScreen_Label_Tfr7712X92_Text is displayed on the screen: Verifies that the widget:FinishScreen_Label_Tfr7712X92_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Tfr7712X92_Text"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:FinishScreen_Label_Tfr7712X92_Text is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_Tfr7712X92_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Tfr7712X92_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Tfr7712X92_Text"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:FinishScreen_Label_NetworkConfirmation_Text is displayed on the screen: Verifies that the widget:FinishScreen_Label_NetworkConfirmation_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_NetworkConfirmation_Text"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:FinishScreen_Label_NetworkConfirmation_Text is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_NetworkConfirmation_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_NetworkConfirmation_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_NetworkConfirmation_Text"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:FinishScreen_Label_Complete_Text is displayed on the screen: Verifies that the widget:FinishScreen_Label_Complete_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Complete_Text"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:FinishScreen_Label_Complete_Text is displayed on the screen: Verifies that the label of widget:FinishScreen_Label_Complete_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Complete_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Label_Complete_Text"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASImage:FinishScreen_Background_AbstractWealth_Image is displayed on the screen: Verifies that the widget:FinishScreen_Background_AbstractWealth_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "FinishScreen_Background_AbstractWealth_Image"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASButton:FinishScreen_Cta_Done_Button is displayed on the screen: Verifies that the widget:FinishScreen_Cta_Done_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-FinishScreen_Cta_Done_Button"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASButton:FinishScreen_Cta_Done_Button functionalities: Verifies that tapping button widget:FinishScreen_Cta_Done_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-FinishScreen_Cta_Done_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-FinishScreen_Cta_Done_Button"

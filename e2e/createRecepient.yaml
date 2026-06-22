@@ -1,0 +1,936 @@
+appId: "${APP_ID}"
+name: "createRecepientTestFlow"
+# Suite: CreateRecepient
+# Consolidated test flow for CreateRecepient screen
+# Contains 72 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:CreateRecepient_AppBar_HeaderTopAppBar_AppBar is displayed on the screen: Verifies that the widget:CreateRecepient_AppBar_HeaderTopAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-CreateRecepient_AppBar_HeaderTopAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:CreateRecepient_AppBar_HeaderTopAppBar_AppBar is displayed on the screen: Verifies that the label of widget:CreateRecepient_AppBar_HeaderTopAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-CreateRecepient_AppBar_HeaderTopAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-CreateRecepient_AppBar_HeaderTopAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:CreateRecepient_Label_UserName_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:CreateRecepient_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:CreateRecepient_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:CreateRecepient_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:CreateRecepient_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASTextField:CreateRecepient_Input_EnterRecipientFullName_Input is displayed on the screen: Verifies that the widget:CreateRecepient_Input_EnterRecipientFullName_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_EnterRecipientFullName_Input"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASTextField:CreateRecepient_Input_EnterRecipientFullName_Input functionalities: Verifies that input widget:CreateRecepient_Input_EnterRecipientFullName_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_EnterRecipientFullName_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_EnterRecipientFullName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_EnterRecipientFullName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_EnterRecipientFullName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_EnterRecipientFullName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_EnterRecipientFullName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_EnterRecipientFullName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_EnterRecipientFullName_Input"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:CreateRecepient_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:CreateRecepient_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:CreateRecepient_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASDropDown:CreateRecepient_Container_Options_DropDown is displayed on the screen: Verifies that the widget:CreateRecepient_Container_Options_DropDown renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASDropDown:CreateRecepient_Container_Options_DropDown functionalities: Verifies that dropdown widget:CreateRecepient_Container_Options_DropDown opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:CreateRecepient_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:CreateRecepient_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:CreateRecepient_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASButton:CreateRecepient_Cta_Personal_Button is displayed on the screen: Verifies that the widget:CreateRecepient_Cta_Personal_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateRecepient_Cta_Personal_Button"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASButton:CreateRecepient_Cta_Personal_Button functionalities: Verifies that tapping button widget:CreateRecepient_Cta_Personal_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateRecepient_Cta_Personal_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateRecepient_Cta_Personal_Button"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASButton:CreateRecepient_Cta_Business_Button is displayed on the screen: Verifies that the widget:CreateRecepient_Cta_Business_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateRecepient_Cta_Business_Button"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASButton:CreateRecepient_Cta_Business_Button functionalities: Verifies that tapping button widget:CreateRecepient_Cta_Business_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateRecepient_Cta_Business_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateRecepient_Cta_Business_Button"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:CreateRecepient_Label_RecipientAccountType_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_RecipientAccountType_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_RecipientAccountType_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:CreateRecepient_Label_RecipientAccountType_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_RecipientAccountType_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_RecipientAccountType_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_RecipientAccountType_Text"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASDropDown:CreateRecepient_Container_Options_DropDown_2 is displayed on the screen: Verifies that the widget:CreateRecepient_Container_Options_DropDown_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown_2"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASDropDown:CreateRecepient_Container_Options_DropDown_2 functionalities: Verifies that dropdown widget:CreateRecepient_Container_Options_DropDown_2 opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown_2"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown_2"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:CreateRecepient_Label_UserName_Text_5 is displayed on the screen: Verifies that the widget:CreateRecepient_Label_UserName_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:CreateRecepient_Label_UserName_Text_5 is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_UserName_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASText:CreateRecepient_Label_IbanRequiredIfTypeIban_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_IbanRequiredIfTypeIban_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_IbanRequiredIfTypeIban_Text"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:CreateRecepient_Label_IbanRequiredIfTypeIban_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_IbanRequiredIfTypeIban_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_IbanRequiredIfTypeIban_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_IbanRequiredIfTypeIban_Text"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASTextField:CreateRecepient_Input_Egit60X054281110100000012_Input is displayed on the screen: Verifies that the widget:CreateRecepient_Input_Egit60X054281110100000012_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASTextField:CreateRecepient_Input_Egit60X054281110100000012_Input functionalities: Verifies that input widget:CreateRecepient_Input_Egit60X054281110100000012_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Egit60X054281110100000012_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Egit60X054281110100000012_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Egit60X054281110100000012_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASTextField:CreateRecepient_Input_Egit60X054281110100000012_Input_2 is displayed on the screen: Verifies that the widget:CreateRecepient_Input_Egit60X054281110100000012_Input_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input_2"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASTextField:CreateRecepient_Input_Egit60X054281110100000012_Input_2 functionalities: Verifies that input widget:CreateRecepient_Input_Egit60X054281110100000012_Input_2 accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Egit60X054281110100000012_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Egit60X054281110100000012_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Egit60X054281110100000012_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egit60X054281110100000012_Input_2"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASText:CreateRecepient_Label_AccountNumberRequiredForA_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_AccountNumberRequiredForA_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AccountNumberRequiredForA_Text"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASText:CreateRecepient_Label_AccountNumberRequiredForA_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_AccountNumberRequiredForA_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AccountNumberRequiredForA_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AccountNumberRequiredForA_Text"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASTextField:CreateRecepient_Input_Eg000123456789_Input is displayed on the screen: Verifies that the widget:CreateRecepient_Input_Eg000123456789_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg000123456789_Input"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASTextField:CreateRecepient_Input_Eg000123456789_Input functionalities: Verifies that input widget:CreateRecepient_Input_Eg000123456789_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg000123456789_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg000123456789_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Eg000123456789_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg000123456789_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Eg000123456789_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg000123456789_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Eg000123456789_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg000123456789_Input"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASText:CreateRecepient_Label_AccountTypeRequiredIfType_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_AccountTypeRequiredIfType_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AccountTypeRequiredIfType_Text"
+- waitForAnimationToEnd: {}
+# 38. Verify widget ASText:CreateRecepient_Label_AccountTypeRequiredIfType_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_AccountTypeRequiredIfType_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AccountTypeRequiredIfType_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AccountTypeRequiredIfType_Text"
+- waitForAnimationToEnd: {}
+# 39. Verify widget ASDropDown:CreateRecepient_Container_Options_DropDown_3 is displayed on the screen: Verifies that the widget:CreateRecepient_Container_Options_DropDown_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown_3"
+- waitForAnimationToEnd: {}
+# 40. Verify widget ASDropDown:CreateRecepient_Container_Options_DropDown_3 functionalities: Verifies that dropdown widget:CreateRecepient_Container_Options_DropDown_3 opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown_3"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-CreateRecepient_Container_Options_DropDown_3"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 41. Verify widget ASText:CreateRecepient_Label_SwiftCodeRequiredIfTypeS_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_SwiftCodeRequiredIfTypeS_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_SwiftCodeRequiredIfTypeS_Text"
+- waitForAnimationToEnd: {}
+# 42. Verify widget ASText:CreateRecepient_Label_SwiftCodeRequiredIfTypeS_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_SwiftCodeRequiredIfTypeS_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_SwiftCodeRequiredIfTypeS_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_SwiftCodeRequiredIfTypeS_Text"
+- waitForAnimationToEnd: {}
+# 43. Verify widget ASTextField:CreateRecepient_Input_Egbocelklx_Input is displayed on the screen: Verifies that the widget:CreateRecepient_Input_Egbocelklx_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egbocelklx_Input"
+- waitForAnimationToEnd: {}
+# 44. Verify widget ASTextField:CreateRecepient_Input_Egbocelklx_Input functionalities: Verifies that input widget:CreateRecepient_Input_Egbocelklx_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egbocelklx_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egbocelklx_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Egbocelklx_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egbocelklx_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Egbocelklx_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egbocelklx_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Egbocelklx_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Egbocelklx_Input"
+- waitForAnimationToEnd: {}
+# 45. Verify widget ASText:CreateRecepient_Label_SortCodeRequiredIfTypeSo_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_SortCodeRequiredIfTypeSo_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_SortCodeRequiredIfTypeSo_Text"
+- waitForAnimationToEnd: {}
+# 46. Verify widget ASText:CreateRecepient_Label_SortCodeRequiredIfTypeSo_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_SortCodeRequiredIfTypeSo_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_SortCodeRequiredIfTypeSo_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_SortCodeRequiredIfTypeSo_Text"
+- waitForAnimationToEnd: {}
+# 47. Verify widget ASTextField:CreateRecepient_Input_Eg201585_Input is displayed on the screen: Verifies that the widget:CreateRecepient_Input_Eg201585_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg201585_Input"
+- waitForAnimationToEnd: {}
+# 48. Verify widget ASTextField:CreateRecepient_Input_Eg201585_Input functionalities: Verifies that input widget:CreateRecepient_Input_Eg201585_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg201585_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg201585_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Eg201585_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg201585_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Eg201585_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg201585_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Eg201585_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Eg201585_Input"
+- waitForAnimationToEnd: {}
+# 49. Verify widget ASText:CreateRecepient_Label_UserName_Text_6 is displayed on the screen: Verifies that the widget:CreateRecepient_Label_UserName_Text_6 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_6"
+- waitForAnimationToEnd: {}
+# 50. Verify widget ASText:CreateRecepient_Label_UserName_Text_6 is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_UserName_Text_6 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_6"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_6"
+- waitForAnimationToEnd: {}
+# 51. Verify widget ASText:CreateRecepient_Label_AddressLine1_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_AddressLine1_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AddressLine1_Text"
+- waitForAnimationToEnd: {}
+# 52. Verify widget ASText:CreateRecepient_Label_AddressLine1_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_AddressLine1_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AddressLine1_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_AddressLine1_Text"
+- waitForAnimationToEnd: {}
+# 53. Verify widget ASTextField:CreateRecepient_Input is displayed on the screen: Verifies that the widget:CreateRecepient_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input"
+- waitForAnimationToEnd: {}
+# 54. Verify widget ASTextField:CreateRecepient_Input functionalities: Verifies that input widget:CreateRecepient_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input"
+- waitForAnimationToEnd: {}
+# 55. Verify widget ASText:CreateRecepient_Label_UserName_Text_7 is displayed on the screen: Verifies that the widget:CreateRecepient_Label_UserName_Text_7 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_7"
+- waitForAnimationToEnd: {}
+# 56. Verify widget ASText:CreateRecepient_Label_UserName_Text_7 is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_UserName_Text_7 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_7"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_7"
+- waitForAnimationToEnd: {}
+# 57. Verify widget ASTextField:CreateRecepient_Input_2 is displayed on the screen: Verifies that the widget:CreateRecepient_Input_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_2"
+- waitForAnimationToEnd: {}
+# 58. Verify widget ASTextField:CreateRecepient_Input_2 functionalities: Verifies that input widget:CreateRecepient_Input_2 accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_2"
+- waitForAnimationToEnd: {}
+# 59. Verify widget ASText:CreateRecepient_Label_UserName_Text_8 is displayed on the screen: Verifies that the widget:CreateRecepient_Label_UserName_Text_8 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_8"
+- waitForAnimationToEnd: {}
+# 60. Verify widget ASText:CreateRecepient_Label_UserName_Text_8 is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_UserName_Text_8 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_8"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_8"
+- waitForAnimationToEnd: {}
+# 61. Verify widget ASTextField:CreateRecepient_Input_3 is displayed on the screen: Verifies that the widget:CreateRecepient_Input_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_3"
+- waitForAnimationToEnd: {}
+# 62. Verify widget ASTextField:CreateRecepient_Input_3 functionalities: Verifies that input widget:CreateRecepient_Input_3 accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_3"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_3"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_3"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_3"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_3"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_3"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_3"
+- waitForAnimationToEnd: {}
+# 63. Verify widget ASText:CreateRecepient_Label_UserName_Text_9 is displayed on the screen: Verifies that the widget:CreateRecepient_Label_UserName_Text_9 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_9"
+- waitForAnimationToEnd: {}
+# 64. Verify widget ASText:CreateRecepient_Label_UserName_Text_9 is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_UserName_Text_9 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_9"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_UserName_Text_9"
+- waitForAnimationToEnd: {}
+# 65. Verify widget ASTextField:CreateRecepient_Input_Gb_Input is displayed on the screen: Verifies that the widget:CreateRecepient_Input_Gb_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Gb_Input"
+- waitForAnimationToEnd: {}
+# 66. Verify widget ASTextField:CreateRecepient_Input_Gb_Input functionalities: Verifies that input widget:CreateRecepient_Input_Gb_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Gb_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Gb_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Gb_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Gb_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Gb_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Gb_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_Gb_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_Gb_Input"
+- waitForAnimationToEnd: {}
+# 67. Verify widget ASText:CreateRecepient_Label_StateProvinceOptional_Text is displayed on the screen: Verifies that the widget:CreateRecepient_Label_StateProvinceOptional_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_StateProvinceOptional_Text"
+- waitForAnimationToEnd: {}
+# 68. Verify widget ASText:CreateRecepient_Label_StateProvinceOptional_Text is displayed on the screen: Verifies that the label of widget:CreateRecepient_Label_StateProvinceOptional_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_StateProvinceOptional_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "CreateRecepient_Label_StateProvinceOptional_Text"
+- waitForAnimationToEnd: {}
+# 69. Verify widget ASTextField:CreateRecepient_Input_4 is displayed on the screen: Verifies that the widget:CreateRecepient_Input_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_4"
+- waitForAnimationToEnd: {}
+# 70. Verify widget ASTextField:CreateRecepient_Input_4 functionalities: Verifies that input widget:CreateRecepient_Input_4 accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_4"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_4"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_4"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_4"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_4"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-CreateRecepient_Input_4"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-CreateRecepient_Input_4"
+- waitForAnimationToEnd: {}
+# 71. Verify widget ASButton:CreateRecepient_Cta_Continue_Button is displayed on the screen: Verifies that the widget:CreateRecepient_Cta_Continue_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateRecepient_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 72. Verify widget ASButton:CreateRecepient_Cta_Continue_Button functionalities: Verifies that tapping button widget:CreateRecepient_Cta_Continue_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateRecepient_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-CreateRecepient_Cta_Continue_Button"

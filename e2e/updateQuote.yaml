@@ -1,0 +1,492 @@
+appId: "${APP_ID}"
+name: "updateQuoteTestFlow"
+# Suite: UpdateQuote
+# Consolidated test flow for UpdateQuote screen
+# Contains 53 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:UpdateQuote_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:UpdateQuote_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-UpdateQuote_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:UpdateQuote_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:UpdateQuote_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-UpdateQuote_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-UpdateQuote_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:UpdateQuote_Image_Icon_Image is displayed on the screen: Verifies that the widget:UpdateQuote_Image_Icon_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Image_Icon_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:UpdateQuote_Title_ReviewTransferDetails_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Title_ReviewTransferDetails_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Title_ReviewTransferDetails_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:UpdateQuote_Title_ReviewTransferDetails_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Title_ReviewTransferDetails_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Title_ReviewTransferDetails_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Title_ReviewTransferDetails_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:UpdateQuote_Image_Icon_Image_2 is displayed on the screen: Verifies that the widget:UpdateQuote_Image_Icon_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Image_Icon_Image_2"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:UpdateQuote_Label_ReviewYourTransfer_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_ReviewYourTransfer_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_ReviewYourTransfer_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:UpdateQuote_Label_ReviewYourTransfer_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_ReviewYourTransfer_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_ReviewYourTransfer_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_ReviewYourTransfer_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:UpdateQuote_Body_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Body_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Body_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:UpdateQuote_Body_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Body_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Body_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Body_Text"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:UpdateQuote_Label_YouSend_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_YouSend_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_YouSend_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:UpdateQuote_Label_YouSend_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_YouSend_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_YouSend_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_YouSend_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:UpdateQuote_Label_Phone_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_Phone_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Phone_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:UpdateQuote_Label_Phone_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_Phone_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Phone_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Phone_Text"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASDropDown:UpdateQuote_Container_BackgroundBorder_DropDown is displayed on the screen: Verifies that the widget:UpdateQuote_Container_BackgroundBorder_DropDown renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-UpdateQuote_Container_BackgroundBorder_DropDown"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASDropDown:UpdateQuote_Container_BackgroundBorder_DropDown functionalities: Verifies that dropdown widget:UpdateQuote_Container_BackgroundBorder_DropDown opens correctly and allows selecting an option.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-UpdateQuote_Container_BackgroundBorder_DropDown"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-UpdateQuote_Container_BackgroundBorder_DropDown"
+- runFlow:
+    file: "common/selectDropdownAndWait.yaml"
+    env:
+      WIDGET_ID: "dropdown-UpdateQuote_Container_BackgroundBorder_DropDown"
+      OPTION_VALUE: "option"
+    optional: true
+- tapOn:
+    point: "50%,50%"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASImage:UpdateQuote_Image_Icon_Image_3 is displayed on the screen: Verifies that the widget:UpdateQuote_Image_Icon_Image_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Image_Icon_Image_3"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:UpdateQuote_Label_YouCanChangeThisAmount_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_YouCanChangeThisAmount_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_YouCanChangeThisAmount_Text"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:UpdateQuote_Label_YouCanChangeThisAmount_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_YouCanChangeThisAmount_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_YouCanChangeThisAmount_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_YouCanChangeThisAmount_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:UpdateQuote_Label_RecipientGets_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_RecipientGets_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_RecipientGets_Text"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:UpdateQuote_Label_RecipientGets_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_RecipientGets_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_RecipientGets_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_RecipientGets_Text"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:UpdateQuote_Label_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Text"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:UpdateQuote_Label_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Text"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:UpdateQuote_Label_Calculating_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_Calculating_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Calculating_Text"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASText:UpdateQuote_Label_Calculating_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_Calculating_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Calculating_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Calculating_Text"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:UpdateQuote_Label_QuoteId_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_QuoteId_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_QuoteId_Text"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:UpdateQuote_Label_QuoteId_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_QuoteId_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_QuoteId_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_QuoteId_Text"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASTextField:UpdateQuote_Input_EnterRecipientFullName_Input is displayed on the screen: Verifies that the widget:UpdateQuote_Input_EnterRecipientFullName_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASTextField:UpdateQuote_Input_EnterRecipientFullName_Input functionalities: Verifies that input widget:UpdateQuote_Input_EnterRecipientFullName_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-UpdateQuote_Input_EnterRecipientFullName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-UpdateQuote_Input_EnterRecipientFullName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-UpdateQuote_Input_EnterRecipientFullName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:UpdateQuote_Label_UserName_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:UpdateQuote_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASTextField:UpdateQuote_Input_EnterRecipientFullName_Input_2 is displayed on the screen: Verifies that the widget:UpdateQuote_Input_EnterRecipientFullName_Input_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input_2"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASTextField:UpdateQuote_Input_EnterRecipientFullName_Input_2 functionalities: Verifies that input widget:UpdateQuote_Input_EnterRecipientFullName_Input_2 accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-UpdateQuote_Input_EnterRecipientFullName_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-UpdateQuote_Input_EnterRecipientFullName_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input_2"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-UpdateQuote_Input_EnterRecipientFullName_Input_2"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-UpdateQuote_Input_EnterRecipientFullName_Input_2"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASText:UpdateQuote_Label_TransferSummary_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_TransferSummary_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_TransferSummary_Text"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASText:UpdateQuote_Label_TransferSummary_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_TransferSummary_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_TransferSummary_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_TransferSummary_Text"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASText:UpdateQuote_Label_Usd0924Eur_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_Usd0924Eur_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Usd0924Eur_Text"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASText:UpdateQuote_Label_Usd0924Eur_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_Usd0924Eur_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Usd0924Eur_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Usd0924Eur_Text"
+- waitForAnimationToEnd: {}
+# 38. Verify widget ASIconButton:UpdateQuote_Icon_Container_Icon is displayed on the screen: Verifies that the widget:UpdateQuote_Icon_Container_Icon renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-UpdateQuote_Icon_Container_Icon"
+- waitForAnimationToEnd: {}
+# 39. Verify widget ASIconButton:UpdateQuote_Icon_Container_Icon functionalities: Verifies that tapping button widget:UpdateQuote_Icon_Container_Icon works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-UpdateQuote_Icon_Container_Icon"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-UpdateQuote_Icon_Container_Icon"
+- waitForAnimationToEnd: {}
+# 40. Verify widget ASText:UpdateQuote_Label_Eur_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_Eur_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Eur_Text"
+- waitForAnimationToEnd: {}
+# 41. Verify widget ASText:UpdateQuote_Label_Eur_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_Eur_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Eur_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_Eur_Text"
+- waitForAnimationToEnd: {}
+# 42. Verify widget ASText:UpdateQuote_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:UpdateQuote_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 43. Verify widget ASText:UpdateQuote_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 44. Verify widget ASText:UpdateQuote_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:UpdateQuote_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 45. Verify widget ASText:UpdateQuote_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 46. Verify widget ASText:UpdateQuote_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:UpdateQuote_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 47. Verify widget ASText:UpdateQuote_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 48. Verify widget ASText:UpdateQuote_Label_UserName_Text_5 is displayed on the screen: Verifies that the widget:UpdateQuote_Label_UserName_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 49. Verify widget ASText:UpdateQuote_Label_UserName_Text_5 is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_UserName_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 50. Verify widget ASButton:UpdateQuote_Cta_Continue_Button is displayed on the screen: Verifies that the widget:UpdateQuote_Cta_Continue_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-UpdateQuote_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 51. Verify widget ASButton:UpdateQuote_Cta_Continue_Button functionalities: Verifies that tapping button widget:UpdateQuote_Cta_Continue_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-UpdateQuote_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-UpdateQuote_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 52. Verify widget ASText:UpdateQuote_Label_ExchangeRatesMayChangeUnti_Text is displayed on the screen: Verifies that the widget:UpdateQuote_Label_ExchangeRatesMayChangeUnti_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_ExchangeRatesMayChangeUnti_Text"
+- waitForAnimationToEnd: {}
+# 53. Verify widget ASText:UpdateQuote_Label_ExchangeRatesMayChangeUnti_Text is displayed on the screen: Verifies that the label of widget:UpdateQuote_Label_ExchangeRatesMayChangeUnti_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_ExchangeRatesMayChangeUnti_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpdateQuote_Label_ExchangeRatesMayChangeUnti_Text"

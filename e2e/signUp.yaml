@@ -1,0 +1,420 @@
+appId: "${APP_ID}"
+name: "signUpTestFlow"
+# Suite: SignUp
+# Consolidated test flow for SignUp screen
+# Contains 37 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:SignUp_AppBar_Header_AppBar is displayed on the screen: Verifies that the widget:SignUp_AppBar_Header_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-SignUp_AppBar_Header_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:SignUp_AppBar_Header_AppBar is displayed on the screen: Verifies that the label of widget:SignUp_AppBar_Header_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-SignUp_AppBar_Header_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-SignUp_AppBar_Header_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASText:SignUp_Label_CreateYourAccount_Text is displayed on the screen: Verifies that the widget:SignUp_Label_CreateYourAccount_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_CreateYourAccount_Text"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:SignUp_Label_CreateYourAccount_Text is displayed on the screen: Verifies that the label of widget:SignUp_Label_CreateYourAccount_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_CreateYourAccount_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_CreateYourAccount_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:SignUp_Label_SignUpToSendMoneyWorldwid_Text is displayed on the screen: Verifies that the widget:SignUp_Label_SignUpToSendMoneyWorldwid_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_SignUpToSendMoneyWorldwid_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASText:SignUp_Label_SignUpToSendMoneyWorldwid_Text is displayed on the screen: Verifies that the label of widget:SignUp_Label_SignUpToSendMoneyWorldwid_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_SignUpToSendMoneyWorldwid_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_SignUpToSendMoneyWorldwid_Text"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:SignUp_Label_UserName_Text is displayed on the screen: Verifies that the widget:SignUp_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:SignUp_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:SignUp_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASTextField:SignUp_Input_EnterYourFullName_Input is displayed on the screen: Verifies that the widget:SignUp_Input_EnterYourFullName_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_EnterYourFullName_Input"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASTextField:SignUp_Input_EnterYourFullName_Input functionalities: Verifies that input widget:SignUp_Input_EnterYourFullName_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_EnterYourFullName_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_EnterYourFullName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-SignUp_Input_EnterYourFullName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_EnterYourFullName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-SignUp_Input_EnterYourFullName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_EnterYourFullName_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-SignUp_Input_EnterYourFullName_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_EnterYourFullName_Input"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:SignUp_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:SignUp_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:SignUp_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:SignUp_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASTextField:SignUp_Input_Email_Input is displayed on the screen: Verifies that the widget:SignUp_Input_Email_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_Email_Input"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASTextField:SignUp_Input_Email_Input functionalities: Verifies that input widget:SignUp_Input_Email_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_Email_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_Email_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-SignUp_Input_Email_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_Email_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-SignUp_Input_Email_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_Email_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-SignUp_Input_Email_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-SignUp_Input_Email_Input"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:SignUp_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:SignUp_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:SignUp_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:SignUp_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASPasswordTextField:SignUp_Input_CreateApassword_Input is displayed on the screen: Verifies that the widget:SignUp_Input_CreateApassword_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_CreateApassword_Input"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASPasswordTextField:SignUp_Input_CreateApassword_Input functionalities: Verifies that input widget:SignUp_Input_CreateApassword_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_CreateApassword_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_CreateApassword_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-SignUp_Input_CreateApassword_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_CreateApassword_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-SignUp_Input_CreateApassword_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_CreateApassword_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-SignUp_Input_CreateApassword_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_CreateApassword_Input"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:SignUp_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:SignUp_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:SignUp_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:SignUp_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASPasswordTextField:SignUp_Input_RepeatYourPassword_Input is displayed on the screen: Verifies that the widget:SignUp_Input_RepeatYourPassword_Input renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_RepeatYourPassword_Input"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASPasswordTextField:SignUp_Input_RepeatYourPassword_Input functionalities: Verifies that input widget:SignUp_Input_RepeatYourPassword_Input accepts valid input, handles long text, and supports special characters.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_RepeatYourPassword_Input"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_RepeatYourPassword_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-SignUp_Input_RepeatYourPassword_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_RepeatYourPassword_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-SignUp_Input_RepeatYourPassword_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_RepeatYourPassword_Input"
+- runFlow:
+    file: "common/inputTextAndWait.yaml"
+    env:
+      WIDGET_ID: "textInput-textInput-SignUp_Input_RepeatYourPassword_Input"
+      TEXT_VALUE: "test value"
+- pressKey: "Enter"
+- runFlow:
+    file: "common/eraseTextAndWait.yaml"
+    env:
+      WIDGET_ID: "view-textInput-SignUp_Input_RepeatYourPassword_Input"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASButton:SignUp_Cta_SignUp_Button is displayed on the screen: Verifies that the widget:SignUp_Cta_SignUp_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_SignUp_Button"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASButton:SignUp_Cta_SignUp_Button functionalities: Verifies that tapping button widget:SignUp_Cta_SignUp_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_SignUp_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_SignUp_Button"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASCheckBox:SignUp_Container_CheckBox is displayed on the screen: Verifies that the widget:SignUp_Container_CheckBox renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Container_CheckBox"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASCheckBox:SignUp_Container_CheckBox functionalities: Verifies that tapping button widget:SignUp_Container_CheckBox works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Container_CheckBox"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Container_CheckBox"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:SignUp_Label_AlreadyUsingWiseLedger_Text is displayed on the screen: Verifies that the widget:SignUp_Label_AlreadyUsingWiseLedger_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_AlreadyUsingWiseLedger_Text"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:SignUp_Label_AlreadyUsingWiseLedger_Text is displayed on the screen: Verifies that the label of widget:SignUp_Label_AlreadyUsingWiseLedger_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_AlreadyUsingWiseLedger_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_AlreadyUsingWiseLedger_Text"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASButton:SignUp_Cta_LogIn_Button is displayed on the screen: Verifies that the widget:SignUp_Cta_LogIn_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_LogIn_Button"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASButton:SignUp_Cta_LogIn_Button functionalities: Verifies that tapping button widget:SignUp_Cta_LogIn_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_LogIn_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_LogIn_Button"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASButton:SignUp_Cta_Action_Button is displayed on the screen: Verifies that the widget:SignUp_Cta_Action_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASButton:SignUp_Cta_Action_Button functionalities: Verifies that tapping button widget:SignUp_Cta_Action_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_Action_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASButton:SignUp_Cta_Action_Button_2 is displayed on the screen: Verifies that the widget:SignUp_Cta_Action_Button_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_Action_Button_2"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASButton:SignUp_Cta_Action_Button_2 functionalities: Verifies that tapping button widget:SignUp_Cta_Action_Button_2 works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_Action_Button_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-SignUp_Cta_Action_Button_2"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASImage:SignUp_Image_Icon_Image is displayed on the screen: Verifies that the widget:SignUp_Image_Icon_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Image_Icon_Image"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASText:SignUp_Label_YourDataIsSecurelyProtecte_Text is displayed on the screen: Verifies that the widget:SignUp_Label_YourDataIsSecurelyProtecte_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_YourDataIsSecurelyProtecte_Text"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASText:SignUp_Label_YourDataIsSecurelyProtecte_Text is displayed on the screen: Verifies that the label of widget:SignUp_Label_YourDataIsSecurelyProtecte_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_YourDataIsSecurelyProtecte_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "SignUp_Label_YourDataIsSecurelyProtecte_Text"

@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "appId": "7f2aa8bb-b945-4403-85a2-9b39711155cc",
+  "framework": "ReactNative",
+  "version": "0.79.1",
+  "buildId": "MoneyAppWithChanges",
+  "generatedAt": "2026-06-22T06:56:05.660Z",
+  "files": {
+    "android/app/build.gradle": {
+      "hash": "ac95a65d2779e536662f4198ead29edfe1ba6c4e50248048be2f07f0d3366056",
+      "bytes": 7688
+    },
+    "android/app/build.gradle.bak": {
+      "hash": "fb0926b2ed5522efaf8313b602ab03f145b7ed0842e94754a769b90061f679f6",
+      "bytes": 6235
+    },
+    "android/app/src/main/res/values/styles.xml": {
+      "hash": "741624f1a125e54b35536047f642ac190869b51224c8fb63082ae356d098a32f",
+      "bytes": 409
+    },
+    "android/build.gradle.bak": {
+      "hash": "a27888ec73a9f6bf8ecaa60ef3be8c5edc35aac88da1e71cedf440f106b1c79d",
+      "bytes": 660
+    },
+    "android/gradle.properties": {
+      "hash": "716a0bbfcc5f135b485f4ff4afb388ec11e5ec152c14d600e550fbde9ead26d0",
+      "bytes": 2250
+    },
+    "app.json": {
+      "hash": "316c08c422d36bdd54c8277a3aa019af403084a1c6d7827a1928b700512ebbcf",
+      "bytes": 105
+    },
+    "ios/Podfile": {
+      "hash": "f48a9f2b1576fa3c8b83e05c99adc11c5588e341c3eca1ef1a3f572b14c6b4b6",
+      "bytes": 2973
+    },
+    "package.json": {
+      "hash": "da677cb7049dd0c202d16e2fd5408ad212fe1c18061070d8b4169cec83ae841a",
+      "bytes": 6286
+    },
+    "src/assets/imageSources.ts": {
+      "hash": "efac8150878dc81f836b01c4d00ca7993e97f32ff0a677a05d909250aa7ed281",
+      "bytes": 2509
+    },
+    "src/providers/AppProviders.tsx": {
+      "hash": "fccbb99407dab52c2f1acbc949e10a5c7652ad7c54e7fcb983c08c3d9e505fa1",
+      "bytes": 881
+    },
+    "src/screens/CreateQuote/CreateQuote.tsx": {
+      "hash": "1f7e5752e5df8e622aec58aaefd4fe0defeab114a8dff0f07f07c8254c90882f",
+      "bytes": 53401
+    },
+    "src/screens/CreateRecepient/CreateRecepient.tsx": {
+      "hash": "0bafed0a2338279229c9293317d69881fce477e08570accda8a1c7b6b5e07166",
+      "bytes": 51355
+    },
+    "src/screens/CreateTransfer/CreateTransfer.tsx": {
+      "hash": "fc29032ee34981364bfe9e1dba6963617a4a1b7ac070d220de033d0ae59a6436",
+      "bytes": 35454
+    },
+    "src/screens/FinishScreen/FinishScreen.tsx": {
+      "hash": "ea5c0d132d166a9faa18e3edb2360d0eb4d1a98e576ec46d109408362cff2076",
+      "bytes": 29351
+    },
+    "src/screens/FundTransfer/FundTransfer.tsx": {
+      "hash": "4be400a5d1a747b3e7b94ad90ef0f60982ac6833ae623b1a4e1dcd65b2e346ce",
+      "bytes": 50025
+    },
+    "src/screens/Login/Login.tsx": {
+      "hash": "6e03bd484aa3129b6e973dc82d4fbf66ca7d3eb23aede8c48ec5fcd66cc637d0",
+      "bytes": 17940
+    },
+    "src/screens/SignUp/SignUp.tsx": {
+      "hash": "f66a08b96cc275b9af71d40221185142d72abeae339c37382cbadd451a33885d",
+      "bytes": 28536
+    },
+    "src/screens/UpdateQuote/UpdateQuote.tsx": {
+      "hash": "03d8c951de9e504ff7a9e362fb429686a8c632cb69f6e4b6996ee5b21cc23b31",
+      "bytes": 49417
+    },
+    "src/screens/WelcomeScreen/WelcomeScreen.tsx": {
+      "hash": "3c6857abbc61e792e0be62320895182a953c452901abe83e1445c2c733e6ea8d",
+      "bytes": 32152
+    },
+    "test-metadata.json": {
+      "hash": "e3a07c5cd642459752f29d0deb1c42eb7dde5371c85f2deb541c9a38ae1c11be",
+      "bytes": 445857
+    },
+    "src/assets/images/image__6c9l.png": {
+      "hash": "704ba3dfe99ffcae649231a045a220a10e47b96e03d8dd5af3f5bded3afae580",
+      "bytes": 613036
+    },
+    "src/assets/images/image__87ud.png": {
+      "hash": "22de833fd90227bf4759bdd6622480c87e9dbeae831f4d3e254afcf584ca0998",
+      "bytes": 666541
+    },
+    "src/assets/images/image__d7kl.png": {
+      "hash": "971ade13a04ae24bedfb793aec2ae96698ba3df47885ec2285dfeea8f8c7c6c7",
+      "bytes": 859531
+    },
+    "src/assets/images/image__jz4l.png": {
+      "hash": "f853f619fb44180d581777de487092a49130cb93ecf6b7b3cc52c555e8d09c3d",
+      "bytes": 1202
+    },
+    "src/assets/images/image__wnafd.png": {
+      "hash": "e51a6f29c6825eebb6f8b7234cd8c90b4f3d39def1d800015fbb6bf20fa5b12b",
+      "bytes": 15716
+    },
+    "src/assets/images/image__x35i.png": {
+      "hash": "c4dae3d2b2df64b37cc15462898016b7f4e75bbb0c9f9ab918b4d7af7e360e60",
+      "bytes": 15610
+    },
+    "src/assets/svgs/SvgImage_0ze1p.tsx": {
+      "hash": "398a9352a91ef96fa1da1ab19fb57500bc4b80bbaacec1e4307071dac4aea03f",
+      "bytes": 1547
+    },
+    "src/assets/svgs/SvgImage_1h3m.tsx": {
+      "hash": "9abdab74acbd4b3c7a7a9b6904ad68cfd1064adaa81b6baf9030ecb269cd2c87",
+      "bytes": 834
+    },
+    "src/assets/svgs/SvgImage_6qpj.tsx": {
+      "hash": "ec9e4115b74d6ae45b0609b41f315af1bac243dcb5c295c973906a1232b0a797",
+      "bytes": 2494
+    },
+    "src/assets/svgs/SvgImage_95dj.tsx": {
+      "hash": "17a99767e985e35bddd86c7f0860dea52d9423854a4854df62ee570aaa32b0b0",
+      "bytes": 851
+    },
+    "src/assets/svgs/SvgImage_ayxg.tsx": {
+      "hash": "4228cc289777d8a435cf4f4924d26a6ce63539fd7bbc6d8c362b00a0d9d9e6ab",
+      "bytes": 896
+    },
+    "src/assets/svgs/SvgImage_i7u18.tsx": {
+      "hash": "3d75813c0f743f6947c7fa327d9682f643fa9dc26f011879c1bbb01520915511",
+      "bytes": 1722
+    },
+    "src/assets/svgs/SvgImage_l699v.tsx": {
+      "hash": "fd31cca65be70fdcd16c01775184bb6e74f78b92747883e1e8b50432e8ff027a",
+      "bytes": 1225
+    },
+    "src/assets/svgs/SvgImage_rkx61.tsx": {
+      "hash": "d5fcb727968f02f9aebf098d1b493e12e2dcb24d1b8b965faf946afb2fff7919",
+      "bytes": 1190
+    },
+    "src/assets/svgs/SvgImage_s1qwx.tsx": {
+      "hash": "98681b48055dd87805284f731305170ed2dd031feed34de71a37e645a59eab23",
+      "bytes": 837
+    },
+    "src/assets/svgs/SvgImage_shv2.tsx": {
+      "hash": "057312ef534f8464c0fc18ba162f0a86a5106f8695cc8d229dcc78b29c4cb6e6",
+      "bytes": 1019
+    },
+    "src/assets/svgs/SvgImage_verw.tsx": {
+      "hash": "03e77b8dfc0c27eab7a9a7b84c78bfb3478e1c175e9c99fb0fd2628c8f316c1b",
+      "bytes": 899
+    },
+    "src/strings/index.ts": {
+      "hash": "d0e0727b619db35ea0c88209872dd90ead0650b1d6c4266953dd1fdb24977b2d",
+      "bytes": 23450
+    }
+  },
+  "mergeFiles": [
+    "package.json",
+    "app.json"
+  ]
+}

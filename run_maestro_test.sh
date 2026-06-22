@@ -9,22 +9,22 @@ VALID_PASSWORD="Password@12345"
 # Set environment-specific variables
 case "$ENV" in
 dev)
-	ANDROID_APP_ID="com.symplrmoneytransferdemocopy.dev"
-	IOS_APP_ID="org.reactjs.native.example.symplrmoneytransferdemocopy"
+	ANDROID_APP_ID="com.symplrioneobankappcopycopy.dev"
+	IOS_APP_ID="org.reactjs.native.example.symplrioneobankappcopycopy"
 	APK_PATH="app/build/outputs/apk/development/debug/app-development-debug.apk"
-	SCHEME="symplrmoneytransferdemocopy-Development"
+	SCHEME="symplrioneobankappcopycopy-Development"
 	;;
 staging)
-	ANDROID_APP_ID="com.symplrmoneytransferdemocopy.staging"
-	IOS_APP_ID="org.reactjs.native.example.symplrmoneytransferdemocopyStaging"
+	ANDROID_APP_ID="com.symplrioneobankappcopycopy.staging"
+	IOS_APP_ID="org.reactjs.native.example.symplrioneobankappcopycopyStaging"
 	APK_PATH="app/build/outputs/apk/staging/debug/app-staging-debug.apk"
 	SCHEME="testApp-Staging"
 	;;
 prod)
-	ANDROID_APP_ID="com.symplrmoneytransferdemocopy"
-	IOS_APP_ID="org.reactjs.native.example.symplrmoneytransferdemocopy"
+	ANDROID_APP_ID="com.symplrioneobankappcopycopy"
+	IOS_APP_ID="org.reactjs.native.example.symplrioneobankappcopycopy"
 	APK_PATH="app/build/outputs/apk/release/app-release.apk"
-	SCHEME="symplrmoneytransferdemocopy"
+	SCHEME="symplrioneobankappcopycopy"
 	;;
 *)
 	echo "Unknown environment: $ENV"
@@ -69,7 +69,7 @@ if [ "$PLATFORM" == "android" ]; then
 	node generateTestReport.js e2e/master_suite.yaml e2e maestro-detailed-output.log test-reports test-metadata.json
 
 elif [ "$PLATFORM" == "ios" ]; then
-	APP_NAME="symplrmoneytransferdemocopy"
+	APP_NAME="symplrioneobankappcopycopy"
 	WORKSPACE="ios/$APP_NAME.xcworkspace"
 	DESTINATION="platform=iOS Simulator,name=iPhone 16 Pro"
 	BUILD_DIR="ios/build"
@@ -107,7 +107,7 @@ elif [ "$PLATFORM" == "ios" ]; then
 	xcrun simctl install booted "$APP_PATH"
 
 	echo "🚀 Launching app..."
-	xcrun simctl launch booted org.reactjs.native.example.symplrmoneytransferdemocopy
+	xcrun simctl launch booted org.reactjs.native.example.symplrioneobankappcopycopy
 
 	echo "✅ Running Master Test Suite on iOS..."
 	maestro test e2e/master_suite.yaml \

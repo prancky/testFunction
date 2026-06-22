@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleProp } from 'react-native';
-import { space } from '@/assets';
 import { ASColumn } from '@/components';
 
 type Props = React.ComponentProps<typeof ASColumn> & {
@@ -20,7 +19,6 @@ type Props = React.ComponentProps<typeof ASColumn> & {
  */
 const AppColumn: React.FC<Props> = ({ widgetId, ...rest }) => (
   <ASColumn
-    spacing={space['2']}
     scrollable={false}
     backgroundImageResizeMode={'contain'}
     scrollDirection={'vertical'}

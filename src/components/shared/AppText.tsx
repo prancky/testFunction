@@ -21,7 +21,7 @@ type Props = React.ComponentProps<typeof ASText> & {
 const AppText: React.FC<Props> = ({ widgetId, ...rest }) => (
   <ASText
     labelType={'string'}
-    dragStyle={sharedStyles.businessDaysDrag}
+    dragStyle={sharedStyles.ampLabelWelcomeToDigiBankExperiencTextDrag}
     name={widgetId}
     testId={widgetId}
     {...rest}

@@ -22,8 +22,9 @@ type Props = React.ComponentProps<typeof ASIconButton> & {
 const AppIconButton: React.FC<Props> = ({ widgetId, ...rest }) => (
   <ASIconButton
     iconColor={color.brand.primary}
-    containerStyle={sharedStyles.createQuoteIcon2Container}
-    iconStyles={sharedStyles.createQuoteIcon2IconStyles}
+    size={32.00161254010163}
+    containerStyle={sharedStyles.homeIconIconButtonAsiconButtonIconContainer}
+    iconStyles={sharedStyles.homeIconIconButtonAsiconButtonIconIconStyles}
     name={widgetId}
     testId={widgetId}
     {...rest}

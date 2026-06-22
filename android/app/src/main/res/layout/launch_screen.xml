@@ -16,7 +16,7 @@
   <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:text="SymplrMoneyTransferDemoCopy"
+    android:text="SymplrioNeoBankAppCopyCopy"
     android:textColor="@color/app_name_color"
     android:layout_marginTop="15dp"
     android:textSize="16sp"/>

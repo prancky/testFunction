@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleProp } from 'react-native';
+import { text } from '@/assets';
 import { sharedStyles } from '@/components/shared/sharedStyles';
 import { ASButton } from '@/components';
 
@@ -23,13 +24,10 @@ const AppButton: React.FC<Props> = ({ widgetId, ...rest }) => (
     iconPosition={'leading'}
     simpleTextButton={false}
     backgroundImageResizeMode={'contain'}
-    trailingIconStyles={
-      sharedStyles.createQuoteCtaActionButton2TrailingIconStyles
-    }
-    leadingIconStyles={
-      sharedStyles.createQuoteCtaActionButton2LeadingIconStyles
-    }
-    iconStyles={sharedStyles.createQuoteCtaActionButton2IconStyles}
+    textStyle={[text.label.medium, sharedStyles.ampCtaContinueButtonText]}
+    trailingIconStyles={sharedStyles.ampCtaContinueButtonTrailingIconStyles}
+    leadingIconStyles={sharedStyles.ampCtaContinueButtonLeadingIconStyles}
+    iconStyles={sharedStyles.ampCtaContinueButtonIconStyles}
     name={widgetId}
     testId={widgetId}
     {...rest}

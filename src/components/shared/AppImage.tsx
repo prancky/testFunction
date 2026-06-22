@@ -22,7 +22,10 @@ const AppImage: React.FC<Props> = ({ widgetId, ...rest }) => (
   <ASImage
     roundImageSize={0}
     resizeMethod={'auto'}
-    hardCodeStyle={sharedStyles.createQuoteImageIconImage2HardCode}
+    resizeMode={'contain'}
+    hardCodeStyle={
+      sharedStyles.dataClasificationOpenAccountImageAtmCardsImageHardCode
+    }
     name={widgetId}
     testId={widgetId}
     {...rest}

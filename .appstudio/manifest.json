@@ -1,0 +1,638 @@
+{
+  "schemaVersion": 1,
+  "appId": "0e7f0082-37f8-4638-ba43-d00c4116a618",
+  "framework": "ReactNative",
+  "version": "0.79.1",
+  "buildId": "testApp4",
+  "generatedAt": "2026-06-22T06:21:57.840Z",
+  "files": {
+    "android/app/build.gradle": {
+      "hash": "f3e26ea116678472140a4b204df327dfa9348edfafd080e91a8a7b9678b4acaa",
+      "bytes": 7683
+    },
+    "android/app/build.gradle.bak": {
+      "hash": "7ac24e41022119a5fb1838b7a016070924bef9f87c013a4fca4f6eb07a242e05",
+      "bytes": 6233
+    },
+    "android/app/src/main/res/layout/launch_screen.xml": {
+      "hash": "73143a7ac5db7fc5872f4121c79412ecd66efd33af4844980bf19da3d1933d88",
+      "bytes": 697
+    },
+    "android/app/src/main/res/values/styles.xml": {
+      "hash": "741624f1a125e54b35536047f642ac190869b51224c8fb63082ae356d098a32f",
+      "bytes": 409
+    },
+    "android/gradle.properties": {
+      "hash": "716a0bbfcc5f135b485f4ff4afb388ec11e5ec152c14d600e550fbde9ead26d0",
+      "bytes": 2250
+    },
+    "android/settings.gradle": {
+      "hash": "a1507e1f2f56d80d217f2254816ba46ef6ee52c5996ff1297c4b8fcafe89c12f",
+      "bytes": 357
+    },
+    "app.json": {
+      "hash": "8e8774284d8abbfb7b0860a84340c4a847fbadbbdee209df6a6440625aa3e05c",
+      "bytes": 103
+    },
+    "e2e/master_suite.yaml": {
+      "hash": "4724239761e5bc1f9115076f7c79d2b70634df2bbfad571c54830794778ea224",
+      "bytes": 3360
+    },
+    "ios/Podfile": {
+      "hash": "f69366600e4ca0c1462fed764dd1fce32eeda7f14c052d5c4cad96993bb26c02",
+      "bytes": 2970
+    },
+    "package.json": {
+      "hash": "728dd607645c3368bc1bb097daecd5ea6293498df39b712491d3a0090ebd25bf",
+      "bytes": 6282
+    },
+    "run_maestro_test.sh": {
+      "hash": "0e678fe278d55748dd8bae72d0d6f1f6010fe7ae23cb76798bd08e06c1f308cb",
+      "bytes": 3860
+    },
+    "src/assets/imageSources.ts": {
+      "hash": "aaa2112e74876af08bffdce2f064eae39397143dcd7fd846923e345687d8b763",
+      "bytes": 4693
+    },
+    "src/assets/typography.ts": {
+      "hash": "09fd2446063274f3108faf4c373973043f249497d1326fd1a050dcc50df2f155",
+      "bytes": 218
+    },
+    "src/components/shared/AppAppBar.tsx": {
+      "hash": "7cc45180b368f50968b305a9d5d340404af92640e16d350e57fceb7c167c3dd5",
+      "bytes": 1551
+    },
+    "src/components/shared/AppButton.tsx": {
+      "hash": "1fcab9385269b07232679df78ff8d574312f539141c5af247d5dc4a946172302",
+      "bytes": 1326
+    },
+    "src/components/shared/AppColumn.tsx": {
+      "hash": "7b2d4292f76055eaf9e4d7abc365720d0a6abf2848266b9ad743f285a1dd263a",
+      "bytes": 938
+    },
+    "src/components/shared/AppDropDown.tsx": {
+      "hash": "90173d5a797e2ec33e26a75789401d942f4b6e2fde36b930eaaddb2adf94b2fa",
+      "bytes": 1860
+    },
+    "src/components/shared/AppIconButton.tsx": {
+      "hash": "19f0c934fa11e57e3b395a8c9a20918f353d8c236cefb868771c9ddfd2e516cf",
+      "bytes": 1189
+    },
+    "src/components/shared/AppImage.tsx": {
+      "hash": "ef91aaf895b9c3293743da5429ac70a73bd0f647bf5e55b62959357cdb167489",
+      "bytes": 1073
+    },
+    "src/components/shared/AppRow.tsx": {
+      "hash": "ccb13d90bc1ba0a7dc469412d2757028e43f66ba3f75a960c20db45c05fe7754",
+      "bytes": 916
+    },
+    "src/components/shared/AppText.tsx": {
+      "hash": "aa809137351a392e692084a319984137c81ddfc13b98dc4823c92f2a4cf888dc",
+      "bytes": 986
+    },
+    "src/components/shared/AppTextField.tsx": {
+      "hash": "905eef2e681a50eaaa4e257d946b2eefc4aea9c01c862cf2e0f57d20f7eb633f",
+      "bytes": 2205
+    },
+    "src/components/shared/index.ts": {
+      "hash": "4a480745a7c621a84a40a54cc56eed7d25c1ed050a83eabaaa937e3d9c8f2ba2",
+      "bytes": 778
+    },
+    "src/components/shared/sharedStyles.ts": {
+      "hash": "3d7997dbf377f2638b4d3d3d862fd72a7334c0384b1e2667722609c4c0d67776",
+      "bytes": 12533
+    },
+    "src/providers/AppProviders.tsx": {
+      "hash": "fccbb99407dab52c2f1acbc949e10a5c7652ad7c54e7fcb983c08c3d9e505fa1",
+      "bytes": 881
+    },
+    "src/screens/Login/Login.tsx": {
+      "hash": "f7c9c77433024cd515f1aae4f057a7837fd6afe02d5f10b5fa9e93a0f999a48f",
+      "bytes": 18964
+    },
+    "test-metadata.json": {
+      "hash": "e94c31f7dc07526a61912807aac53b37517e2f10ad297b3dbf155351662df9e2",
+      "bytes": 1548968
+    },
+    "e2e/aMP.yaml": {
+      "hash": "8ec8ef29fe20b48294bf02b39c48cfd0ed4bca9d47b58057e2f3e85420f6c5f2",
+      "bytes": 10040
+    },
+    "e2e/dataClasificationOpenAccount.yaml": {
+      "hash": "6ab741879d1e4ffb91ead40781937a189dae628f35db2b7e16293207f7872856",
+      "bytes": 13179
+    },
+    "e2e/eligibilityRequirement.yaml": {
+      "hash": "1301d4281c9cd6d0a3658ea51669c12a6e7204afa220c46572b195e71c7749a7",
+      "bytes": 9570
+    },
+    "e2e/home.yaml": {
+      "hash": "639b6ea1c341f485278705eae0a0acb8af1bdf18f2eb855111b9d765116d66d7",
+      "bytes": 26847
+    },
+    "e2e/homeLite.yaml": {
+      "hash": "d553fe1539deaa8b71cba528503a584df15188aff28e522b0eacb66b12d7e953",
+      "bytes": 6265
+    },
+    "e2e/homeLiteMoreInfo.yaml": {
+      "hash": "997cc2ddd755c002b2afcf722e927af203bf6cf5aa3e0604bfbb89cc4e7d6c82",
+      "bytes": 11779
+    },
+    "e2e/homeLiteProcessing.yaml": {
+      "hash": "e8da1c7807efd92456eebf4a6f9ef65a2df48154fd2c1f8461101a417eaf290d",
+      "bytes": 11494
+    },
+    "e2e/identityIDCardPhoto.yaml": {
+      "hash": "44a805b1d4b861d49bf828203f7552f4585c80bf93f0d87b9943dbf9d3e8d3f6",
+      "bytes": 11411
+    },
+    "e2e/introductionFirstScreen.yaml": {
+      "hash": "c5e426f9e487995edff05eeab274d784862f30705e9e1736131e81d6526848f0",
+      "bytes": 5610
+    },
+    "e2e/liteHomeVerifying.yaml": {
+      "hash": "a4706d24ea201dfcf134a53411f1f46572146f72e84187e71a366a0aa8c2f431",
+      "bytes": 12663
+    },
+    "e2e/loginScreen.yaml": {
+      "hash": "d1c61d717591e2673d2c468d847f0f77862e17202629768f7ad609a287576b36",
+      "bytes": 8211
+    },
+    "e2e/marketingPreference.yaml": {
+      "hash": "58532f998866b269675e718aaaacd0ffd4f9d2f2d051d6963100ae46e2d55b53",
+      "bytes": 12386
+    },
+    "e2e/reviewAndConfirmDetails.yaml": {
+      "hash": "cfa80cb38f8dbbe6f07b9905a6e91eb1862e9d91b83e158f53276d6d412f37dd",
+      "bytes": 42129
+    },
+    "e2e/verificationAddress.yaml": {
+      "hash": "a26c24e1e26ee3650c7540e096c92c22d679fe5367929149a6fbd0effb812559",
+      "bytes": 17856
+    },
+    "e2e/verificationDetails.yaml": {
+      "hash": "6e75bb97d080ccea39ec7e3fda9944456006f9f70054516d1400cba5c8cd8a07",
+      "bytes": 15260
+    },
+    "e2e/verificationEmlpoyement.yaml": {
+      "hash": "d36ff2520298ceb96c7fbac359849a6da86590880bb675663cb931becae71651",
+      "bytes": 18573
+    },
+    "e2e/verificationInitialTransfer.yaml": {
+      "hash": "9cff05b9f29db427279a0a84a4b058a5e3867f4e6782fed1c16c76d95710b5f0",
+      "bytes": 22057
+    },
+    "e2e/verificationMoreInfo.yaml": {
+      "hash": "f053060e0d329bb23fcc4536b05bf721afde61444595ec08b78d3b7b40dd42ae",
+      "bytes": 18090
+    },
+    "e2e/verificationPurpose.yaml": {
+      "hash": "9a61d2801a9210afb4b53fb04ad64a8e2989d454d1b8b43e2a47f6d597327630",
+      "bytes": 20162
+    },
+    "e2e/verificationSelfie.yaml": {
+      "hash": "9de1b86fcd3cb8ca9277a1943fc3bfa5ab8c8ac4b8f6ded8c7dd0356d49d039f",
+      "bytes": 14747
+    },
+    "e2e/verificationVerified.yaml": {
+      "hash": "67ef34f834818f91a1d9a93b1d3b01a7ee5cbe81f07159be182550739be6dd26",
+      "bytes": 13258
+    },
+    "ios/SymplrioNeoBankAppCopyCopy.xcodeproj/xcshareddata/xcschemes/SymplrioNeoBankAppCopyCopy-Development.xcscheme": {
+      "hash": "6790c2d27d42e1e436ea34cf09834addd721be548118c62c6d0c3f57f90d77b3",
+      "bytes": 3688
+    },
+    "ios/SymplrioNeoBankAppCopyCopy.xcodeproj/xcshareddata/xcschemes/SymplrioNeoBankAppCopyCopy-Production.xcscheme": {
+      "hash": "bcdb17ae8230aa8d8b5121b76da65a527d6c305294799a4f847edef3c2a42295",
+      "bytes": 3687
+    },
+    "ios/SymplrioNeoBankAppCopyCopy.xcodeproj/xcshareddata/xcschemes/SymplrioNeoBankAppCopyCopy-Staging.xcscheme": {
+      "hash": "f436cce7b97067b6346ad52392c235745221cd62fbca0f5b90f1a08061b1f40f",
+      "bytes": 3684
+    },
+    "src/assets/fonts/Outfit-100-normal.ttf": {
+      "hash": "a99279798b78f5f47c5c86e387881532582d04856b4a9f3ac92171cac12567fd",
+      "bytes": 54580
+    },
+    "src/assets/fonts/Outfit-200-normal.ttf": {
+      "hash": "598a991633b4ac40172151ac72794f4ec9b13fe19ceb53ba6ca8c3aaa85610a3",
+      "bytes": 54936
+    },
+    "src/assets/fonts/Outfit-300-normal.ttf": {
+      "hash": "3b454ea6ea2fae8df2153cc3ad5c56de3b549d329307179682cfc075f0257bfd",
+      "bytes": 54856
+    },
+    "src/assets/fonts/Outfit-400-normal.ttf": {
+      "hash": "f24945365147c9e783e91d8649959b59be6b00c9ee4ecd2f6b33afbb2dd871fe",
+      "bytes": 54912
+    },
+    "src/assets/fonts/Outfit-500-normal.ttf": {
+      "hash": "1669995dee77438b732d6557d71ed4e807dd6ebb82704b55385938727c6841e2",
+      "bytes": 54820
+    },
+    "src/assets/fonts/Outfit-600-normal.ttf": {
+      "hash": "030d373c4e2a67d5e922a2694e1eaab3b9f1208f1301dba94a70bdebf52c1efa",
+      "bytes": 55492
+    },
+    "src/assets/fonts/Outfit-700-normal.ttf": {
+      "hash": "6654b93d21301ec61887d3cedd6c11d9df1b1dfb63f9cf45ac7995f6e2235ab1",
+      "bytes": 55392
+    },
+    "src/assets/fonts/Outfit-800-normal.ttf": {
+      "hash": "7f4529480402f47795b2b4dd494417b4ff1f0454da7d7ffb0b656ea90523ec47",
+      "bytes": 55308
+    },
+    "src/assets/fonts/Outfit-900-normal.ttf": {
+      "hash": "f240e6128c31a75aa3f456ea1ff3b0fda382176681788ae3d244d08e3fa7d6cd",
+      "bytes": 55372
+    },
+    "src/assets/images/image__6fgpo.png": {
+      "hash": "4e1ec967a4058052d71d4f3e663fba483598bc39764c5b31420907070f0557f3",
+      "bytes": 1401
+    },
+    "src/assets/images/image__arjr.png": {
+      "hash": "c7f918ed20fe4a248e26e4118e107bad6dea249c7bc9f5d9ab4da799954765c7",
+      "bytes": 84853
+    },
+    "src/assets/images/image__c5aka.png": {
+      "hash": "63dbfc8727a76ab265583b114acadf11406863f35e9e83f25dda8601bbfdd46b",
+      "bytes": 9761
+    },
+    "src/assets/images/image__dyjg.png": {
+      "hash": "09983378b950c071f7a39cb6bfe50722de0a8c5108f2c698983adc313222ef37",
+      "bytes": 94350
+    },
+    "src/assets/images/image__h1th2.png": {
+      "hash": "318dec46d7eb6e7d5c6db104e7f32fd4e97491484b8c8945a7c213fec21d8179",
+      "bytes": 140094
+    },
+    "src/assets/images/image__kc16.png": {
+      "hash": "fa72301c07ebb6a191d64ad56a46d3945e25e870b5b5762b481b31a4fff56aff",
+      "bytes": 239618
+    },
+    "src/assets/images/image__knvo.png": {
+      "hash": "72025e4f690855b969b71fce4ddf757012046c99ba7a8ba9c7bce674786fd0f6",
+      "bytes": 73408
+    },
+    "src/assets/images/image__nfkzp.png": {
+      "hash": "c7b34885490af48145d8ed4c7c61239acaa6da8f4ba1ad44c567437dda0be7e8",
+      "bytes": 3641
+    },
+    "src/assets/images/image__qht4.png": {
+      "hash": "dc465578db52c3ea957a8ac22650ab03d67e2edeb84a55ea6dd4079a5889e407",
+      "bytes": 10605
+    },
+    "src/assets/images/image__thuor.png": {
+      "hash": "88d4849b4e9fe820ce4d9bb8ac3d6057f1fd365804cccaa739b86bff551c8196",
+      "bytes": 14266
+    },
+    "src/assets/svgs/SvgImage_1r6o.tsx": {
+      "hash": "076ba3daa3bcf83cc685f47f40aab27764e966599e90f39602371e6ff04d5cac",
+      "bytes": 6439
+    },
+    "src/assets/svgs/SvgImage_23ok.tsx": {
+      "hash": "cafdbf7ef5f6aeb20827dd5c85d567c88ab47912a99e47bff4e015d6a3e2dcc0",
+      "bytes": 1979
+    },
+    "src/assets/svgs/SvgImage_2wc8.tsx": {
+      "hash": "e80ea9d23ab8796ea7d358c3ad6f3af1daa819878b890f47773ac3492c39b78d",
+      "bytes": 1134
+    },
+    "src/assets/svgs/SvgImage_6ca34.tsx": {
+      "hash": "4a700ac1859b29f6d9d84eb9bf27f645c985117b47d28ad7e6fc981c46a4cae5",
+      "bytes": 119849
+    },
+    "src/assets/svgs/SvgImage_722f.tsx": {
+      "hash": "bedd0a9f25fcde0511c4ade8749b7e7767d72de818e23c5f0943ee4958a76631",
+      "bytes": 1431
+    },
+    "src/assets/svgs/SvgImage_7gse.tsx": {
+      "hash": "d41754d8193f0c1345f199aef7aba5d4965b0c081579a5bdff98e4df3e1f5c1d",
+      "bytes": 973
+    },
+    "src/assets/svgs/SvgImage_89dob.tsx": {
+      "hash": "f9767be087a5a4652638f070402ba826ea436bde1eca468d247bc0dcf574281b",
+      "bytes": 1207
+    },
+    "src/assets/svgs/SvgImage_9mnr.tsx": {
+      "hash": "9a41648cd58e7e5be139880569606aed50e360403cb958db6ea534e874014d65",
+      "bytes": 1495
+    },
+    "src/assets/svgs/SvgImage_aheu.tsx": {
+      "hash": "d8a4978d4e25b8ee83ad50ccefef5d68efc002cb67c9c9a8d4eefde224a84bb9",
+      "bytes": 1134
+    },
+    "src/assets/svgs/SvgImage_bjpw.tsx": {
+      "hash": "efd3a48614fa7c6bc6cb9087a720d69b40c5017bcd9e2d0caaedd0e12f26aebb",
+      "bytes": 1204
+    },
+    "src/assets/svgs/SvgImage_busa.tsx": {
+      "hash": "6b77bb6cf47eafb24e19aa196bfbf4cfe6c5ed0082fed0fbba955fd55123d6ee",
+      "bytes": 1134
+    },
+    "src/assets/svgs/SvgImage_cdy04.tsx": {
+      "hash": "efe1dfb27603837b2ed1e9cf38d7023f9fb26e753d86ddba00187634eb339502",
+      "bytes": 119874
+    },
+    "src/assets/svgs/SvgImage_d2m9.tsx": {
+      "hash": "829db904a0c4f64340d8b58c3be8e2268d7fa187c8696aa69a79bf2edda55da2",
+      "bytes": 2354
+    },
+    "src/assets/svgs/SvgImage_d6tx.tsx": {
+      "hash": "b012d375d5bbc74948911a1fb37f1e4ddf33e8cd3b8bcc4f69625d66e66840cb",
+      "bytes": 2218
+    },
+    "src/assets/svgs/SvgImage_j293.tsx": {
+      "hash": "f010b463a51d1fe83bc73e864c370707b7d74c30c51d2b09a12e607a76a43900",
+      "bytes": 1202
+    },
+    "src/assets/svgs/SvgImage_jfvf6.tsx": {
+      "hash": "587bfaa5760d0f9b17490719e52bdd785413b6860397931bc5a68f2debceed9c",
+      "bytes": 1205
+    },
+    "src/assets/svgs/SvgImage_kexnh.tsx": {
+      "hash": "81b4b57cb495101a4724799810e8a70e355596f9c03141bc35dd82444c3cf0e3",
+      "bytes": 1205
+    },
+    "src/assets/svgs/SvgImage_ky5f7.tsx": {
+      "hash": "b8be0e9e8a41d2d9eaff1d825b4addaa7430c40b7747d7061f7f0017f45a7295",
+      "bytes": 1217
+    },
+    "src/assets/svgs/SvgImage_l6xqo.tsx": {
+      "hash": "3f207c01d7e2c8be3f6206c39b7ce4ecf801133725bb3162ffc475438d65a114",
+      "bytes": 1156
+    },
+    "src/assets/svgs/SvgImage_lwjn.tsx": {
+      "hash": "f914e5e0dd30105bab93eb634482367fecc3b24d8ea47f90fedea9ab315413c7",
+      "bytes": 2985
+    },
+    "src/assets/svgs/SvgImage_o7u4.tsx": {
+      "hash": "471e0c69a92e203316eca1d023802c99ed2c88597f1ed92619bb98d6c4446003",
+      "bytes": 2218
+    },
+    "src/assets/svgs/SvgImage_phlag.tsx": {
+      "hash": "38ad46863ebf066f381fee8eade27ffe8c0226affc783e65c03b05d3c7f8ac47",
+      "bytes": 1217
+    },
+    "src/assets/svgs/SvgImage_puzd.tsx": {
+      "hash": "a767a15fc3772c233b1cd1b1bea155fa390f572fc708255e5142078f7ff3bf2e",
+      "bytes": 1202
+    },
+    "src/assets/svgs/SvgImage_qysb.tsx": {
+      "hash": "71db5250dbcb88524df90b6bfde83ace6a1840bf5504d0b856aebf49a893c4fa",
+      "bytes": 2212
+    },
+    "src/assets/svgs/SvgImage_r8ct.tsx": {
+      "hash": "4e7c41f13b71ade957bb8883b2473e187451c6dfa9bcccd6acf4b21f67b42bdd",
+      "bytes": 2218
+    },
+    "src/assets/svgs/SvgImage_rkezo.tsx": {
+      "hash": "072f83c60bac9c9d14ffd8e8bcb96e7bec1b22bee9d57c4548c30b6507d4db04",
+      "bytes": 1434
+    },
+    "src/assets/svgs/SvgImage_s7wq6.tsx": {
+      "hash": "feaa8443c96d64f0310a76fcd03ceb9919f62a7ee7e941e70246117a3f3a4546",
+      "bytes": 1205
+    },
+    "src/assets/svgs/SvgImage_sakx.tsx": {
+      "hash": "2f1c74d48c65528cf9fb2e3a0ffca546b5bdebde2248dfe3c15767f9fb800afe",
+      "bytes": 1440
+    },
+    "src/assets/svgs/SvgImage_tkai3.tsx": {
+      "hash": "3ed2dbfcea16e1df1c8089abf7ca613e5e27b155816a8e843c4bd144a1684593",
+      "bytes": 1094
+    },
+    "src/assets/svgs/SvgImage_ud6tr.tsx": {
+      "hash": "e006370dfb83826d674ab3ffadcdee0d89cc44deb1c9c5ec3c47686e7483602b",
+      "bytes": 2345
+    },
+    "src/assets/svgs/SvgImage_va9sg.tsx": {
+      "hash": "99a7d50fff253dcdd9272ae0ef73825de0dd0db3098c506d40a20cb29e2362dc",
+      "bytes": 1205
+    },
+    "src/assets/svgs/SvgImage_vvgd.tsx": {
+      "hash": "21cab36edc12bfb54722452f9494bd453a98884919e1636f45ff4e0901ade9aa",
+      "bytes": 2218
+    },
+    "src/assets/svgs/SvgImage_vwwj.tsx": {
+      "hash": "7e680e8fbf9c3793c841860ab9edff73a0dd53db563727772bfb1d3751dd2a9c",
+      "bytes": 6406
+    },
+    "src/assets/svgs/SvgImage_vyfv.tsx": {
+      "hash": "b1257a04fa0f02b8accad423eda1ae612124178406d30f7ea080c1541866ed7d",
+      "bytes": 119846
+    },
+    "src/assets/svgs/SvgImage_xt6qz.tsx": {
+      "hash": "b53205fa4ec79cd267aa208451079fdefff012568cf7741caff0ff74e6fa905c",
+      "bytes": 1137
+    },
+    "src/components/shared/AppProgressBar.tsx": {
+      "hash": "4824c42affc2944b7113cc4cbc288b9f54debe10acf8315fefacbf49890557b9",
+      "bytes": 1508
+    },
+    "src/components/shared/AppRadioButton.tsx": {
+      "hash": "3a1befbdf2ed979c1866ba0b1370c65d5015ed8d7b72ebaebb66d2b87c03bd02",
+      "bytes": 1093
+    },
+    "src/navigation/routes/AMP.ts": {
+      "hash": "7abf0d9d1b85951a511e7bd65ee9c9afad1be4efd21147f299162a01ffc0cb4a",
+      "bytes": 51
+    },
+    "src/navigation/routes/Center.ts": {
+      "hash": "4548d6adaebaeed786a247c07772c8ea10381e2eb2018b97a6eb895d5fb2ff95",
+      "bytes": 61
+    },
+    "src/navigation/routes/DataClasificationOpenAccount.ts": {
+      "hash": "b918bb599a6d5e560b14be2f39dc83fd35d3b164eb66aab4a0f5bf8895ebc6b6",
+      "bytes": 152
+    },
+    "src/navigation/routes/Deposit.ts": {
+      "hash": "a559316a1260e08755203755588bd7fded4c7192fc0a1176c135836a1bd07448",
+      "bytes": 65
+    },
+    "src/navigation/routes/EligibilityRequirement.ts": {
+      "hash": "314f4a74a162736f1b51451992bf6e56f9d783188bbb5756a53e308906c854fd",
+      "bytes": 126
+    },
+    "src/navigation/routes/Finance.ts": {
+      "hash": "58de40b1f57fa84ff35aaecaadf33c08615018c72e1c58b2f79d794142c6e833",
+      "bytes": 65
+    },
+    "src/navigation/routes/Home.ts": {
+      "hash": "33f2849ca9c05a0b49545e5be9f1cdd70b0a21b63b3780c41d36bda70efff7eb",
+      "bytes": 53
+    },
+    "src/navigation/routes/HomeLite.ts": {
+      "hash": "f64a923050c0fa29f4740bb52956cd167c0d7d6ae8e30e783642af2f2ec679d3",
+      "bytes": 70
+    },
+    "src/navigation/routes/HomeLiteMoreInfo.ts": {
+      "hash": "6a2364d8781c93d3c5e1b848bfb0dbf1f221774bc12a169fda83fa4d2d9c2c92",
+      "bytes": 104
+    },
+    "src/navigation/routes/HomeLiteProcessing.ts": {
+      "hash": "7327c28be36bfe6669a305bbffe4315c70ab375a66954508535ec00f831a9ebf",
+      "bytes": 111
+    },
+    "src/navigation/routes/IdentityIDCardPhoto.ts": {
+      "hash": "d4e81855ecf2ade3bde89641fe9166fbb983f34a7a50b3afb3cbf477e57ffb80",
+      "bytes": 117
+    },
+    "src/navigation/routes/IntroductionFirstRoutes.ts": {
+      "hash": "9ee6d657a6545cafdfd9106b78647e5b75afc25e9c03c9b5d6c07d740bf46ae9",
+      "bytes": 131
+    },
+    "src/navigation/routes/LiteHomeVerifying.ts": {
+      "hash": "3e848d94e1da9ca3372cfad2831b4023e2f153bd53b45c222e11c47a5bfc78ce",
+      "bytes": 107
+    },
+    "src/navigation/routes/LoginRoutes.ts": {
+      "hash": "2d47d40c96359d1f8bca61729706533a82cae3b631490e6094fdd4d75fda09ca",
+      "bytes": 82
+    },
+    "src/navigation/routes/MarketingPreference.ts": {
+      "hash": "19c57aa57611d66341319555fcee2e5a7ea0e139232b4370667413cab0df9f61",
+      "bytes": 114
+    },
+    "src/navigation/routes/ReviewAndConfirmDetails.ts": {
+      "hash": "8c76e2efba24598c20cf05e395805e617aa6a10da8c971b4da7575845b5856a7",
+      "bytes": 132
+    },
+    "src/navigation/routes/VerificationAddress.ts": {
+      "hash": "07268e481a13076c02a46e7e5b92e608c109234149926a29c5689056eb134844",
+      "bytes": 114
+    },
+    "src/navigation/routes/VerificationDetails.ts": {
+      "hash": "4b0aac60cddecf2c4fbd64217fb4201e5b79a7876c6bd708ca6ad67d46d4d098",
+      "bytes": 114
+    },
+    "src/navigation/routes/VerificationEmlpoyement.ts": {
+      "hash": "a5fac0572791a69783bef79bad753f4a523aac9eac09ff578d31d1e0d3629391",
+      "bytes": 130
+    },
+    "src/navigation/routes/VerificationInitialTransfer.ts": {
+      "hash": "5a1382c0bdff1c19e11e12561d9064cec1375495bcb06f9c960fcaedfa75eee5",
+      "bytes": 147
+    },
+    "src/navigation/routes/VerificationMoreInfo.ts": {
+      "hash": "2d19d1d15941e06b0272f17f5f445c5dc02556a8af9b749f91060e0a88c19a13",
+      "bytes": 119
+    },
+    "src/navigation/routes/VerificationPurpose.ts": {
+      "hash": "1d849253dd21fbb7638cd65d36cedc1e01a85551ede14e24cc9dc4537563410e",
+      "bytes": 114
+    },
+    "src/navigation/routes/VerificationSelfie.ts": {
+      "hash": "afa17b0466f966b620e56b3d69b2aea9f2a0c67bde928e5b0a3fd5bf623370aa",
+      "bytes": 110
+    },
+    "src/navigation/routes/VerificationVerified.ts": {
+      "hash": "f6c8bf1e4d27ad875b6b5ce8ba7455daa28f0d51bf262bbe4f521ef6d19b8759",
+      "bytes": 118
+    },
+    "src/screens/AMP/AMP.tsx": {
+      "hash": "1b628f7b744a1d15ca31fd779687935943c2f24a20276987eb752f87c6a7aa81",
+      "bytes": 5876
+    },
+    "src/screens/Center/Center.tsx": {
+      "hash": "40f6627b5505a05a8396ec22e8173ac59918f2dcd185bbf35674e258390a95f0",
+      "bytes": 511
+    },
+    "src/screens/DataClasificationOpenAccount/DataClasificationOpenAccount.tsx": {
+      "hash": "cdd2970c5bd6b94272f33f872237bf3191bf1cddb0f9de0b6f43d3f12fd923ed",
+      "bytes": 11995
+    },
+    "src/screens/Deposit/Deposit.tsx": {
+      "hash": "2691ff5437c43806b609a8df106484623b4016bb7625872b1f71755a637fbbad",
+      "bytes": 513
+    },
+    "src/screens/EligibilityRequirement/EligibilityRequirement.tsx": {
+      "hash": "656004aadad670b4bdee40ddb3d1f039adb5c0649495660042bda76238e92a0e",
+      "bytes": 8460
+    },
+    "src/screens/Finance/Finance.tsx": {
+      "hash": "20e1cdea264cbb0f423dd9eb5d978685fb4dcaebc659dcf0f4dc2e8517da7e73",
+      "bytes": 513
+    },
+    "src/screens/Home/Home.tsx": {
+      "hash": "70897657769f8aea71c825700580e3accbdc54a8507993d57903092e2e17e2dc",
+      "bytes": 37478
+    },
+    "src/screens/HomeLite/HomeLite.tsx": {
+      "hash": "b475afa8bee18d5d1466d2968485d25f0b0eaa17d0fc08bd5aad74ca29b24cfc",
+      "bytes": 4799
+    },
+    "src/screens/HomeLiteMoreInfo/HomeLiteMoreInfo.tsx": {
+      "hash": "7c4c7deb0933aa5401df2c01786510de9262dfa9ef662d5c354317cecf94c765",
+      "bytes": 5333
+    },
+    "src/screens/HomeLiteProcessing/HomeLiteProcessing.tsx": {
+      "hash": "ada03e068bc2f82fb134877e28518a8dbb1f6c49cb28d47159db0055a30b911c",
+      "bytes": 5127
+    },
+    "src/screens/IdentityIDCardPhoto/IdentityIDCardPhoto.tsx": {
+      "hash": "5cbd35580b3cca9eb7a7da1535be0fdcb1ed51903b2bb15a660cec3647b7d6ac",
+      "bytes": 8850
+    },
+    "src/screens/IntroductionFirstScreen/IntroductionFirstScreen.tsx": {
+      "hash": "4b793dc17c191b7e84607bc4a3ea3023015f014799048155124258a93c3e3882",
+      "bytes": 8662
+    },
+    "src/screens/LiteHomeVerifying/LiteHomeVerifying.tsx": {
+      "hash": "85102382f33db27dc456e2080a3420fb6f35aa3d72ae8acd6cd1839b05b4b813",
+      "bytes": 5099
+    },
+    "src/screens/LoginScreen/LoginScreen.tsx": {
+      "hash": "7937a93b792573d7bd588a8e9552f90a6fbd76bd0776602209620aa34e7e3c16",
+      "bytes": 8662
+    },
+    "src/screens/MarketingPreference/MarketingPreference.tsx": {
+      "hash": "8ed070a931a20db439be739b20f2c29c9a5b751abd6529933109818653366895",
+      "bytes": 11704
+    },
+    "src/screens/ReviewAndConfirmDetails/ReviewAndConfirmDetails.tsx": {
+      "hash": "74a8e1365dcb54d6e935507e2f9a08eec88a2352b74eb628e0098ef6b8392d5b",
+      "bytes": 29364
+    },
+    "src/screens/VerificationAddress/VerificationAddress.tsx": {
+      "hash": "e1602ce8da5ebe552647750e501b28e91901fffa7db0793b374d7477775fd372",
+      "bytes": 11908
+    },
+    "src/screens/VerificationDetails/VerificationDetails.tsx": {
+      "hash": "49449f6c7755473e3cbba417d9f20d034991ad471efb6fe307f4271172a53041",
+      "bytes": 12397
+    },
+    "src/screens/VerificationEmlpoyement/VerificationEmlpoyement.tsx": {
+      "hash": "ebd24970ff31f9f9a545b775afadb15afa53c4ff0ebe282c94f2afd4bab53053",
+      "bytes": 12439
+    },
+    "src/screens/VerificationInitialTransfer/VerificationInitialTransfer.tsx": {
+      "hash": "cebc6cb149decc6548ffc47a5786a8b4141d9f7147b3a5fc0eef1c9cf19357ec",
+      "bytes": 17356
+    },
+    "src/screens/VerificationMoreInfo/VerificationMoreInfo.tsx": {
+      "hash": "00fc57a7438e0cdfc3592e5b7523fa49d675a0e0db5d482995420c69ec19d531",
+      "bytes": 10829
+    },
+    "src/screens/VerificationPurpose/VerificationPurpose.tsx": {
+      "hash": "970e3f6384dc98a1d59d3d61996f97473c37fcf50c6712f58de96afed273a3c8",
+      "bytes": 23784
+    },
+    "src/screens/VerificationSelfie/VerificationSelfie.tsx": {
+      "hash": "419cd8b96bf0a525de45e10cb9f859552a5a5f76222028ca639d5a2d4f61d799",
+      "bytes": 12259
+    },
+    "src/screens/VerificationVerified/VerificationVerified.tsx": {
+      "hash": "bf770aed2708ed1127a6cfa4355eb36887d0b98a4b3a6d62d4b17ffe8f213dd0",
+      "bytes": 5428
+    },
+    "src/strings/index.ts": {
+      "hash": "e61bca125de6c807a4e0a7fbba0fb67678fbad7c0f177beece3b9bfcb8ff13d9",
+      "bytes": 29191
+    }
+  },
+  "mergeFiles": [
+    "package.json",
+    "app.json"
+  ]
+}

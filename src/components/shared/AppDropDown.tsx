@@ -25,24 +25,27 @@ const AppDropDown: React.FC<Props> = ({ widgetId, ...rest }) => (
     borderActiveColor={color.brand.primary}
     isMultiChoices={false}
     search={false}
+    containerStyle={
+      sharedStyles.reviewAndConfirmDetailsContainerDropdownFieldAsdrDropDo2Container
+    }
     labelTextStyle={[
       text.label.medium,
-      sharedStyles.createQuoteContainerBackgroundBorderDropDown2LabelText,
+      sharedStyles.loginScreenInputUserNameInput2LabelText,
     ]}
     dropdownTextStyles={[
       text.body.medium,
-      sharedStyles.createQuoteContainerBackgroundBorderDropDown2DropdownTextStyles,
+      sharedStyles.homeInputActivateYourVirtualCardNowInputPrefixText,
     ]}
     placeholderTextStyles={[
       text.body.medium,
-      sharedStyles.createQuoteContainerBackgroundBorderDropDown2PlaceholderTextStyles,
+      sharedStyles.reviewAndConfirmDetailsContainerDropdownFieldAsdrDropDo2PlaceholderTextStyles,
     ]}
     iconStyles={
-      sharedStyles.createQuoteContainerBackgroundBorderDropDown2IconStyles
+      sharedStyles.reviewAndConfirmDetailsContainerDropdownFieldAsdrDropDo2IconStyles
     }
     selectedTextStyle={[
       text.body.medium,
-      sharedStyles.createQuoteContainerBackgroundBorderDropDown2SelectedText,
+      sharedStyles.reviewAndConfirmDetailsContainerDropdownFieldAsdrDropDo2SelectedText,
     ]}
     name={widgetId}
     testId={widgetId}

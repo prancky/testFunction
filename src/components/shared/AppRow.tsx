@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleProp } from 'react-native';
-import { space } from '@/assets';
 import { ASRow } from '@/components';
 
 type Props = React.ComponentProps<typeof ASRow> & {
@@ -20,7 +19,6 @@ type Props = React.ComponentProps<typeof ASRow> & {
  */
 const AppRow: React.FC<Props> = ({ widgetId, ...rest }) => (
   <ASRow
-    spacing={space['2']}
     backgroundImageResizeMode={'contain'}
     scrollable={false}
     scrollDirection={'horizontal'}

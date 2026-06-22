@@ -30,26 +30,34 @@ const AppTextField: React.FC<Props> = ({ widgetId, ...rest }) => (
     maxNumberOfLines={5}
     keyboardType={'default'}
     textFieldType={'custom'}
-    placeholderTextStyle={sharedStyles.createRecepientInput2PlaceholderText}
     inputTextStyle={[
       text.body.medium,
-      sharedStyles.createRecepientInput2InputText,
+      sharedStyles.homeInputActivateYourVirtualCardNowInputInputText,
     ]}
+    placeholderTextStyle={
+      sharedStyles.homeInputActivateYourVirtualCardNowInputPlaceholderText
+    }
     labelTextStyle={[
       text.label.medium,
-      sharedStyles.createRecepientInput2LabelText,
+      sharedStyles.homeInputActivateYourVirtualCardNowInputLabelText,
     ]}
-    prefixIconStyles={sharedStyles.createRecepientInput2PrefixIconStyles}
-    suffixIconStyles={sharedStyles.createRecepientInput2PrefixIconStyles}
+    prefixIconStyles={
+      sharedStyles.homeInputActivateYourVirtualCardNowInputPrefixIconStyles
+    }
+    suffixIconStyles={
+      sharedStyles.homeInputActivateYourVirtualCardNowInputPrefixIconStyles
+    }
     errorMessageTextStyle={[
       text.label.small,
-      sharedStyles.createRecepientInput2ErrorMessageText,
+      sharedStyles.homeInputActivateYourVirtualCardNowInputErrorMessageText,
     ]}
     prefixTextStyle={[
       text.body.medium,
-      sharedStyles.createQuoteContainerBackgroundBorderDropDown2DropdownTextStyles,
+      sharedStyles.homeInputActivateYourVirtualCardNowInputPrefixText,
     ]}
-    contentContainerStyle={sharedStyles.createRecepientInput2ContentContainer}
+    contentContainerStyle={
+      sharedStyles.homeInputActivateYourVirtualCardNowInputContentContainer
+    }
     name={widgetId}
     testId={widgetId}
     {...rest}

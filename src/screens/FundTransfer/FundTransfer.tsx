@@ -25,8 +25,7 @@ import { FormikProps } from 'formik';
 import * as Yup from 'yup';
 import { useClearHeaderActions } from '@/utils/screen.effects';
 
-import { useTranslation } from 'react-i18next';
-import { KEYS } from '@/i18n/keys';
+import { STRINGS } from '@/strings';
 
 type FormValues = {
   FundTransfer_Input_PartnerReferenceOptional_Input?: string;
@@ -41,8 +40,6 @@ type ScreenProps = {
 };
 
 const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
-  const { t } = useTranslation();
-
   const formikRef = useRef<FormikProps<FormValues>>(null);
 
   const navigation = useNavigation();
@@ -81,10 +78,10 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
             widgetId={'text55'}
             numberOfLines={0}
             style={[text.label.medium, styles.text55Style]}
-            accessibilityLabel={t(KEYS.FundTransfer.text55.accessibilityLabel)}
+            accessibilityLabel={STRINGS.FundTransfer.text55.accessibilityLabel}
           >
             {String(
-              item['text55'] ?? t(KEYS.FundTransfer.text55.accessibilityLabel),
+              item['text55'] ?? STRINGS.FundTransfer.text55.accessibilityLabel,
             )}
           </AppText>
           <AppColumn
@@ -95,13 +92,13 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
               widgetId={'BusinessDays'}
               numberOfLines={0}
               style={[text.label.medium, styles.businessDaysStyle]}
-              accessibilityLabel={t(
-                KEYS.FundTransfer.BusinessDays.accessibilityLabel,
-              )}
+              accessibilityLabel={
+                STRINGS.FundTransfer.BusinessDays.accessibilityLabel
+              }
             >
               {String(
                 item['BusinessDays'] ??
-                  t(KEYS.FundTransfer.BusinessDays.accessibilityLabel),
+                  STRINGS.FundTransfer.BusinessDays.accessibilityLabel,
               )}
             </AppText>
           </AppColumn>
@@ -160,7 +157,7 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                       >
                         <AppImage
                           widgetId={'FundTransfer_Image_Icon_Image'}
-                          source={imageSources.image__ryjy}
+                          source={imageSources.image__41w2o}
                           resizeMode={'contain'}
                           style={styles.fundTransferImageIconImageStyle}
                         />
@@ -177,15 +174,15 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.fundTransferTitleUserNameTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.FundTransfer.FundTransfer_Title_UserName_Text
-                            .accessibilityLabel,
-                        )}
+                        accessibilityLabel={
+                          STRINGS.FundTransfer.FundTransfer_Title_UserName_Text
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.FundTransfer.FundTransfer_Title_UserName_Text
-                            .label,
-                        )}
+                        {
+                          STRINGS.FundTransfer.FundTransfer_Title_UserName_Text
+                            .label
+                        }
                       </AppText>
                     </AppColumn>
                   </AppRow>
@@ -199,7 +196,7 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                     >
                       <AppImage
                         widgetId={'FundTransfer_Image_Icon_Image_2'}
-                        source={imageSources.image__sj0t}
+                        source={imageSources.image__mmb0}
                         resizeMode={'contain'}
                         style={styles.fundTransferImageIconImage2Style}
                       />
@@ -224,14 +221,15 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.fundTransferLabelUserNameTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.FundTransfer.FundTransfer_Label_UserName_Text
-                        .accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.FundTransfer.FundTransfer_Label_UserName_Text
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.FundTransfer.FundTransfer_Label_UserName_Text.label,
-                    )}
+                    {
+                      STRINGS.FundTransfer.FundTransfer_Label_UserName_Text
+                        .label
+                    }
                   </AppText>
                   <AppRow
                     widgetId={'FundTransfer_Container_Background_Row'}
@@ -253,15 +251,16 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.fundTransferLabelTransferIdTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.FundTransfer.FundTransfer_Label_TransferId_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_TransferId_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.FundTransfer.FundTransfer_Label_TransferId_Text
-                              .label,
-                          )}
+                          {
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_TransferId_Text.label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -275,15 +274,16 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.fundTransferLabelTfr7712X92TextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.FundTransfer.FundTransfer_Label_Tfr7712X92_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_Tfr7712X92_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.FundTransfer.FundTransfer_Label_Tfr7712X92_Text
-                              .label,
-                          )}
+                          {
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_Tfr7712X92_Text.label
+                          }
                         </AppText>
                       </AppColumn>
                     </AppColumn>
@@ -335,15 +335,16 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.fundTransferLabelUserNameText2Style,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.FundTransfer.FundTransfer_Label_UserName_Text_2
-                            .accessibilityLabel,
-                        )}
+                        accessibilityLabel={
+                          STRINGS.FundTransfer
+                            .FundTransfer_Label_UserName_Text_2
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.FundTransfer.FundTransfer_Label_UserName_Text_2
-                            .label,
-                        )}
+                        {
+                          STRINGS.FundTransfer
+                            .FundTransfer_Label_UserName_Text_2.label
+                        }
                       </AppText>
                     </AppColumn>
                     <AppColumn
@@ -357,15 +358,15 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.fundTransferLabelAvailableTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.FundTransfer.FundTransfer_Label_Available_Text
-                            .accessibilityLabel,
-                        )}
+                        accessibilityLabel={
+                          STRINGS.FundTransfer.FundTransfer_Label_Available_Text
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.FundTransfer.FundTransfer_Label_Available_Text
-                            .label,
-                        )}
+                        {
+                          STRINGS.FundTransfer.FundTransfer_Label_Available_Text
+                            .label
+                        }
                       </AppText>
                     </AppColumn>
                   </AppRow>
@@ -448,16 +449,16 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                                 text.label.medium,
                                 styles.fundTransferLabelBalanceTextStyle,
                               ]}
-                              accessibilityLabel={t(
-                                KEYS.FundTransfer
+                              accessibilityLabel={
+                                STRINGS.FundTransfer
                                   .FundTransfer_Label_Balance_Text
-                                  .accessibilityLabel,
-                              )}
+                                  .accessibilityLabel
+                              }
                             >
-                              {t(
-                                KEYS.FundTransfer
-                                  .FundTransfer_Label_Balance_Text.label,
-                              )}
+                              {
+                                STRINGS.FundTransfer
+                                  .FundTransfer_Label_Balance_Text.label
+                              }
                             </AppText>
                           </AppColumn>
                           <AppButton
@@ -467,14 +468,15 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.fundTransferCtaInstantButtonTextStyle,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.FundTransfer.FundTransfer_Cta_Instant_Button
-                                .accessibilityLabel,
-                            )}
-                            label={t(
-                              KEYS.FundTransfer.FundTransfer_Cta_Instant_Button
-                                .label,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.FundTransfer
+                                .FundTransfer_Cta_Instant_Button
+                                .accessibilityLabel
+                            }
+                            label={
+                              STRINGS.FundTransfer
+                                .FundTransfer_Cta_Instant_Button.label
+                            }
                           />
                         </AppRow>
                         <AppColumn
@@ -488,22 +490,22 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.fundTransferLabelCurrent1245080TextStyle,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.FundTransfer
+                            accessibilityLabel={
+                              STRINGS.FundTransfer
                                 .FundTransfer_Label_Current1245080_Text
-                                .accessibilityLabel,
-                            )}
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.FundTransfer
-                                .FundTransfer_Label_Current1245080_Text.label,
-                            )}
+                            {
+                              STRINGS.FundTransfer
+                                .FundTransfer_Label_Current1245080_Text.label
+                            }
                           </AppText>
                         </AppColumn>
                       </AppColumn>
                       <AppImage
                         widgetId={'FundTransfer_Image_Background_Image'}
-                        source={imageSources.image__dlaqi}
+                        source={imageSources.image__8039q}
                         resizeMode={'contain'}
                         style={styles.fundTransferImageBackgroundImageStyle}
                       />
@@ -525,15 +527,15 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.fundTransferLabelUserNameText3Style,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.FundTransfer.FundTransfer_Label_UserName_Text_3
-                        .accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.FundTransfer.FundTransfer_Label_UserName_Text_3
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.FundTransfer.FundTransfer_Label_UserName_Text_3
-                        .label,
-                    )}
+                    {
+                      STRINGS.FundTransfer.FundTransfer_Label_UserName_Text_3
+                        .label
+                    }
                   </AppText>
                   <AppColumn
                     widgetId={'FundTransfer_Container_Column_11'}
@@ -546,11 +548,11 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                       style={
                         styles.fundTransferInputPartnerReferenceOptionalInputStyle
                       }
-                      placeholder={t(
-                        KEYS.FundTransfer
+                      placeholder={
+                        STRINGS.FundTransfer
                           .FundTransfer_Input_PartnerReferenceOptional_Input
-                          .placeholder,
-                      )}
+                          .placeholder
+                      }
                     />
                     <AppColumn
                       widgetId={
@@ -608,15 +610,16 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.fundTransferLabelUserNameText4Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.FundTransfer.FundTransfer_Label_UserName_Text_4
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_UserName_Text_4
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.FundTransfer.FundTransfer_Label_UserName_Text_4
-                              .label,
-                          )}
+                          {
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_UserName_Text_4.label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppRow
@@ -630,12 +633,12 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.fundTransferLabelTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.FundTransfer.FundTransfer_Label_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.FundTransfer.FundTransfer_Label_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(KEYS.FundTransfer.FundTransfer_Label_Text.label)}
+                          {STRINGS.FundTransfer.FundTransfer_Label_Text.label}
                         </AppText>
                         <AppText
                           widgetId={'FundTransfer_Label_Apy_Text'}
@@ -644,14 +647,15 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.fundTransferLabelApyTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.FundTransfer.FundTransfer_Label_Apy_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.FundTransfer.FundTransfer_Label_Apy_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.FundTransfer.FundTransfer_Label_Apy_Text.label,
-                          )}
+                          {
+                            STRINGS.FundTransfer.FundTransfer_Label_Apy_Text
+                              .label
+                          }
                         </AppText>
                       </AppRow>
                     </AppColumn>
@@ -667,7 +671,7 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                       >
                         <AppImage
                           widgetId={'FundTransfer_Image_Icon_Image_3'}
-                          source={imageSources.image__retv3}
+                          source={imageSources.image__y9eqg}
                           resizeMode={'stretch'}
                           style={styles.fundTransferImageIconImage3Style}
                         />
@@ -700,15 +704,16 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.fundTransferLabelUserNameText5Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.FundTransfer.FundTransfer_Label_UserName_Text_5
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_UserName_Text_5
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.FundTransfer.FundTransfer_Label_UserName_Text_5
-                              .label,
-                          )}
+                          {
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_UserName_Text_5.label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -722,15 +727,16 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.fundTransferLabelTarget25KTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.FundTransfer.FundTransfer_Label_Target25K_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_Target25K_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.FundTransfer.FundTransfer_Label_Target25K_Text
-                              .label,
-                          )}
+                          {
+                            STRINGS.FundTransfer
+                              .FundTransfer_Label_Target25K_Text.label
+                          }
                         </AppText>
                       </AppColumn>
                     </AppRow>
@@ -759,14 +765,14 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                   iconStyles={
                     styles.fundTransferCtaFundTransferButtonIconStyles
                   }
-                  label={t(
-                    KEYS.FundTransfer.FundTransfer_Cta_FundTransfer_Button
-                      .label,
-                  )}
-                  accessibilityLabel={t(
-                    KEYS.FundTransfer.FundTransfer_Cta_FundTransfer_Button
-                      .accessibilityLabel,
-                  )}
+                  label={
+                    STRINGS.FundTransfer.FundTransfer_Cta_FundTransfer_Button
+                      .label
+                  }
+                  accessibilityLabel={
+                    STRINGS.FundTransfer.FundTransfer_Cta_FundTransfer_Button
+                      .accessibilityLabel
+                  }
                 />
                 <AppText
                   widgetId={'FundTransfer_Label_ByContinuingYouAgreeToCo_Text'}
@@ -775,16 +781,16 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     styles.fundTransferLabelByContinuingYouAgreeToCoTextStyle,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.FundTransfer
+                  accessibilityLabel={
+                    STRINGS.FundTransfer
                       .FundTransfer_Label_ByContinuingYouAgreeToCo_Text
-                      .accessibilityLabel,
-                  )}
+                      .accessibilityLabel
+                  }
                 >
-                  {t(
-                    KEYS.FundTransfer
-                      .FundTransfer_Label_ByContinuingYouAgreeToCo_Text.label,
-                  )}
+                  {
+                    STRINGS.FundTransfer
+                      .FundTransfer_Label_ByContinuingYouAgreeToCo_Text.label
+                  }
                 </AppText>
               </AppColumn>
             </>

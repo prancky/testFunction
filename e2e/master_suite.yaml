@@ -4,7 +4,7 @@ name: Master Test Suite
 # Each screen has a single consolidated flow file containing all its test cases
 # Suite: Login
 # Consolidated flow file: login.yaml
-# Contains 23 test case(s):
+# Contains 25 test case(s):
 
 # Suite: SignUp
 # Consolidated flow file: signUp.yaml

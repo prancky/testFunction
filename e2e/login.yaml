@@ -2,7 +2,7 @@ appId: "${APP_ID}"
 name: "loginTestFlow"
 # Suite: Login
 # Consolidated test flow for Login screen
-# Contains 23 test case(s):
+# Contains 25 test case(s):
 ---
 - launchApp: {}
 # 1. Verify widget ASAppBar:Login_AppBar_HeaderTopAppBar_AppBar is displayed on the screen: Verifies that the widget:Login_AppBar_HeaderTopAppBar_AppBar renders properly and is visible to the user.
@@ -209,13 +209,29 @@ name: "loginTestFlow"
     env:
       WIDGET_ID: "button-Login_Cta_LogIn_Button"
 - waitForAnimationToEnd: {}
-# 19. Verify widget ASText:Login_Label_NewToWiseLedger_Text is displayed on the screen: Verifies that the widget:Login_Label_NewToWiseLedger_Text renders properly and is visible to the user.
+# 19. Verify widget ASButton:ASButton-931759 is displayed on the screen: Verifies that the widget:ASButton-931759 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ASButton-931759"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASButton:ASButton-931759 functionalities: Verifies that tapping button widget:ASButton-931759 works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ASButton-931759"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-ASButton-931759"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:Login_Label_NewToWiseLedger_Text is displayed on the screen: Verifies that the widget:Login_Label_NewToWiseLedger_Text renders properly and is visible to the user.
 - runFlow:
     file: "common/assertVisibleAndWait.yaml"
     env:
       WIDGET_ID: "Login_Label_NewToWiseLedger_Text"
 - waitForAnimationToEnd: {}
-# 20. Verify widget ASText:Login_Label_NewToWiseLedger_Text is displayed on the screen: Verifies that the label of widget:Login_Label_NewToWiseLedger_Text appears correctly and is readable.
+# 22. Verify widget ASText:Login_Label_NewToWiseLedger_Text is displayed on the screen: Verifies that the label of widget:Login_Label_NewToWiseLedger_Text appears correctly and is readable.
 - runFlow:
     file: "common/scrollUntilVisibleAndWait.yaml"
     env:
@@ -225,13 +241,13 @@ name: "loginTestFlow"
     env:
       WIDGET_ID: "Login_Label_NewToWiseLedger_Text"
 - waitForAnimationToEnd: {}
-# 21. Verify widget ASText:Login_Label_OpenAnAccount_Text is displayed on the screen: Verifies that the widget:Login_Label_OpenAnAccount_Text renders properly and is visible to the user.
+# 23. Verify widget ASText:Login_Label_OpenAnAccount_Text is displayed on the screen: Verifies that the widget:Login_Label_OpenAnAccount_Text renders properly and is visible to the user.
 - runFlow:
     file: "common/assertVisibleAndWait.yaml"
     env:
       WIDGET_ID: "Login_Label_OpenAnAccount_Text"
 - waitForAnimationToEnd: {}
-# 22. Verify widget ASText:Login_Label_OpenAnAccount_Text is displayed on the screen: Verifies that the label of widget:Login_Label_OpenAnAccount_Text appears correctly and is readable.
+# 24. Verify widget ASText:Login_Label_OpenAnAccount_Text is displayed on the screen: Verifies that the label of widget:Login_Label_OpenAnAccount_Text appears correctly and is readable.
 - runFlow:
     file: "common/scrollUntilVisibleAndWait.yaml"
     env:
@@ -241,7 +257,7 @@ name: "loginTestFlow"
     env:
       WIDGET_ID: "Login_Label_OpenAnAccount_Text"
 - waitForAnimationToEnd: {}
-# 23. Verify widget ASImage:Login_Background_FinancialLifestyleImage_Image is displayed on the screen: Verifies that the widget:Login_Background_FinancialLifestyleImage_Image renders properly and is visible to the user.
+# 25. Verify widget ASImage:Login_Background_FinancialLifestyleImage_Image is displayed on the screen: Verifies that the widget:Login_Background_FinancialLifestyleImage_Image renders properly and is visible to the user.
 - runFlow:
     file: "common/assertVisibleAndWait.yaml"
     env:

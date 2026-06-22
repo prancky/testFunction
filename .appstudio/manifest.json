@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "appId": "7f2aa8bb-b945-4403-85a2-9b39711155cc",
+  "framework": "ReactNative",
+  "version": "0.79.1",
+  "buildId": "MoneyAppWithChanges4",
+  "generatedAt": "2026-06-22T08:21:00.293Z",
+  "files": {
+    "android/app/build.gradle": {
+      "hash": "ac95a65d2779e536662f4198ead29edfe1ba6c4e50248048be2f07f0d3366056",
+      "bytes": 7688
+    },
+    "android/app/build.gradle.bak": {
+      "hash": "fb0926b2ed5522efaf8313b602ab03f145b7ed0842e94754a769b90061f679f6",
+      "bytes": 6235
+    },
+    "android/app/src/main/res/values/styles.xml": {
+      "hash": "741624f1a125e54b35536047f642ac190869b51224c8fb63082ae356d098a32f",
+      "bytes": 409
+    },
+    "android/gradle.properties": {
+      "hash": "716a0bbfcc5f135b485f4ff4afb388ec11e5ec152c14d600e550fbde9ead26d0",
+      "bytes": 2250
+    },
+    "app.json": {
+      "hash": "316c08c422d36bdd54c8277a3aa019af403084a1c6d7827a1928b700512ebbcf",
+      "bytes": 105
+    },
+    "e2e/login.yaml": {
+      "hash": "e04dcb128f842fda992125f08677bb1bc4b6cc26eceb941be0a52d182a32958c",
+      "bytes": 11586
+    },
+    "e2e/master_suite.yaml": {
+      "hash": "fc545e45b150b63bd7c0af2eb9e7cfa136771d0436ac2e706dc7daedbd45a56f",
+      "bytes": 1353
+    },
+    "ios/Podfile": {
+      "hash": "f48a9f2b1576fa3c8b83e05c99adc11c5588e341c3eca1ef1a3f572b14c6b4b6",
+      "bytes": 2973
+    },
+    "package.json": {
+      "hash": "da677cb7049dd0c202d16e2fd5408ad212fe1c18061070d8b4169cec83ae841a",
+      "bytes": 6286
+    },
+    "src/assets/imageSources.ts": {
+      "hash": "f0b13ce095115a0c74dee859b69f0e818bc9f4c5d68453564aae4d8a1cb5e545",
+      "bytes": 2520
+    },
+    "src/components/shared/AppButton.tsx": {
+      "hash": "6fc5d621b4e2b2ffe3fd46193e4655ef21f226047a77b08151b1e4f38f31a369",
+      "bytes": 1176
+    },
+    "src/components/shared/sharedStyles.ts": {
+      "hash": "9e32a92ba740a190ed6dfc263800c627930da868022087f972f46c15fbf32559",
+      "bytes": 12706
+    },
+    "src/providers/AppProviders.tsx": {
+      "hash": "fccbb99407dab52c2f1acbc949e10a5c7652ad7c54e7fcb983c08c3d9e505fa1",
+      "bytes": 881
+    },
+    "src/screens/CreateQuote/CreateQuote.tsx": {
+      "hash": "53ba859814c1a1d54be35a673f99f30c356a57dd216de9b9e27a8bb2c33cf364",
+      "bytes": 53401
+    },
+    "src/screens/CreateRecepient/CreateRecepient.tsx": {
+      "hash": "0bafed0a2338279229c9293317d69881fce477e08570accda8a1c7b6b5e07166",
+      "bytes": 51355
+    },
+    "src/screens/CreateTransfer/CreateTransfer.tsx": {
+      "hash": "3d1015bbfefc219dc8bf0ac7401d753be0f47584fdc70aae97530de996b06e1d",
+      "bytes": 35455
+    },
+    "src/screens/FinishScreen/FinishScreen.tsx": {
+      "hash": "117ec2eb99c0a28f78d34c9f4571c69a027efbd2d2c042e26e2febcec9d095a2",
+      "bytes": 29351
+    },
+    "src/screens/FundTransfer/FundTransfer.tsx": {
+      "hash": "cc683f039af381724e46cf4ca55d483a1155547be5e6348a284e7c6c732d1738",
+      "bytes": 50027
+    },
+    "src/screens/Login/Login.tsx": {
+      "hash": "0b1f533bb5dd5c93a38d9a51460c8f00000cdf6d2c643fbb01fe614b8f002d93",
+      "bytes": 18685
+    },
+    "src/screens/SignUp/SignUp.tsx": {
+      "hash": "b610c075a338f3f516fefc3f63c129e46d52c4e1283a80ea3a27a79392a1d649",
+      "bytes": 28536
+    },
+    "src/screens/UpdateQuote/UpdateQuote.tsx": {
+      "hash": "e70c6dd75590ef295aaf8bb5019784a6f8b35369bc7dd29925e98b917f4edafa",
+      "bytes": 49418
+    },
+    "src/screens/WelcomeScreen/WelcomeScreen.tsx": {
+      "hash": "847e357cfd267f39fffc8208f5fcab4895021fae0043b5d7213dc00ce748ad81",
+      "bytes": 32151
+    },
+    "test-metadata.json": {
+      "hash": "81c416492d5b7f9366b725c937e35cf682e462242993c9fdd8467af3323cf597",
+      "bytes": 447591
+    },
+    "src/assets/images/image__8039q.png": {
+      "hash": "f853f619fb44180d581777de487092a49130cb93ecf6b7b3cc52c555e8d09c3d",
+      "bytes": 1202
+    },
+    "src/assets/images/image__8j2b.png": {
+      "hash": "c4dae3d2b2df64b37cc15462898016b7f4e75bbb0c9f9ab918b4d7af7e360e60",
+      "bytes": 15610
+    },
+    "src/assets/images/image__b1gu.png": {
+      "hash": "971ade13a04ae24bedfb793aec2ae96698ba3df47885ec2285dfeea8f8c7c6c7",
+      "bytes": 859531
+    },
+    "src/assets/images/image__etu5k.png": {
+      "hash": "22de833fd90227bf4759bdd6622480c87e9dbeae831f4d3e254afcf584ca0998",
+      "bytes": 666541
+    },
+    "src/assets/images/image__jicz.png": {
+      "hash": "e51a6f29c6825eebb6f8b7234cd8c90b4f3d39def1d800015fbb6bf20fa5b12b",
+      "bytes": 15716
+    },
+    "src/assets/images/image__v8p0.png": {
+      "hash": "704ba3dfe99ffcae649231a045a220a10e47b96e03d8dd5af3f5bded3afae580",
+      "bytes": 613036
+    },
+    "src/assets/svgs/SvgImage_41w2o.tsx": {
+      "hash": "2ca89fcabf79374e4fbc4e77c0999892d95877612afcd30f20025d222f38938e",
+      "bytes": 837
+    },
+    "src/assets/svgs/SvgImage_4dw7h.tsx": {
+      "hash": "00ad9f197b617afdc8e1d1008dc4da578ba4f7634b3da2d78675f99952c83657",
+      "bytes": 1225
+    },
+    "src/assets/svgs/SvgImage_8lwef.tsx": {
+      "hash": "1f621b55c8d46bf2acf4ced11685fb05654ea2ba21a18fa17e8fd2796f2389a4",
+      "bytes": 1547
+    },
+    "src/assets/svgs/SvgImage_eq5gg.tsx": {
+      "hash": "2e5c23d71a19861545dc4bd0e2735fa1ffdd1a99de12f78383e56552ba255d39",
+      "bytes": 899
+    },
+    "src/assets/svgs/SvgImage_f433l.tsx": {
+      "hash": "d909fdf59875528877ecbee9b60c569fb91448d2dc891b0a77f325a18766a6c7",
+      "bytes": 902
+    },
+    "src/assets/svgs/SvgImage_mctt.tsx": {
+      "hash": "e80808ffb15df97a18e658b80f3f6dd30181388b951304f9f063f4bd5f6e0bf9",
+      "bytes": 1187
+    },
+    "src/assets/svgs/SvgImage_mmb0.tsx": {
+      "hash": "dc7101241741c756c3681895370f35d38476a2d578f0ecc0480e455e000ada86",
+      "bytes": 2494
+    },
+    "src/assets/svgs/SvgImage_ob8h.tsx": {
+      "hash": "2a6039d3bf6fde324326214f22de50478076140f87532c01ffe3a83ac483f684",
+      "bytes": 1719
+    },
+    "src/assets/svgs/SvgImage_v34vp.tsx": {
+      "hash": "839e0aa8748c75fbdeceea017c3a50b1d109f64294e78d75d6f074ccf6aa4bb8",
+      "bytes": 1022
+    },
+    "src/assets/svgs/SvgImage_y9eqg.tsx": {
+      "hash": "8fbd076b7fd56d4c9642be8035b83bd5262b87a3e3f598b2d386ada88e463934",
+      "bytes": 854
+    },
+    "src/assets/svgs/SvgImage_yuh6.tsx": {
+      "hash": "334ef48bba07d55ab87d4b94997dda06bba7e445ffc391536c5efa59f400ddc8",
+      "bytes": 834
+    },
+    "src/navigation/routes/NewRoutes01.ts": {
+      "hash": "e61e29409f0595f7bebefdb6380f92f7d37d5062a76cc4ba17a17145d7ee64ac",
+      "bytes": 82
+    },
+    "src/screens/NewScreen01/NewScreen01.tsx": {
+      "hash": "244d71b034e7496e1c74b6217a1a073c095881f6c417e85b745cb786ac1eb6dc",
+      "bytes": 1148
+    },
+    "src/strings/index.ts": {
+      "hash": "6c8e261225efd0e040c25054926a5f8ee95a9c2a5bf4af49317394b0bca88d4f",
+      "bytes": 23503
+    }
+  },
+  "mergeFiles": [
+    "package.json",
+    "app.json"
+  ]
+}

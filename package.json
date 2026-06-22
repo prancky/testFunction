@@ -87,8 +87,7 @@
     "@react-native-community/blur": "^4.4.1",
     "i18next": "23.16.5",
     "react-i18next": "15.1.4",
-    "react-native-localize": "3.4.1",
-    "@sumsub/react-native-mobilesdk-module": "*"
+    "react-native-localize": "3.4.1"
   },
   "devDependencies": {
     "babel-plugin-transform-remove-console": "6.9.4",

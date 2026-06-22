@@ -1,4 +1,4 @@
-import React, { useCallback, useRef } from 'react';
+import React, { useRef } from 'react';
 import {
   AppAppBar,
   AppButton,
@@ -23,10 +23,7 @@ import { FormikProps } from 'formik';
 import * as Yup from 'yup';
 import { useClearHeaderActions } from '@/utils/screen.effects';
 
-import { useTranslation } from 'react-i18next';
-import { KEYS } from '@/i18n/keys';
-import { executeCustomFunction } from '@/extensions';
-import { useGlobalContext } from '@/context/GlobalContext';
+import { STRINGS } from '@/strings';
 
 type FormValues = {
   Login_Input_EgalexExampleCom_Input?: string;
@@ -42,26 +39,11 @@ type ScreenProps = {
 };
 
 const Login: React.FC<ScreenProps> = ({ route }) => {
-  const { t } = useTranslation();
-
   const formikRef = useRef<FormikProps<FormValues>>(null);
 
   const navigation = useNavigation();
 
   useClearHeaderActions(navigation);
-  const { globalData } = useGlobalContext();
-
-  const handlePress = useCallback(async () => {
-    try {
-      await executeCustomFunction(
-        'DashboardFunctions.handleManageBooks',
-        navigation,
-        globalData
-      );
-    } catch (error) {
-      console.error('Custom function failed:', error);
-    }
-  }, [navigation, globalData]);
 
   return (
     <AppContainer
@@ -94,7 +76,7 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                 centerContainerStyle={
                   sharedStyles.createTransferAppBarHeaderTopAppBarFromSharedComponAppBarCenterContainer
                 }
-                title={t(KEYS.Login.Login_AppBar_HeaderTopAppBar_AppBar.title)}
+                title={STRINGS.Login.Login_AppBar_HeaderTopAppBar_AppBar.title}
               />
               <AppColumn
                 widgetId={'Login_Container_MainContentCanvas_Column'}
@@ -120,12 +102,12 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.loginLabelWelcomeBackTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.Login.Login_Label_WelcomeBack_Text
-                            .accessibilityLabel,
-                        )}
+                        accessibilityLabel={
+                          STRINGS.Login.Login_Label_WelcomeBack_Text
+                            .accessibilityLabel
+                        }
                       >
-                        {t(KEYS.Login.Login_Label_WelcomeBack_Text.label)}
+                        {STRINGS.Login.Login_Label_WelcomeBack_Text.label}
                       </AppText>
                     </AppColumn>
                     <AppColumn
@@ -139,15 +121,16 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.loginLabelLogInToManageYourGlobalATextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.Login.Login_Label_LogInToManageYourGlobalA_Text
-                            .accessibilityLabel,
-                        )}
+                        accessibilityLabel={
+                          STRINGS.Login
+                            .Login_Label_LogInToManageYourGlobalA_Text
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.Login.Login_Label_LogInToManageYourGlobalA_Text
-                            .label,
-                        )}
+                        {
+                          STRINGS.Login
+                            .Login_Label_LogInToManageYourGlobalA_Text.label
+                        }
                       </AppText>
                     </AppColumn>
                   </AppColumn>
@@ -177,22 +160,22 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.loginLabelEmailOrUsernameTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.Login.Login_Label_EmailOrUsername_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.Login.Login_Label_EmailOrUsername_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(KEYS.Login.Login_Label_EmailOrUsername_Text.label)}
+                          {STRINGS.Login.Login_Label_EmailOrUsername_Text.label}
                         </AppText>
                       </AppColumn>
                     </AppColumn>
                     <AppTextField
                       widgetId={'Login_Input_EgalexExampleCom_Input'}
                       style={styles.loginInputEgalexExampleComInputStyle}
-                      placeholder={t(
-                        KEYS.Login.Login_Input_EgalexExampleCom_Input
-                          .placeholder,
-                      )}
+                      placeholder={
+                        STRINGS.Login.Login_Input_EgalexExampleCom_Input
+                          .placeholder
+                      }
                     />
                   </AppColumn>
                   <AppColumn
@@ -215,12 +198,12 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.loginLabelUserNameTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.Login.Login_Label_UserName_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.Login.Login_Label_UserName_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(KEYS.Login.Login_Label_UserName_Text.label)}
+                          {STRINGS.Login.Login_Label_UserName_Text.label}
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -234,12 +217,12 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.loginLabelForgotPasswordTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.Login.Login_Label_ForgotPassword_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.Login.Login_Label_ForgotPassword_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(KEYS.Login.Login_Label_ForgotPassword_Text.label)}
+                          {STRINGS.Login.Login_Label_ForgotPassword_Text.label}
                         </AppText>
                       </AppColumn>
                     </AppRow>
@@ -250,7 +233,7 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                       <AppPasswordTextField
                         widgetId={'Login_Input'}
                         style={styles.loginInputStyle}
-                        placeholder={t(KEYS.Login.Login_Input.placeholder)}
+                        placeholder={STRINGS.Login.Login_Input.placeholder}
                       />
                     </AppColumn>
                   </AppColumn>
@@ -261,21 +244,10 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       sharedStyles.createRecepientCtaContinueButtonText,
                     ]}
-                    label={t(KEYS.Login.Login_Cta_LogIn_Button.label)}
-                    accessibilityLabel={t(
-                      KEYS.Login.Login_Cta_LogIn_Button.accessibilityLabel,
-                    )}
-                  />
-                  <AppButton
-                    widgetId={'Login_Cta_ManageBooks_Button'}
-                    style={styles.loginCtaLogInButtonStyle}
-                    textStyle={[
-                      text.label.medium,
-                      sharedStyles.createRecepientCtaContinueButtonText,
-                    ]}
-                    label={'Manage Books'}
-                    accessibilityLabel={'Manage Books'}
-                    onPress={handlePress}
+                    label={STRINGS.Login.Login_Cta_LogIn_Button.label}
+                    accessibilityLabel={
+                      STRINGS.Login.Login_Cta_LogIn_Button.accessibilityLabel
+                    }
                   />
                 </AppColumn>
                 <AppColumn
@@ -284,9 +256,9 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                 >
                   <AppButton
                     widgetId={'ASButton-931759'}
-                    style={styles.loginCtaLogInButtonStyle}
-                    textStyle={[text.label.medium, styles.createRecepientCtaContinueButtonText]}
-                    label={"SUMSUB"}
+                    style={styles.aSButtonStyle}
+                    textStyle={[text.label.medium, styles.aSButtonTextStyle]}
+                    label={STRINGS.Login.ASButton_931759.label}
                   />
                   <AppRow
                     widgetId={'Login_Container_SecondaryAction_Row'}
@@ -300,12 +272,12 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.loginLabelNewToWiseLedgerTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.Login.Login_Label_NewToWiseLedger_Text
-                          .accessibilityLabel,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.Login.Login_Label_NewToWiseLedger_Text
+                          .accessibilityLabel
+                      }
                     >
-                      {t(KEYS.Login.Login_Label_NewToWiseLedger_Text.label)}
+                      {STRINGS.Login.Login_Label_NewToWiseLedger_Text.label}
                     </AppText>
                     <AppText
                       widgetId={'Login_Label_OpenAnAccount_Text'}
@@ -314,12 +286,12 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.loginLabelOpenAnAccountTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.Login.Login_Label_OpenAnAccount_Text
-                          .accessibilityLabel,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.Login.Login_Label_OpenAnAccount_Text
+                          .accessibilityLabel
+                      }
                     >
-                      {t(KEYS.Login.Login_Label_OpenAnAccount_Text.label)}
+                      {STRINGS.Login.Login_Label_OpenAnAccount_Text.label}
                     </AppText>
                   </AppRow>
                 </AppColumn>
@@ -330,7 +302,7 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                   <AppImage
                     widgetId={'Login_Background_FinancialLifestyleImage_Image'}
                     resizeMode={'cover'}
-                    source={imageSources.image__irju}
+                    source={imageSources.image__xe8l}
                     style={
                       styles.loginBackgroundFinancialLifestyleImageImageStyle
                     }
@@ -495,6 +467,20 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
     alignItems: 'stretch',
   },
+  aSButtonStyle: {
+    height: component.button.height,
+    backgroundColor: color.brand.primary,
+    justifyContent: 'center',
+    paddingBottom: space['2'],
+    paddingLeft: space['3'],
+    borderRadius: space['3'],
+    alignItems: 'center',
+    paddingTop: space['2'],
+    flexDirection: 'row',
+    paddingRight: space['3'],
+    ...Platform.select({ web: { display: 'flex' }, default: {} }),
+  },
+  aSButtonTextStyle: { color: color.brand.onPrimary },
   loginContainerSecondaryActionRowStyle: {
     justifyContent: 'center',
     alignSelf: 'stretch',

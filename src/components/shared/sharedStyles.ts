@@ -406,7 +406,7 @@ export const sharedStyles = StyleSheet.create({
     fontFamily: 'Inter-400-normal',
     color: color.brand.onPrimary,
   },
-  createQuoteCtaActionButton2IconStyles: {
+  buttonIconStyles: {
     color: color.brand.onPrimary,
     iconSize: component.icon.size.md,
   },
@@ -473,8 +473,8 @@ export const sharedStyles = StyleSheet.create({
     iconSize: 20,
     marginRight: 0,
   },
-  createQuoteCtaActionButton2TrailingIconStyles: { marginLeft: space['1'] },
-  createQuoteCtaActionButton2LeadingIconStyles: { marginRight: space['1'] },
+  buttonTrailingIconStyles: { marginLeft: space['1'] },
+  buttonLeadingIconStyles: { marginRight: space['1'] },
   createTransferAppBarHeaderTopAppBarFromSharedComponAppBarCenterContainer: {
     padding: 16,
   },

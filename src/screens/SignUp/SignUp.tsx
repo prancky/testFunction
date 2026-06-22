@@ -33,8 +33,7 @@ import { FormikProps } from 'formik';
 import * as Yup from 'yup';
 import { useClearHeaderActions } from '@/utils/screen.effects';
 
-import { useTranslation } from 'react-i18next';
-import { KEYS } from '@/i18n/keys';
+import { STRINGS } from '@/strings';
 
 type FormValues = {
   SignUp_Input_EnterYourFullName_Input?: string;
@@ -53,8 +52,6 @@ type ScreenProps = {
 };
 
 const SignUp: React.FC<ScreenProps> = ({ route }) => {
-  const { t } = useTranslation();
-
   const formikRef = useRef<FormikProps<FormValues>>(null);
 
   const navigation = useNavigation();
@@ -95,7 +92,7 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                   sharedStyles.createTransferAppBarHeaderTopAppBarFromSharedComponAppBarCenterContainer
                 }
                 style={sharedStyles.loginAppBarHeaderTopAppBarAppBar}
-                title={t(KEYS.SignUp.SignUp_AppBar_Header_AppBar.title)}
+                title={STRINGS.SignUp.SignUp_AppBar_Header_AppBar.title}
               />
               <AppColumn
                 widgetId={'SignUp_Container_Main_Column'}
@@ -118,12 +115,12 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.signUpLabelCreateYourAccountTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.SignUp.SignUp_Label_CreateYourAccount_Text
-                          .accessibilityLabel,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.SignUp.SignUp_Label_CreateYourAccount_Text
+                          .accessibilityLabel
+                      }
                     >
-                      {t(KEYS.SignUp.SignUp_Label_CreateYourAccount_Text.label)}
+                      {STRINGS.SignUp.SignUp_Label_CreateYourAccount_Text.label}
                     </AppText>
                   </AppColumn>
                   <AppColumn
@@ -137,15 +134,16 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         sharedStyles.signUpLabelSignUpToSendMoneyWorldwidText,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.SignUp.SignUp_Label_SignUpToSendMoneyWorldwid_Text
-                          .accessibilityLabel,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.SignUp
+                          .SignUp_Label_SignUpToSendMoneyWorldwid_Text
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.SignUp.SignUp_Label_SignUpToSendMoneyWorldwid_Text
-                          .label,
-                      )}
+                      {
+                        STRINGS.SignUp
+                          .SignUp_Label_SignUpToSendMoneyWorldwid_Text.label
+                      }
                     </AppText>
                   </AppColumn>
                 </AppColumn>
@@ -174,21 +172,21 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.signUpLabelUserNameTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.SignUp.SignUp_Label_UserName_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.SignUp.SignUp_Label_UserName_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(KEYS.SignUp.SignUp_Label_UserName_Text.label)}
+                          {STRINGS.SignUp.SignUp_Label_UserName_Text.label}
                         </AppText>
                       </AppColumn>
                       <AppTextField
                         widgetId={'SignUp_Input_EnterYourFullName_Input'}
                         style={styles.signUpInputEnterYourFullNameInputStyle}
-                        placeholder={t(
-                          KEYS.SignUp.SignUp_Input_EnterYourFullName_Input
-                            .placeholder,
-                        )}
+                        placeholder={
+                          STRINGS.SignUp.SignUp_Input_EnterYourFullName_Input
+                            .placeholder
+                        }
                       />
                     </AppColumn>
                     <AppColumn
@@ -207,20 +205,20 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.signUpLabelUserNameText2Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.SignUp.SignUp_Label_UserName_Text_2
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.SignUp.SignUp_Label_UserName_Text_2
+                              .accessibilityLabel
+                          }
                         >
-                          {t(KEYS.SignUp.SignUp_Label_UserName_Text_2.label)}
+                          {STRINGS.SignUp.SignUp_Label_UserName_Text_2.label}
                         </AppText>
                       </AppColumn>
                       <AppTextField
                         widgetId={'SignUp_Input_Email_Input'}
                         style={styles.signUpInputEmailInputStyle}
-                        placeholder={t(
-                          KEYS.SignUp.SignUp_Input_Email_Input.placeholder,
-                        )}
+                        placeholder={
+                          STRINGS.SignUp.SignUp_Input_Email_Input.placeholder
+                        }
                       />
                     </AppColumn>
                     <AppColumn
@@ -239,12 +237,12 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.signUpLabelUserNameText3Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.SignUp.SignUp_Label_UserName_Text_3
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.SignUp.SignUp_Label_UserName_Text_3
+                              .accessibilityLabel
+                          }
                         >
-                          {t(KEYS.SignUp.SignUp_Label_UserName_Text_3.label)}
+                          {STRINGS.SignUp.SignUp_Label_UserName_Text_3.label}
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -254,10 +252,10 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                         <AppPasswordTextField
                           widgetId={'SignUp_Input_CreateApassword_Input'}
                           style={styles.signUpInputCreateApasswordInputStyle}
-                          placeholder={t(
-                            KEYS.SignUp.SignUp_Input_CreateApassword_Input
-                              .placeholder,
-                          )}
+                          placeholder={
+                            STRINGS.SignUp.SignUp_Input_CreateApassword_Input
+                              .placeholder
+                          }
                         />
                       </AppColumn>
                     </AppColumn>
@@ -277,21 +275,21 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.signUpLabelUserNameText4Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.SignUp.SignUp_Label_UserName_Text_4
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.SignUp.SignUp_Label_UserName_Text_4
+                              .accessibilityLabel
+                          }
                         >
-                          {t(KEYS.SignUp.SignUp_Label_UserName_Text_4.label)}
+                          {STRINGS.SignUp.SignUp_Label_UserName_Text_4.label}
                         </AppText>
                       </AppColumn>
                       <AppPasswordTextField
                         widgetId={'SignUp_Input_RepeatYourPassword_Input'}
                         style={styles.signUpInputRepeatYourPasswordInputStyle}
-                        placeholder={t(
-                          KEYS.SignUp.SignUp_Input_RepeatYourPassword_Input
-                            .placeholder,
-                        )}
+                        placeholder={
+                          STRINGS.SignUp.SignUp_Input_RepeatYourPassword_Input
+                            .placeholder
+                        }
                       />
                     </AppColumn>
                   </AppColumn>
@@ -302,10 +300,10 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       sharedStyles.createQuoteCtaContinueButtonText,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.SignUp.SignUp_Cta_SignUp_Button.accessibilityLabel,
-                    )}
-                    label={t(KEYS.SignUp.SignUp_Cta_SignUp_Button.label)}
+                    accessibilityLabel={
+                      STRINGS.SignUp.SignUp_Cta_SignUp_Button.accessibilityLabel
+                    }
+                    label={STRINGS.SignUp.SignUp_Cta_SignUp_Button.label}
                   />
                   <ASCheckBox
                     fillColor={'#ffffff'}
@@ -328,10 +326,11 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                     innerIconStyles={
                       styles.signUpContainerCheckBoxInnerIconStyles
                     }
-                    label={t(KEYS.SignUp.SignUp_Container_CheckBox.label)}
-                    accessibilityLabel={t(
-                      KEYS.SignUp.SignUp_Container_CheckBox.accessibilityLabel,
-                    )}
+                    label={STRINGS.SignUp.SignUp_Container_CheckBox.label}
+                    accessibilityLabel={
+                      STRINGS.SignUp.SignUp_Container_CheckBox
+                        .accessibilityLabel
+                    }
                     testId={'SignUp_Container_CheckBox'}
                   />
                 </AppColumn>
@@ -351,15 +350,15 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.signUpLabelAlreadyUsingWiseLedgerTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.SignUp.SignUp_Label_AlreadyUsingWiseLedger_Text
-                          .accessibilityLabel,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.SignUp.SignUp_Label_AlreadyUsingWiseLedger_Text
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.SignUp.SignUp_Label_AlreadyUsingWiseLedger_Text
-                          .label,
-                      )}
+                      {
+                        STRINGS.SignUp.SignUp_Label_AlreadyUsingWiseLedger_Text
+                          .label
+                      }
                     </AppText>
                   </AppColumn>
                   <AppButton
@@ -369,10 +368,10 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.signUpCtaLogInButtonTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.SignUp.SignUp_Cta_LogIn_Button.accessibilityLabel,
-                    )}
-                    label={t(KEYS.SignUp.SignUp_Cta_LogIn_Button.label)}
+                    accessibilityLabel={
+                      STRINGS.SignUp.SignUp_Cta_LogIn_Button.accessibilityLabel
+                    }
+                    label={STRINGS.SignUp.SignUp_Cta_LogIn_Button.label}
                   />
                 </AppColumn>
                 <ASWrap
@@ -425,7 +424,7 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                     >
                       <AppImage
                         widgetId={'SignUp_Image_Icon_Image'}
-                        source={imageSources.image__54br}
+                        source={imageSources.image__coxxj}
                         resizeMode={'stretch'}
                         style={styles.signUpImageIconImageStyle}
                       />
@@ -443,16 +442,16 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.signUpLabelYourDataIsSecurelyProtecteTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.SignUp
+                        accessibilityLabel={
+                          STRINGS.SignUp
                             .SignUp_Label_YourDataIsSecurelyProtecte_Text
-                            .accessibilityLabel,
-                        )}
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.SignUp
-                            .SignUp_Label_YourDataIsSecurelyProtecte_Text.label,
-                        )}
+                        {
+                          STRINGS.SignUp
+                            .SignUp_Label_YourDataIsSecurelyProtecte_Text.label
+                        }
                       </AppText>
                     </AppColumn>
                   </AppRow>

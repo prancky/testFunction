@@ -19,8 +19,7 @@ import { sharedStyles } from '@/components/shared/sharedStyles';
 import Route from '@/navigation/routes';
 import { useClearHeaderActions } from '@/utils/screen.effects';
 
-import { useTranslation } from 'react-i18next';
-import { KEYS } from '@/i18n/keys';
+import { STRINGS } from '@/strings';
 
 type ScreenRouteParams = {};
 
@@ -31,8 +30,6 @@ type ScreenProps = {
 };
 
 const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
-  const { t } = useTranslation();
-
   const navigation = useNavigation();
 
   const onPressSignUpNowwelcomeScreenCtaSignUpButton = async () => {
@@ -61,9 +58,10 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
           styles.welcomeScreenAppBarHeaderTopAppBarAppBarCenterContainerStyle
         }
         style={sharedStyles.finishScreenAppBarHeaderTopNavigationAnchorAppBar}
-        title={t(
-          KEYS.WelcomeScreen.WelcomeScreen_AppBar_HeaderTopAppBar_AppBar.title,
-        )}
+        title={
+          STRINGS.WelcomeScreen.WelcomeScreen_AppBar_HeaderTopAppBar_AppBar
+            .title
+        }
       >
         <AppText
           widgetId={'WelcomeScreen_Title_UserName_Text'}
@@ -71,16 +69,16 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
             text.label.medium,
             styles.welcomeScreenTitleUserNameTextStyle,
           ]}
-          accessibilityLabel={t(
-            KEYS.WelcomeScreen.WelcomeScreen_Title_UserName_Text
-              .accessibilityLabel,
-          )}
+          accessibilityLabel={
+            STRINGS.WelcomeScreen.WelcomeScreen_Title_UserName_Text
+              .accessibilityLabel
+          }
         >
-          {t(KEYS.WelcomeScreen.WelcomeScreen_Title_UserName_Text.label)}
+          {STRINGS.WelcomeScreen.WelcomeScreen_Title_UserName_Text.label}
         </AppText>
         <AppImage
           widgetId={'WelcomeScreen_Image_UserProfile_Image'}
-          source={imageSources.image__yzxnm}
+          source={imageSources.image__gqy1}
           resizeMode={'contain'}
           style={styles.welcomeScreenImageUserProfileImageStyle}
         />
@@ -106,14 +104,15 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                 text.label.medium,
                 styles.welcomeScreenCtaFastSecureTransfersButtonTextStyle,
               ]}
-              accessibilityLabel={t(
-                KEYS.WelcomeScreen.WelcomeScreen_Cta_FastSecureTransfers_Button
-                  .accessibilityLabel,
-              )}
-              label={t(
-                KEYS.WelcomeScreen.WelcomeScreen_Cta_FastSecureTransfers_Button
-                  .label,
-              )}
+              accessibilityLabel={
+                STRINGS.WelcomeScreen
+                  .WelcomeScreen_Cta_FastSecureTransfers_Button
+                  .accessibilityLabel
+              }
+              label={
+                STRINGS.WelcomeScreen
+                  .WelcomeScreen_Cta_FastSecureTransfers_Button.label
+              }
             />
             <AppColumn
               widgetId={'WelcomeScreen_Container_Heading2_Column'}
@@ -126,16 +125,16 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                   text.label.medium,
                   styles.welcomeScreenLabelSendMoneyWorldwideEasilyTextStyle,
                 ]}
-                accessibilityLabel={t(
-                  KEYS.WelcomeScreen
+                accessibilityLabel={
+                  STRINGS.WelcomeScreen
                     .WelcomeScreen_Label_SendMoneyWorldwideEasily_Text
-                    .accessibilityLabel,
-                )}
+                    .accessibilityLabel
+                }
               >
-                {t(
-                  KEYS.WelcomeScreen
-                    .WelcomeScreen_Label_SendMoneyWorldwideEasily_Text.label,
-                )}
+                {
+                  STRINGS.WelcomeScreen
+                    .WelcomeScreen_Label_SendMoneyWorldwideEasily_Text.label
+                }
               </AppText>
             </AppColumn>
             <AppColumn
@@ -151,17 +150,16 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                   text.label.medium,
                   styles.welcomeScreenLabelTransferMoneyInternationallyTextStyle,
                 ]}
-                accessibilityLabel={t(
-                  KEYS.WelcomeScreen
+                accessibilityLabel={
+                  STRINGS.WelcomeScreen
                     .WelcomeScreen_Label_TransferMoneyInternationally_Text
-                    .accessibilityLabel,
-                )}
+                    .accessibilityLabel
+                }
               >
-                {t(
-                  KEYS.WelcomeScreen
-                    .WelcomeScreen_Label_TransferMoneyInternationally_Text
-                    .label,
-                )}
+                {
+                  STRINGS.WelcomeScreen
+                    .WelcomeScreen_Label_TransferMoneyInternationally_Text.label
+                }
               </AppText>
             </AppColumn>
           </AppColumn>
@@ -182,13 +180,13 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                 text.label.medium,
                 sharedStyles.finishScreenCtaDoneButtonText,
               ]}
-              accessibilityLabel={t(
-                KEYS.WelcomeScreen.WelcomeScreen_Cta_SignUp_Button
-                  .accessibilityLabel,
-              )}
-              label={t(
-                KEYS.WelcomeScreen.WelcomeScreen_Cta_SignUp_Button.label,
-              )}
+              accessibilityLabel={
+                STRINGS.WelcomeScreen.WelcomeScreen_Cta_SignUp_Button
+                  .accessibilityLabel
+              }
+              label={
+                STRINGS.WelcomeScreen.WelcomeScreen_Cta_SignUp_Button.label
+              }
             />
             <AppButton
               widgetId={'WelcomeScreen_Cta_Continue_Button'}
@@ -197,13 +195,13 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                 text.label.medium,
                 styles.welcomeScreenCtaContinueButtonTextStyle,
               ]}
-              label={t(
-                KEYS.WelcomeScreen.WelcomeScreen_Cta_Continue_Button.label,
-              )}
-              accessibilityLabel={t(
-                KEYS.WelcomeScreen.WelcomeScreen_Cta_Continue_Button
-                  .accessibilityLabel,
-              )}
+              label={
+                STRINGS.WelcomeScreen.WelcomeScreen_Cta_Continue_Button.label
+              }
+              accessibilityLabel={
+                STRINGS.WelcomeScreen.WelcomeScreen_Cta_Continue_Button
+                  .accessibilityLabel
+              }
             />
           </AppColumn>
           <AppColumn
@@ -226,12 +224,12 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     styles.welcomeScreenLabelTextStyle,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.WelcomeScreen.WelcomeScreen_Label_Text
-                      .accessibilityLabel,
-                  )}
+                  accessibilityLabel={
+                    STRINGS.WelcomeScreen.WelcomeScreen_Label_Text
+                      .accessibilityLabel
+                  }
                 >
-                  {t(KEYS.WelcomeScreen.WelcomeScreen_Label_Text.label)}
+                  {STRINGS.WelcomeScreen.WelcomeScreen_Label_Text.label}
                 </AppText>
               </AppColumn>
               <AppColumn
@@ -245,14 +243,15 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     styles.welcomeScreenLabelUserNameTextStyle,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.WelcomeScreen.WelcomeScreen_Label_UserName_Text
-                      .accessibilityLabel,
-                  )}
+                  accessibilityLabel={
+                    STRINGS.WelcomeScreen.WelcomeScreen_Label_UserName_Text
+                      .accessibilityLabel
+                  }
                 >
-                  {t(
-                    KEYS.WelcomeScreen.WelcomeScreen_Label_UserName_Text.label,
-                  )}
+                  {
+                    STRINGS.WelcomeScreen.WelcomeScreen_Label_UserName_Text
+                      .label
+                  }
                 </AppText>
               </AppColumn>
             </AppColumn>
@@ -272,7 +271,7 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                 >
                   <AppImage
                     widgetId={'WelcomeScreen_Image_Icon_Image'}
-                    source={imageSources.image__2z3n}
+                    source={imageSources.image__t4p7}
                     resizeMode={'stretch'}
                     style={sharedStyles.createQuoteImageIconImage}
                   />
@@ -288,16 +287,16 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.welcomeScreenLabelSecureTransfersTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.WelcomeScreen
+                    accessibilityLabel={
+                      STRINGS.WelcomeScreen
                         .WelcomeScreen_Label_SecureTransfers_Text
-                        .accessibilityLabel,
-                    )}
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.WelcomeScreen
-                        .WelcomeScreen_Label_SecureTransfers_Text.label,
-                    )}
+                    {
+                      STRINGS.WelcomeScreen
+                        .WelcomeScreen_Label_SecureTransfers_Text.label
+                    }
                   </AppText>
                 </AppColumn>
               </AppRow>
@@ -334,16 +333,16 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.welcomeScreenLabelTrustedByMillionsTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.WelcomeScreen
+                    accessibilityLabel={
+                      STRINGS.WelcomeScreen
                         .WelcomeScreen_Label_TrustedByMillions_Text
-                        .accessibilityLabel,
-                    )}
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.WelcomeScreen
-                        .WelcomeScreen_Label_TrustedByMillions_Text.label,
-                    )}
+                    {
+                      STRINGS.WelcomeScreen
+                        .WelcomeScreen_Label_TrustedByMillions_Text.label
+                    }
                   </AppText>
                 </AppColumn>
               </AppRow>
@@ -365,7 +364,7 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
           >
             <AppImage
               widgetId={'WelcomeScreen_Background_FinancialVisual_Image'}
-              source={imageSources.image__awpv}
+              source={imageSources.image__g4blc}
               resizeMode={'cover'}
               style={styles.welcomeScreenBackgroundFinancialVisualImageStyle}
             />
@@ -403,15 +402,16 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.welcomeScreenLabelUserNameText2Style,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.WelcomeScreen.WelcomeScreen_Label_UserName_Text_2
-                          .accessibilityLabel,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.WelcomeScreen
+                          .WelcomeScreen_Label_UserName_Text_2
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.WelcomeScreen.WelcomeScreen_Label_UserName_Text_2
-                          .label,
-                      )}
+                      {
+                        STRINGS.WelcomeScreen
+                          .WelcomeScreen_Label_UserName_Text_2.label
+                      }
                     </AppText>
                   </AppColumn>
                   <AppColumn
@@ -425,14 +425,15 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.welcomeScreenLabelPriceTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.WelcomeScreen.WelcomeScreen_Label_Price_Text
-                          .accessibilityLabel,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.WelcomeScreen.WelcomeScreen_Label_Price_Text
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.WelcomeScreen.WelcomeScreen_Label_Price_Text.label,
-                      )}
+                      {
+                        STRINGS.WelcomeScreen.WelcomeScreen_Label_Price_Text
+                          .label
+                      }
                     </AppText>
                   </AppColumn>
                 </AppColumn>
@@ -476,15 +477,15 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.welcomeScreenLabelUserNameText3Style,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.WelcomeScreen.WelcomeScreen_Label_UserName_Text_3
-                        .accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.WelcomeScreen.WelcomeScreen_Label_UserName_Text_3
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.WelcomeScreen.WelcomeScreen_Label_UserName_Text_3
-                        .label,
-                    )}
+                    {
+                      STRINGS.WelcomeScreen.WelcomeScreen_Label_UserName_Text_3
+                        .label
+                    }
                   </AppText>
                 </AppColumn>
                 <AppColumn
@@ -498,15 +499,15 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.welcomeScreenLabelCompleteTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.WelcomeScreen.WelcomeScreen_Label_Complete_Text
-                        .accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.WelcomeScreen.WelcomeScreen_Label_Complete_Text
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.WelcomeScreen.WelcomeScreen_Label_Complete_Text
-                        .label,
-                    )}
+                    {
+                      STRINGS.WelcomeScreen.WelcomeScreen_Label_Complete_Text
+                        .label
+                    }
                   </AppText>
                 </AppColumn>
               </AppRow>

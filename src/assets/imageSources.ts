@@ -1,3 +1,14 @@
+import SvgImage_t4p7 from './svgs/SvgImage_t4p7';
+import SvgImage_zi8u from './svgs/SvgImage_zi8u';
+import SvgImage_5lds from './svgs/SvgImage_5lds';
+import SvgImage_uv9g from './svgs/SvgImage_uv9g';
+import SvgImage_g2zw from './svgs/SvgImage_g2zw';
+import SvgImage_18gu from './svgs/SvgImage_18gu';
+import SvgImage_qokee from './svgs/SvgImage_qokee';
+import SvgImage_v5odv from './svgs/SvgImage_v5odv';
+import SvgImage_nfxly from './svgs/SvgImage_nfxly';
+import SvgImage_tbu3k from './svgs/SvgImage_tbu3k';
+import SvgImage_b7m9n from './svgs/SvgImage_b7m9n';
 import SvgImage_2z3n from './svgs/SvgImage_2z3n';
 import SvgImage_ryjy from './svgs/SvgImage_ryjy';
 import SvgImage_sj0t from './svgs/SvgImage_sj0t';
@@ -34,5 +45,30 @@ export const imageSources = {
   image__yzxnm: require('./images/image__yzxnm.png'),
   image__2z3n: SvgImage_2z3n,
   image__awpv: require('./images/image__awpv.png'),
+
+  image__p7ynr: require('./images/image__p7ynr.png'),
+
+  image__b7m9n: SvgImage_b7m9n,
+
+  image__nfxly: SvgImage_nfxly,
+  image__tbu3k: SvgImage_tbu3k,
+
+  image__18gu: SvgImage_18gu,
+  image__qokee: SvgImage_qokee,
+  image__v5odv: SvgImage_v5odv,
+
+  image__g2zw: SvgImage_g2zw,
+
+  image__zi8u: SvgImage_zi8u,
+  image__5lds: SvgImage_5lds,
+  image__scgln: require('./images/image__scgln.png'),
+  image__uv9g: SvgImage_uv9g,
+
+  image__uadew: require('./images/image__uadew.png'),
+  image__epqu: require('./images/image__epqu.png'),
+
+  image__gqy1: require('./images/image__gqy1.png'),
+  image__t4p7: SvgImage_t4p7,
+  image__g4blc: require('./images/image__g4blc.png'),
   // Add more images as needed
 };

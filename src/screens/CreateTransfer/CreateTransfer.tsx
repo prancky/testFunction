@@ -25,8 +25,7 @@ import { FormikProps } from 'formik';
 import * as Yup from 'yup';
 import { useClearHeaderActions } from '@/utils/screen.effects';
 
-import { useTranslation } from 'react-i18next';
-import { KEYS } from '@/i18n/keys';
+import { STRINGS } from '@/strings';
 
 type FormValues = {
   CreateTransfer_Input_Background_Input?: string;
@@ -45,8 +44,6 @@ type ScreenProps = {
 };
 
 const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
-  const { t } = useTranslation();
-
   const formikRef = useRef<FormikProps<FormValues>>(null);
 
   const navigation = useNavigation();
@@ -91,11 +88,11 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                 centerContainerStyle={
                   sharedStyles.createTransferAppBarHeaderTopAppBarFromSharedComponAppBarCenterContainer
                 }
-                title={t(
-                  KEYS.CreateTransfer
+                title={
+                  STRINGS.CreateTransfer
                     .CreateTransfer_AppBar_HeaderTopAppBarFromSharedCompon_AppBar
-                    .title,
-                )}
+                    .title
+                }
               />
               <AppColumn
                 widgetId={'CreateTransfer_Container_Main_Column'}
@@ -123,17 +120,17 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.createTransferLabelReviewAndConfirmYourTransfTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.CreateTransfer
+                      accessibilityLabel={
+                        STRINGS.CreateTransfer
                           .CreateTransfer_Label_ReviewAndConfirmYourTransf_Text
-                          .accessibilityLabel,
-                      )}
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.CreateTransfer
+                      {
+                        STRINGS.CreateTransfer
                           .CreateTransfer_Label_ReviewAndConfirmYourTransf_Text
-                          .label,
-                      )}
+                          .label
+                      }
                     </AppText>
                   </AppColumn>
                   <AppColumn
@@ -149,17 +146,17 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.createTransferLabelCheckTheDetailsBelowBeforeTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.CreateTransfer
+                      accessibilityLabel={
+                        STRINGS.CreateTransfer
                           .CreateTransfer_Label_CheckTheDetailsBelowBefore_Text
-                          .accessibilityLabel,
-                      )}
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.CreateTransfer
+                      {
+                        STRINGS.CreateTransfer
                           .CreateTransfer_Label_CheckTheDetailsBelowBefore_Text
-                          .label,
-                      )}
+                          .label
+                      }
                     </AppText>
                   </AppColumn>
                 </AppColumn>
@@ -174,16 +171,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.createTransferLabelCustomerTransactionIdTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.CreateTransfer
+                    accessibilityLabel={
+                      STRINGS.CreateTransfer
                         .CreateTransfer_Label_CustomerTransactionId_Text
-                        .accessibilityLabel,
-                    )}
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.CreateTransfer
-                        .CreateTransfer_Label_CustomerTransactionId_Text.label,
-                    )}
+                    {
+                      STRINGS.CreateTransfer
+                        .CreateTransfer_Label_CustomerTransactionId_Text.label
+                    }
                   </AppText>
                   <AppTextField
                     widgetId={'CreateTransfer_Input_Background_Input'}
@@ -217,15 +214,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.createTransferLabelQuoteIdTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.CreateTransfer.CreateTransfer_Label_QuoteId_Text
-                            .accessibilityLabel,
-                        )}
+                        accessibilityLabel={
+                          STRINGS.CreateTransfer
+                            .CreateTransfer_Label_QuoteId_Text
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.CreateTransfer.CreateTransfer_Label_QuoteId_Text
-                            .label,
-                        )}
+                        {
+                          STRINGS.CreateTransfer
+                            .CreateTransfer_Label_QuoteId_Text.label
+                        }
                       </AppText>
                       <AppTextField
                         widgetId={'CreateTransfer_Input_SymQ20248812_Input'}
@@ -233,11 +231,10 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                           'https://content.oneapi.world/apps/7f2aa8bb-b945-4403-85a2-9b39711155cc/_app/759d2a9c-abb0-49cb-9942-e3a9355b6a05-2557_7243.png'
                         }
                         style={styles.createTransferInputSymQ20248812InputStyle}
-                        placeholder={t(
-                          KEYS.CreateTransfer
-                            .CreateTransfer_Input_SymQ20248812_Input
-                            .placeholder,
-                        )}
+                        placeholder={
+                          STRINGS.CreateTransfer
+                            .CreateTransfer_Input_SymQ20248812_Input.placeholder
+                        }
                       />
                     </AppColumn>
                     <AppColumn
@@ -251,15 +248,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.createTransferLabelUserNameTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.CreateTransfer.CreateTransfer_Label_UserName_Text
-                            .accessibilityLabel,
-                        )}
+                        accessibilityLabel={
+                          STRINGS.CreateTransfer
+                            .CreateTransfer_Label_UserName_Text
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.CreateTransfer.CreateTransfer_Label_UserName_Text
-                            .label,
-                        )}
+                        {
+                          STRINGS.CreateTransfer
+                            .CreateTransfer_Label_UserName_Text.label
+                        }
                       </AppText>
                       <AppTextField
                         widgetId={'CreateTransfer_Input_Rec99234410_Input'}
@@ -267,10 +265,10 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                           'https://content.oneapi.world/apps/7f2aa8bb-b945-4403-85a2-9b39711155cc/_app/f7707b15-488f-430b-8431-96cef2f663dd-2557_7250.png'
                         }
                         style={styles.createTransferInputRec99234410InputStyle}
-                        placeholder={t(
-                          KEYS.CreateTransfer
-                            .CreateTransfer_Input_Rec99234410_Input.placeholder,
-                        )}
+                        placeholder={
+                          STRINGS.CreateTransfer
+                            .CreateTransfer_Input_Rec99234410_Input.placeholder
+                        }
                       />
                     </AppColumn>
                   </AppColumn>
@@ -289,24 +287,24 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.createTransferLabelReferenceOptionalTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.CreateTransfer
+                      accessibilityLabel={
+                        STRINGS.CreateTransfer
                           .CreateTransfer_Label_ReferenceOptional_Text
-                          .accessibilityLabel,
-                      )}
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.CreateTransfer
-                          .CreateTransfer_Label_ReferenceOptional_Text.label,
-                      )}
+                      {
+                        STRINGS.CreateTransfer
+                          .CreateTransfer_Label_ReferenceOptional_Text.label
+                      }
                     </AppText>
                     <AppTextField
                       widgetId={'CreateTransfer_Input_EgrentPayment_Input'}
                       style={styles.createTransferInputEgrentPaymentInputStyle}
-                      placeholder={t(
-                        KEYS.CreateTransfer
-                          .CreateTransfer_Input_EgrentPayment_Input.placeholder,
-                      )}
+                      placeholder={
+                        STRINGS.CreateTransfer
+                          .CreateTransfer_Input_EgrentPayment_Input.placeholder
+                      }
                     />
                   </AppColumn>
                   <AppColumn
@@ -326,17 +324,17 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.createTransferLabelPurposeOfTransferOptionalTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.CreateTransfer
+                      accessibilityLabel={
+                        STRINGS.CreateTransfer
                           .CreateTransfer_Label_PurposeOfTransferOptional_Text
-                          .accessibilityLabel,
-                      )}
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.CreateTransfer
+                      {
+                        STRINGS.CreateTransfer
                           .CreateTransfer_Label_PurposeOfTransferOptional_Text
-                          .label,
-                      )}
+                          .label
+                      }
                     </AppText>
                     <AppColumn
                       widgetId={'CreateTransfer_Container_Column_2'}
@@ -348,16 +346,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                         containerStyle={
                           styles.createTransferContainerOptionsDropDownContainerStyle
                         }
-                        placeholder={t(
-                          KEYS.CreateTransfer
+                        placeholder={
+                          STRINGS.CreateTransfer
                             .CreateTransfer_Container_Options_DropDown
-                            .placeholder,
-                        )}
-                        searchPlaceholder={t(
-                          KEYS.CreateTransfer
+                            .placeholder
+                        }
+                        searchPlaceholder={
+                          STRINGS.CreateTransfer
                             .CreateTransfer_Container_Options_DropDown
-                            .searchPlaceholder,
-                        )}
+                            .searchPlaceholder
+                        }
                       />
                     </AppColumn>
                   </AppColumn>
@@ -383,7 +381,7 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                       <AppImage
                         widgetId={'CreateTransfer_Image_Icon_Image'}
                         resizeMode={'stretch'}
-                        source={imageSources.image__twv7c}
+                        source={imageSources.image__g2zw}
                         style={sharedStyles.createQuoteImageIconImage}
                       />
                     </AppColumn>
@@ -394,15 +392,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.createTransferLabelUserNameText2Style,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.CreateTransfer.CreateTransfer_Label_UserName_Text_2
-                          .accessibilityLabel,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.CreateTransfer
+                          .CreateTransfer_Label_UserName_Text_2
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.CreateTransfer.CreateTransfer_Label_UserName_Text_2
-                          .label,
-                      )}
+                      {
+                        STRINGS.CreateTransfer
+                          .CreateTransfer_Label_UserName_Text_2.label
+                      }
                     </AppText>
                   </AppRow>
                   <AppColumn
@@ -427,16 +426,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             sharedStyles.createTransferLabelUserNameText3,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateTransfer
+                          accessibilityLabel={
+                            STRINGS.CreateTransfer
                               .CreateTransfer_Label_UserName_Text_3
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateTransfer
-                              .CreateTransfer_Label_UserName_Text_3.label,
-                          )}
+                          {
+                            STRINGS.CreateTransfer
+                              .CreateTransfer_Label_UserName_Text_3.label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -450,16 +449,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createTransferLabelWithin30MinutesTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateTransfer
+                          accessibilityLabel={
+                            STRINGS.CreateTransfer
                               .CreateTransfer_Label_Within30Minutes_Text
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateTransfer
-                              .CreateTransfer_Label_Within30Minutes_Text.label,
-                          )}
+                          {
+                            STRINGS.CreateTransfer
+                              .CreateTransfer_Label_Within30Minutes_Text.label
+                          }
                         </AppText>
                       </AppColumn>
                     </AppRow>
@@ -478,16 +477,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             sharedStyles.createTransferLabelUserNameText3,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateTransfer
+                          accessibilityLabel={
+                            STRINGS.CreateTransfer
                               .CreateTransfer_Label_UserName_Text_4
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateTransfer
-                              .CreateTransfer_Label_UserName_Text_4.label,
-                          )}
+                          {
+                            STRINGS.CreateTransfer
+                              .CreateTransfer_Label_UserName_Text_4.label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -501,15 +500,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createTransferLabelPriceTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateTransfer.CreateTransfer_Label_Price_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.CreateTransfer
+                              .CreateTransfer_Label_Price_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateTransfer.CreateTransfer_Label_Price_Text
-                              .label,
-                          )}
+                          {
+                            STRINGS.CreateTransfer
+                              .CreateTransfer_Label_Price_Text.label
+                          }
                         </AppText>
                         <AppColumn
                           widgetId={'CreateTransfer_Container_Column_9'}
@@ -522,16 +522,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.createTransferLabelUserNameText5Style,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.CreateTransfer
+                            accessibilityLabel={
+                              STRINGS.CreateTransfer
                                 .CreateTransfer_Label_UserName_Text_5
-                                .accessibilityLabel,
-                            )}
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.CreateTransfer
-                                .CreateTransfer_Label_UserName_Text_5.label,
-                            )}
+                            {
+                              STRINGS.CreateTransfer
+                                .CreateTransfer_Label_UserName_Text_5.label
+                            }
                           </AppText>
                         </AppColumn>
                       </AppColumn>
@@ -561,14 +561,14 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       sharedStyles.createTransferCtaConfirmButtonText,
                     ]}
-                    label={t(
-                      KEYS.CreateTransfer.CreateTransfer_Cta_Confirm_Button
-                        .label,
-                    )}
-                    accessibilityLabel={t(
-                      KEYS.CreateTransfer.CreateTransfer_Cta_Confirm_Button
-                        .accessibilityLabel,
-                    )}
+                    label={
+                      STRINGS.CreateTransfer.CreateTransfer_Cta_Confirm_Button
+                        .label
+                    }
+                    accessibilityLabel={
+                      STRINGS.CreateTransfer.CreateTransfer_Cta_Confirm_Button
+                        .accessibilityLabel
+                    }
                   />
                 </ASStack>
                 <AppText
@@ -580,16 +580,16 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     styles.createTransferLabelByConfirmingYouAgreeToCoTextStyle,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.CreateTransfer
+                  accessibilityLabel={
+                    STRINGS.CreateTransfer
                       .CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text
-                      .accessibilityLabel,
-                  )}
+                      .accessibilityLabel
+                  }
                 >
-                  {t(
-                    KEYS.CreateTransfer
-                      .CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text.label,
-                  )}
+                  {
+                    STRINGS.CreateTransfer
+                      .CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text.label
+                  }
                 </AppText>
               </AppColumn>
             </>

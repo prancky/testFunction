@@ -344,7 +344,7 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                           <AppImage
                             widgetId={'CreateQuote_Image_Icon_Image'}
                             resizeMode={'stretch'}
-                            source={imageSources.image__28tg}
+                            source={imageSources.image__30c77}
                             style={sharedStyles.createQuoteImageIconImage}
                           />
                         </AppColumn>
@@ -653,7 +653,7 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                         >
                           <AppImage
                             widgetId={'CreateQuote_Image_Icon_Image_2'}
-                            source={imageSources.image__ztpx9}
+                            source={imageSources.image__d6w15}
                             resizeMode={'contain'}
                             style={styles.createQuoteImageIconImage2Style}
                           />

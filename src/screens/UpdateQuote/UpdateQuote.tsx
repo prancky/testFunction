@@ -102,7 +102,7 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                       >
                         <AppImage
                           widgetId={'UpdateQuote_Image_Icon_Image'}
-                          source={imageSources.image__67gwb}
+                          source={imageSources.image__3qoo}
                           resizeMode={'contain'}
                           style={styles.updateQuoteImageIconImageStyle}
                         />
@@ -144,7 +144,7 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                     >
                       <AppImage
                         widgetId={'UpdateQuote_Image_Icon_Image_2'}
-                        source={imageSources.image__yw2d}
+                        source={imageSources.image__ilsr}
                         resizeMode={'contain'}
                         style={styles.updateQuoteImageIconImage2Style}
                       />
@@ -325,7 +325,7 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                           <AppImage
                             widgetId={'UpdateQuote_Image_Icon_Image_3'}
                             resizeMode={'stretch'}
-                            source={imageSources.image__6um0}
+                            source={imageSources.image__lcpl}
                             style={styles.updateQuoteImageIconImage3Style}
                           />
                         </AppColumn>

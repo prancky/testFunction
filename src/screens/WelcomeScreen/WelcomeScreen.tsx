@@ -80,7 +80,7 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
         </AppText>
         <AppImage
           widgetId={'WelcomeScreen_Image_UserProfile_Image'}
-          source={imageSources.image__oyf2}
+          source={imageSources.image__yzxnm}
           resizeMode={'contain'}
           style={styles.welcomeScreenImageUserProfileImageStyle}
         />
@@ -272,7 +272,7 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
                 >
                   <AppImage
                     widgetId={'WelcomeScreen_Image_Icon_Image'}
-                    source={imageSources.image__07n5}
+                    source={imageSources.image__2z3n}
                     resizeMode={'stretch'}
                     style={sharedStyles.createQuoteImageIconImage}
                   />
@@ -365,7 +365,7 @@ const WelcomeScreen: React.FC<ScreenProps> = ({ route }) => {
           >
             <AppImage
               widgetId={'WelcomeScreen_Background_FinancialVisual_Image'}
-              source={imageSources.image__4wdi2}
+              source={imageSources.image__awpv}
               resizeMode={'cover'}
               style={styles.welcomeScreenBackgroundFinancialVisualImageStyle}
             />

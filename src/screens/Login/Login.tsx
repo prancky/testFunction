@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useCallback, useRef } from 'react';
 import {
   AppAppBar,
   AppButton,
@@ -25,6 +25,8 @@ import { useClearHeaderActions } from '@/utils/screen.effects';
 
 import { useTranslation } from 'react-i18next';
 import { KEYS } from '@/i18n/keys';
+import { executeCustomFunction } from '@/extensions';
+import { useGlobalContext } from '@/context/GlobalContext';
 
 type FormValues = {
   Login_Input_EgalexExampleCom_Input?: string;
@@ -47,6 +49,19 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
   const navigation = useNavigation();
 
   useClearHeaderActions(navigation);
+  const { globalData } = useGlobalContext();
+
+  const handlePress = useCallback(async () => {
+    try {
+      await executeCustomFunction(
+        'DashboardFunctions.handleManageBooks',
+        navigation,
+        globalData
+      );
+    } catch (error) {
+      console.error('Custom function failed:', error);
+    }
+  }, [navigation, globalData]);
 
   return (
     <AppContainer
@@ -251,6 +266,17 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                       KEYS.Login.Login_Cta_LogIn_Button.accessibilityLabel,
                     )}
                   />
+                  <AppButton
+                    widgetId={'Login_Cta_ManageBooks_Button'}
+                    style={styles.loginCtaLogInButtonStyle}
+                    textStyle={[
+                      text.label.medium,
+                      sharedStyles.createRecepientCtaContinueButtonText,
+                    ]}
+                    label={'Manage Books'}
+                    accessibilityLabel={'Manage Books'}
+                    onPress={handlePress}
+                  />
                 </AppColumn>
                 <AppColumn
                   widgetId={'Login_Container_SecondaryActionMargin_Column'}
@@ -298,7 +324,7 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                   <AppImage
                     widgetId={'Login_Background_FinancialLifestyleImage_Image'}
                     resizeMode={'cover'}
-                    source={imageSources.image__sn6n}
+                    source={imageSources.image__irju}
                     style={
                       styles.loginBackgroundFinancialLifestyleImageImageStyle
                     }

@@ -1,38 +1,38 @@
-import SvgImage_07n5 from './svgs/SvgImage_07n5';
-import SvgImage_gptu from './svgs/SvgImage_gptu';
-import SvgImage_5635f from './svgs/SvgImage_5635f';
-import SvgImage_i3pw from './svgs/SvgImage_i3pw';
-import SvgImage_oxw3 from './svgs/SvgImage_oxw3';
-import SvgImage_67gwb from './svgs/SvgImage_67gwb';
-import SvgImage_yw2d from './svgs/SvgImage_yw2d';
-import SvgImage_6um0 from './svgs/SvgImage_6um0';
-import SvgImage_28tg from './svgs/SvgImage_28tg';
-import SvgImage_ztpx9 from './svgs/SvgImage_ztpx9';
-import SvgImage_cmrs from './svgs/SvgImage_cmrs';
+import SvgImage_2z3n from './svgs/SvgImage_2z3n';
+import SvgImage_ryjy from './svgs/SvgImage_ryjy';
+import SvgImage_sj0t from './svgs/SvgImage_sj0t';
+import SvgImage_retv3 from './svgs/SvgImage_retv3';
+import SvgImage_twv7c from './svgs/SvgImage_twv7c';
+import SvgImage_3qoo from './svgs/SvgImage_3qoo';
+import SvgImage_ilsr from './svgs/SvgImage_ilsr';
+import SvgImage_lcpl from './svgs/SvgImage_lcpl';
+import SvgImage_30c77 from './svgs/SvgImage_30c77';
+import SvgImage_d6w15 from './svgs/SvgImage_d6w15';
+import SvgImage_54br from './svgs/SvgImage_54br';
 export const imageSources = {
-  image__sn6n: require('./images/image__sn6n.png'),
+  image__irju: require('./images/image__irju.png'),
 
-  image__cmrs: SvgImage_cmrs,
+  image__54br: SvgImage_54br,
 
-  image__28tg: SvgImage_28tg,
-  image__ztpx9: SvgImage_ztpx9,
+  image__30c77: SvgImage_30c77,
+  image__d6w15: SvgImage_d6w15,
 
-  image__67gwb: SvgImage_67gwb,
-  image__yw2d: SvgImage_yw2d,
-  image__6um0: SvgImage_6um0,
+  image__3qoo: SvgImage_3qoo,
+  image__ilsr: SvgImage_ilsr,
+  image__lcpl: SvgImage_lcpl,
 
-  image__oxw3: SvgImage_oxw3,
+  image__twv7c: SvgImage_twv7c,
 
-  image__gptu: SvgImage_gptu,
-  image__5635f: SvgImage_5635f,
-  image__e2w5m: require('./images/image__e2w5m.png'),
-  image__i3pw: SvgImage_i3pw,
+  image__ryjy: SvgImage_ryjy,
+  image__sj0t: SvgImage_sj0t,
+  image__dlaqi: require('./images/image__dlaqi.png'),
+  image__retv3: SvgImage_retv3,
 
-  image__odp8a: require('./images/image__odp8a.png'),
-  image__jyuxq: require('./images/image__jyuxq.png'),
+  image__9rq4m: require('./images/image__9rq4m.png'),
+  image__h3bbu: require('./images/image__h3bbu.png'),
 
-  image__oyf2: require('./images/image__oyf2.png'),
-  image__07n5: SvgImage_07n5,
-  image__4wdi2: require('./images/image__4wdi2.png'),
+  image__yzxnm: require('./images/image__yzxnm.png'),
+  image__2z3n: SvgImage_2z3n,
+  image__awpv: require('./images/image__awpv.png'),
   // Add more images as needed
 };

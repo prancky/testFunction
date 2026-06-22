@@ -425,7 +425,7 @@ const SignUp: React.FC<ScreenProps> = ({ route }) => {
                     >
                       <AppImage
                         widgetId={'SignUp_Image_Icon_Image'}
-                        source={imageSources.image__cmrs}
+                        source={imageSources.image__54br}
                         resizeMode={'stretch'}
                         style={styles.signUpImageIconImageStyle}
                       />

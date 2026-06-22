@@ -383,7 +383,7 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                       <AppImage
                         widgetId={'CreateTransfer_Image_Icon_Image'}
                         resizeMode={'stretch'}
-                        source={imageSources.image__oxw3}
+                        source={imageSources.image__twv7c}
                         style={sharedStyles.createQuoteImageIconImage}
                       />
                     </AppColumn>

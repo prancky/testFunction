@@ -62,7 +62,7 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
       >
         <AppImage
           widgetId={'FinishScreen_Image_UserProfile_Image'}
-          source={imageSources.image__odp8a}
+          source={imageSources.image__9rq4m}
           resizeMode={'contain'}
           style={styles.finishScreenImageUserProfileImageStyle}
         />
@@ -486,7 +486,7 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
           >
             <AppImage
               widgetId={'FinishScreen_Background_AbstractWealth_Image'}
-              source={imageSources.image__jyuxq}
+              source={imageSources.image__h3bbu}
               resizeMode={'cover'}
               style={styles.finishScreenBackgroundAbstractWealthImageStyle}
             />

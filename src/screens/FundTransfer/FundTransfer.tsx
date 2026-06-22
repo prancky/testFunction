@@ -160,7 +160,7 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                       >
                         <AppImage
                           widgetId={'FundTransfer_Image_Icon_Image'}
-                          source={imageSources.image__gptu}
+                          source={imageSources.image__ryjy}
                           resizeMode={'contain'}
                           style={styles.fundTransferImageIconImageStyle}
                         />
@@ -199,7 +199,7 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                     >
                       <AppImage
                         widgetId={'FundTransfer_Image_Icon_Image_2'}
-                        source={imageSources.image__5635f}
+                        source={imageSources.image__sj0t}
                         resizeMode={'contain'}
                         style={styles.fundTransferImageIconImage2Style}
                       />
@@ -503,7 +503,7 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                       </AppColumn>
                       <AppImage
                         widgetId={'FundTransfer_Image_Background_Image'}
-                        source={imageSources.image__e2w5m}
+                        source={imageSources.image__dlaqi}
                         resizeMode={'contain'}
                         style={styles.fundTransferImageBackgroundImageStyle}
                       />
@@ -667,7 +667,7 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                       >
                         <AppImage
                           widgetId={'FundTransfer_Image_Icon_Image_3'}
-                          source={imageSources.image__i3pw}
+                          source={imageSources.image__retv3}
                           resizeMode={'stretch'}
                           style={styles.fundTransferImageIconImage3Style}
                         />

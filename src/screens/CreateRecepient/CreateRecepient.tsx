@@ -24,8 +24,7 @@ import { FormikProps } from 'formik';
 import * as Yup from 'yup';
 import { useClearHeaderActions } from '@/utils/screen.effects';
 
-import { useTranslation } from 'react-i18next';
-import { KEYS } from '@/i18n/keys';
+import { STRINGS } from '@/strings';
 
 type FormValues = {
   CreateRecepient_Input_EnterRecipientFullName_Input?: string;
@@ -53,8 +52,6 @@ type ScreenProps = {
 };
 
 const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
-  const { t } = useTranslation();
-
   const formikRef = useRef<FormikProps<FormValues>>(null);
 
   const navigation = useNavigation();
@@ -104,10 +101,10 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                   styles.createRecepientAppBarHeaderTopAppBarAppBarCenterContainerStyle
                 }
                 style={styles.createRecepientAppBarHeaderTopAppBarAppBarStyle}
-                title={t(
-                  KEYS.CreateRecepient
-                    .CreateRecepient_AppBar_HeaderTopAppBar_AppBar.title,
-                )}
+                title={
+                  STRINGS.CreateRecepient
+                    .CreateRecepient_AppBar_HeaderTopAppBar_AppBar.title
+                }
               />
               <AppColumn
                 widgetId={'CreateRecepient_Container_MainForm_Column'}
@@ -135,16 +132,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.createRecepientLabelUserNameTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.CreateRecepient
+                        accessibilityLabel={
+                          STRINGS.CreateRecepient
                             .CreateRecepient_Label_UserName_Text
-                            .accessibilityLabel,
-                        )}
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.CreateRecepient
-                            .CreateRecepient_Label_UserName_Text.label,
-                        )}
+                        {
+                          STRINGS.CreateRecepient
+                            .CreateRecepient_Label_UserName_Text.label
+                        }
                       </AppText>
                     </AppColumn>
                   </AppRow>
@@ -168,16 +165,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.createRecepientLabelUserNameText2Style,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.CreateRecepient
+                        accessibilityLabel={
+                          STRINGS.CreateRecepient
                             .CreateRecepient_Label_UserName_Text_2
-                            .accessibilityLabel,
-                        )}
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.CreateRecepient
-                            .CreateRecepient_Label_UserName_Text_2.label,
-                        )}
+                        {
+                          STRINGS.CreateRecepient
+                            .CreateRecepient_Label_UserName_Text_2.label
+                        }
                       </AppText>
                       <AppTextField
                         widgetId={
@@ -186,11 +183,11 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                         style={
                           styles.createRecepientInputEnterRecipientFullNameInputStyle
                         }
-                        placeholder={t(
-                          KEYS.CreateRecepient
+                        placeholder={
+                          STRINGS.CreateRecepient
                             .CreateRecepient_Input_EnterRecipientFullName_Input
-                            .placeholder,
-                        )}
+                            .placeholder
+                        }
                       />
                     </AppColumn>
                     <AppColumn
@@ -208,16 +205,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.createRecepientLabelUserNameText3Style,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.CreateRecepient
+                        accessibilityLabel={
+                          STRINGS.CreateRecepient
                             .CreateRecepient_Label_UserName_Text_3
-                            .accessibilityLabel,
-                        )}
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.CreateRecepient
-                            .CreateRecepient_Label_UserName_Text_3.label,
-                        )}
+                        {
+                          STRINGS.CreateRecepient
+                            .CreateRecepient_Label_UserName_Text_3.label
+                        }
                       </AppText>
                       <AppColumn
                         widgetId={'CreateRecepient_Container_Column'}
@@ -231,16 +228,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                           containerStyle={
                             sharedStyles.createQuoteContainerOptionsDropDownContainer
                           }
-                          placeholder={t(
-                            KEYS.CreateRecepient
+                          placeholder={
+                            STRINGS.CreateRecepient
                               .CreateRecepient_Container_Options_DropDown
-                              .placeholder,
-                          )}
-                          searchPlaceholder={t(
-                            KEYS.CreateRecepient
+                              .placeholder
+                          }
+                          searchPlaceholder={
+                            STRINGS.CreateRecepient
                               .CreateRecepient_Container_Options_DropDown
-                              .searchPlaceholder,
-                          )}
+                              .searchPlaceholder
+                          }
                         />
                       </AppColumn>
                     </AppColumn>
@@ -259,16 +256,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.createRecepientLabelUserNameText4Style,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.CreateRecepient
+                        accessibilityLabel={
+                          STRINGS.CreateRecepient
                             .CreateRecepient_Label_UserName_Text_4
-                            .accessibilityLabel,
-                        )}
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.CreateRecepient
-                            .CreateRecepient_Label_UserName_Text_4.label,
-                        )}
+                        {
+                          STRINGS.CreateRecepient
+                            .CreateRecepient_Label_UserName_Text_4.label
+                        }
                       </AppText>
                       <ASWrap
                         direction={'row'}
@@ -285,15 +282,15 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                             styles.createRecepientCtaPersonalButtonTextStyle,
                           ]}
                           style={styles.createRecepientCtaPersonalButtonStyle}
-                          label={t(
-                            KEYS.CreateRecepient
-                              .CreateRecepient_Cta_Personal_Button.label,
-                          )}
-                          accessibilityLabel={t(
-                            KEYS.CreateRecepient
+                          label={
+                            STRINGS.CreateRecepient
+                              .CreateRecepient_Cta_Personal_Button.label
+                          }
+                          accessibilityLabel={
+                            STRINGS.CreateRecepient
                               .CreateRecepient_Cta_Personal_Button
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         />
                         <AppButton
                           widgetId={'CreateRecepient_Cta_Business_Button'}
@@ -302,15 +299,15 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createRecepientCtaBusinessButtonTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateRecepient
+                          accessibilityLabel={
+                            STRINGS.CreateRecepient
                               .CreateRecepient_Cta_Business_Button
-                              .accessibilityLabel,
-                          )}
-                          label={t(
-                            KEYS.CreateRecepient
-                              .CreateRecepient_Cta_Business_Button.label,
-                          )}
+                              .accessibilityLabel
+                          }
+                          label={
+                            STRINGS.CreateRecepient
+                              .CreateRecepient_Cta_Business_Button.label
+                          }
                         />
                       </ASWrap>
                     </AppColumn>
@@ -327,16 +324,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.createRecepientLabelRecipientAccountTypeTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.CreateRecepient
+                    accessibilityLabel={
+                      STRINGS.CreateRecepient
                         .CreateRecepient_Label_RecipientAccountType_Text
-                        .accessibilityLabel,
-                    )}
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.CreateRecepient
-                        .CreateRecepient_Label_RecipientAccountType_Text.label,
-                    )}
+                    {
+                      STRINGS.CreateRecepient
+                        .CreateRecepient_Label_RecipientAccountType_Text.label
+                    }
                   </AppText>
                   <AppColumn
                     widgetId={'CreateRecepient_Container_Column_2'}
@@ -348,16 +345,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                       containerStyle={
                         sharedStyles.createQuoteContainerOptionsDropDownContainer
                       }
-                      placeholder={t(
-                        KEYS.CreateRecepient
+                      placeholder={
+                        STRINGS.CreateRecepient
                           .CreateRecepient_Container_Options_DropDown_2
-                          .placeholder,
-                      )}
-                      searchPlaceholder={t(
-                        KEYS.CreateRecepient
+                          .placeholder
+                      }
+                      searchPlaceholder={
+                        STRINGS.CreateRecepient
                           .CreateRecepient_Container_Options_DropDown_2
-                          .searchPlaceholder,
-                      )}
+                          .searchPlaceholder
+                      }
                     />
                   </AppColumn>
                 </AppColumn>
@@ -381,16 +378,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.createRecepientLabelUserNameText5Style,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.CreateRecepient
+                      accessibilityLabel={
+                        STRINGS.CreateRecepient
                           .CreateRecepient_Label_UserName_Text_5
-                          .accessibilityLabel,
-                      )}
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.CreateRecepient
-                          .CreateRecepient_Label_UserName_Text_5.label,
-                      )}
+                      {
+                        STRINGS.CreateRecepient
+                          .CreateRecepient_Label_UserName_Text_5.label
+                      }
                     </AppText>
                   </AppColumn>
                   <AppText
@@ -402,17 +399,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.createRecepientLabelIbanRequiredIfTypeIbanTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.CreateRecepient
+                    accessibilityLabel={
+                      STRINGS.CreateRecepient
                         .CreateRecepient_Label_IbanRequiredIfTypeIban_Text
-                        .accessibilityLabel,
-                    )}
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.CreateRecepient
-                        .CreateRecepient_Label_IbanRequiredIfTypeIban_Text
-                        .label,
-                    )}
+                    {
+                      STRINGS.CreateRecepient
+                        .CreateRecepient_Label_IbanRequiredIfTypeIban_Text.label
+                    }
                   </AppText>
                   <AppTextField
                     widgetId={
@@ -421,11 +417,11 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                     style={
                       styles.createRecepientInputEgit60X054281110100000012InputStyle
                     }
-                    placeholder={t(
-                      KEYS.CreateRecepient
+                    placeholder={
+                      STRINGS.CreateRecepient
                         .CreateRecepient_Input_Egit60X054281110100000012_Input
-                        .placeholder,
-                    )}
+                        .placeholder
+                    }
                   />
                 </AppColumn>
                 <AppText
@@ -437,16 +433,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     styles.createRecepientLabelAbaRtnRequiredIfTypeAbaTextStyle,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.CreateRecepient
+                  accessibilityLabel={
+                    STRINGS.CreateRecepient
                       .CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text
-                      .accessibilityLabel,
-                  )}
+                      .accessibilityLabel
+                  }
                 >
-                  {t(
-                    KEYS.CreateRecepient
-                      .CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text.label,
-                  )}
+                  {
+                    STRINGS.CreateRecepient
+                      .CreateRecepient_Label_AbaRtnRequiredIfTypeAba_Text.label
+                  }
                 </AppText>
                 <AppTextField
                   widgetId={
@@ -455,11 +451,11 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                   style={
                     styles.createRecepientInputEgit60X054281110100000012Input2Style
                   }
-                  placeholder={t(
-                    KEYS.CreateRecepient
+                  placeholder={
+                    STRINGS.CreateRecepient
                       .CreateRecepient_Input_Egit60X054281110100000012_Input_2
-                      .placeholder,
-                  )}
+                      .placeholder
+                  }
                 />
                 <AppText
                   widgetId={
@@ -470,25 +466,25 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     styles.createRecepientLabelAccountNumberRequiredForATextStyle,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.CreateRecepient
+                  accessibilityLabel={
+                    STRINGS.CreateRecepient
                       .CreateRecepient_Label_AccountNumberRequiredForA_Text
-                      .accessibilityLabel,
-                  )}
+                      .accessibilityLabel
+                  }
                 >
-                  {t(
-                    KEYS.CreateRecepient
+                  {
+                    STRINGS.CreateRecepient
                       .CreateRecepient_Label_AccountNumberRequiredForA_Text
-                      .label,
-                  )}
+                      .label
+                  }
                 </AppText>
                 <AppTextField
                   widgetId={'CreateRecepient_Input_Eg000123456789_Input'}
                   style={styles.createRecepientInputEg000123456789InputStyle}
-                  placeholder={t(
-                    KEYS.CreateRecepient
-                      .CreateRecepient_Input_Eg000123456789_Input.placeholder,
-                  )}
+                  placeholder={
+                    STRINGS.CreateRecepient
+                      .CreateRecepient_Input_Eg000123456789_Input.placeholder
+                  }
                 />
                 <AppColumn
                   widgetId={'CreateRecepient_Container_TransferType_Column_2'}
@@ -504,17 +500,17 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.createRecepientLabelAccountTypeRequiredIfTypeTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.CreateRecepient
+                    accessibilityLabel={
+                      STRINGS.CreateRecepient
                         .CreateRecepient_Label_AccountTypeRequiredIfType_Text
-                        .accessibilityLabel,
-                    )}
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.CreateRecepient
+                    {
+                      STRINGS.CreateRecepient
                         .CreateRecepient_Label_AccountTypeRequiredIfType_Text
-                        .label,
-                    )}
+                        .label
+                    }
                   </AppText>
                   <AppColumn
                     widgetId={'CreateRecepient_Container_Column_3'}
@@ -526,16 +522,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                       containerStyle={
                         sharedStyles.createQuoteContainerOptionsDropDownContainer
                       }
-                      placeholder={t(
-                        KEYS.CreateRecepient
+                      placeholder={
+                        STRINGS.CreateRecepient
                           .CreateRecepient_Container_Options_DropDown_3
-                          .placeholder,
-                      )}
-                      searchPlaceholder={t(
-                        KEYS.CreateRecepient
+                          .placeholder
+                      }
+                      searchPlaceholder={
+                        STRINGS.CreateRecepient
                           .CreateRecepient_Container_Options_DropDown_3
-                          .searchPlaceholder,
-                      )}
+                          .searchPlaceholder
+                      }
                     />
                   </AppColumn>
                 </AppColumn>
@@ -557,25 +553,25 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.createRecepientLabelSwiftCodeRequiredIfTypeSTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.CreateRecepient
+                    accessibilityLabel={
+                      STRINGS.CreateRecepient
                         .CreateRecepient_Label_SwiftCodeRequiredIfTypeS_Text
-                        .accessibilityLabel,
-                    )}
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.CreateRecepient
+                    {
+                      STRINGS.CreateRecepient
                         .CreateRecepient_Label_SwiftCodeRequiredIfTypeS_Text
-                        .label,
-                    )}
+                        .label
+                    }
                   </AppText>
                   <AppTextField
                     widgetId={'CreateRecepient_Input_Egbocelklx_Input'}
                     style={styles.createRecepientInputEgbocelklxInputStyle}
-                    placeholder={t(
-                      KEYS.CreateRecepient
-                        .CreateRecepient_Input_Egbocelklx_Input.placeholder,
-                    )}
+                    placeholder={
+                      STRINGS.CreateRecepient
+                        .CreateRecepient_Input_Egbocelklx_Input.placeholder
+                    }
                   />
                 </AppColumn>
                 <AppColumn
@@ -596,25 +592,25 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.createRecepientLabelSortCodeRequiredIfTypeSoTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.CreateRecepient
+                    accessibilityLabel={
+                      STRINGS.CreateRecepient
                         .CreateRecepient_Label_SortCodeRequiredIfTypeSo_Text
-                        .accessibilityLabel,
-                    )}
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.CreateRecepient
+                    {
+                      STRINGS.CreateRecepient
                         .CreateRecepient_Label_SortCodeRequiredIfTypeSo_Text
-                        .label,
-                    )}
+                        .label
+                    }
                   </AppText>
                   <AppTextField
                     widgetId={'CreateRecepient_Input_Eg201585_Input'}
                     style={styles.createRecepientInputEg201585InputStyle}
-                    placeholder={t(
-                      KEYS.CreateRecepient.CreateRecepient_Input_Eg201585_Input
-                        .placeholder,
-                    )}
+                    placeholder={
+                      STRINGS.CreateRecepient
+                        .CreateRecepient_Input_Eg201585_Input.placeholder
+                    }
                   />
                 </AppColumn>
                 <AppColumn
@@ -637,16 +633,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.createRecepientLabelUserNameText6Style,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.CreateRecepient
+                      accessibilityLabel={
+                        STRINGS.CreateRecepient
                           .CreateRecepient_Label_UserName_Text_6
-                          .accessibilityLabel,
-                      )}
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.CreateRecepient
-                          .CreateRecepient_Label_UserName_Text_6.label,
-                      )}
+                      {
+                        STRINGS.CreateRecepient
+                          .CreateRecepient_Label_UserName_Text_6.label
+                      }
                     </AppText>
                   </AppColumn>
                   <AppColumn
@@ -667,16 +663,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.createRecepientLabelAddressLine1TextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.CreateRecepient
+                        accessibilityLabel={
+                          STRINGS.CreateRecepient
                             .CreateRecepient_Label_AddressLine1_Text
-                            .accessibilityLabel,
-                        )}
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.CreateRecepient
-                            .CreateRecepient_Label_AddressLine1_Text.label,
-                        )}
+                        {
+                          STRINGS.CreateRecepient
+                            .CreateRecepient_Label_AddressLine1_Text.label
+                        }
                       </AppText>
                       <AppTextField
                         widgetId={'CreateRecepient_Input'}
@@ -701,16 +697,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createRecepientLabelUserNameText7Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateRecepient
+                          accessibilityLabel={
+                            STRINGS.CreateRecepient
                               .CreateRecepient_Label_UserName_Text_7
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateRecepient
-                              .CreateRecepient_Label_UserName_Text_7.label,
-                          )}
+                          {
+                            STRINGS.CreateRecepient
+                              .CreateRecepient_Label_UserName_Text_7.label
+                          }
                         </AppText>
                         <AppTextField
                           widgetId={'CreateRecepient_Input_2'}
@@ -729,16 +725,16 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createRecepientLabelUserNameText8Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateRecepient
+                          accessibilityLabel={
+                            STRINGS.CreateRecepient
                               .CreateRecepient_Label_UserName_Text_8
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateRecepient
-                              .CreateRecepient_Label_UserName_Text_8.label,
-                          )}
+                          {
+                            STRINGS.CreateRecepient
+                              .CreateRecepient_Label_UserName_Text_8.label
+                          }
                         </AppText>
                         <AppTextField
                           widgetId={'CreateRecepient_Input_3'}
@@ -764,24 +760,24 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createRecepientLabelUserNameText9Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateRecepient
+                          accessibilityLabel={
+                            STRINGS.CreateRecepient
                               .CreateRecepient_Label_UserName_Text_9
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateRecepient
-                              .CreateRecepient_Label_UserName_Text_9.label,
-                          )}
+                          {
+                            STRINGS.CreateRecepient
+                              .CreateRecepient_Label_UserName_Text_9.label
+                          }
                         </AppText>
                         <AppTextField
                           widgetId={'CreateRecepient_Input_Gb_Input'}
                           style={styles.createRecepientInputGbInputStyle}
-                          placeholder={t(
-                            KEYS.CreateRecepient.CreateRecepient_Input_Gb_Input
-                              .placeholder,
-                          )}
+                          placeholder={
+                            STRINGS.CreateRecepient
+                              .CreateRecepient_Input_Gb_Input.placeholder
+                          }
                         />
                       </AppColumn>
                       <AppColumn
@@ -797,17 +793,17 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createRecepientLabelStateProvinceOptionalTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateRecepient
+                          accessibilityLabel={
+                            STRINGS.CreateRecepient
                               .CreateRecepient_Label_StateProvinceOptional_Text
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateRecepient
+                          {
+                            STRINGS.CreateRecepient
                               .CreateRecepient_Label_StateProvinceOptional_Text
-                              .label,
-                          )}
+                              .label
+                          }
                         </AppText>
                         <AppTextField
                           widgetId={'CreateRecepient_Input_4'}
@@ -825,14 +821,14 @@ const CreateRecepient: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     sharedStyles.createRecepientCtaContinueButtonText,
                   ]}
-                  label={t(
-                    KEYS.CreateRecepient.CreateRecepient_Cta_Continue_Button
-                      .label,
-                  )}
-                  accessibilityLabel={t(
-                    KEYS.CreateRecepient.CreateRecepient_Cta_Continue_Button
-                      .accessibilityLabel,
-                  )}
+                  label={
+                    STRINGS.CreateRecepient.CreateRecepient_Cta_Continue_Button
+                      .label
+                  }
+                  accessibilityLabel={
+                    STRINGS.CreateRecepient.CreateRecepient_Cta_Continue_Button
+                      .accessibilityLabel
+                  }
                 />
               </AppColumn>
             </>

@@ -24,8 +24,7 @@ import { FormikProps } from 'formik';
 import * as Yup from 'yup';
 import { useClearHeaderActions } from '@/utils/screen.effects';
 
-import { useTranslation } from 'react-i18next';
-import { KEYS } from '@/i18n/keys';
+import { STRINGS } from '@/strings';
 
 type FormValues = {
   UpdateQuote_Container_BackgroundBorder_DropDown?: string;
@@ -42,8 +41,6 @@ type ScreenProps = {
 };
 
 const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
-  const { t } = useTranslation();
-
   const formikRef = useRef<FormikProps<FormValues>>(null);
 
   const navigation = useNavigation();
@@ -102,7 +99,7 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                       >
                         <AppImage
                           widgetId={'UpdateQuote_Image_Icon_Image'}
-                          source={imageSources.image__3qoo}
+                          source={imageSources.image__fm93}
                           resizeMode={'contain'}
                           style={styles.updateQuoteImageIconImageStyle}
                         />
@@ -121,16 +118,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.updateQuoteTitleReviewTransferDetailsTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.UpdateQuote
+                        accessibilityLabel={
+                          STRINGS.UpdateQuote
                             .UpdateQuote_Title_ReviewTransferDetails_Text
-                            .accessibilityLabel,
-                        )}
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.UpdateQuote
-                            .UpdateQuote_Title_ReviewTransferDetails_Text.label,
-                        )}
+                        {
+                          STRINGS.UpdateQuote
+                            .UpdateQuote_Title_ReviewTransferDetails_Text.label
+                        }
                       </AppText>
                     </AppColumn>
                   </AppRow>
@@ -144,7 +141,7 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                     >
                       <AppImage
                         widgetId={'UpdateQuote_Image_Icon_Image_2'}
-                        source={imageSources.image__ilsr}
+                        source={imageSources.image__gjna}
                         resizeMode={'contain'}
                         style={styles.updateQuoteImageIconImage2Style}
                       />
@@ -175,16 +172,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.updateQuoteLabelReviewYourTransferTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.UpdateQuote
+                      accessibilityLabel={
+                        STRINGS.UpdateQuote
                           .UpdateQuote_Label_ReviewYourTransfer_Text
-                          .accessibilityLabel,
-                      )}
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.UpdateQuote
-                          .UpdateQuote_Label_ReviewYourTransfer_Text.label,
-                      )}
+                      {
+                        STRINGS.UpdateQuote
+                          .UpdateQuote_Label_ReviewYourTransfer_Text.label
+                      }
                     </AppText>
                   </AppColumn>
                   <AppColumn
@@ -198,12 +195,12 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         sharedStyles.signUpLabelSignUpToSendMoneyWorldwidText,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.UpdateQuote.UpdateQuote_Body_Text
-                          .accessibilityLabel,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.UpdateQuote.UpdateQuote_Body_Text
+                          .accessibilityLabel
+                      }
                     >
-                      {t(KEYS.UpdateQuote.UpdateQuote_Body_Text.label)}
+                      {STRINGS.UpdateQuote.UpdateQuote_Body_Text.label}
                     </AppText>
                   </AppColumn>
                 </AppColumn>
@@ -236,15 +233,15 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.updateQuoteLabelYouSendTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.UpdateQuote.UpdateQuote_Label_YouSend_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.UpdateQuote.UpdateQuote_Label_YouSend_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.UpdateQuote.UpdateQuote_Label_YouSend_Text
-                              .label,
-                          )}
+                          {
+                            STRINGS.UpdateQuote.UpdateQuote_Label_YouSend_Text
+                              .label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppRow
@@ -276,16 +273,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                                     text.label.medium,
                                     styles.updateQuoteLabelPhoneTextStyle,
                                   ]}
-                                  accessibilityLabel={t(
-                                    KEYS.UpdateQuote
+                                  accessibilityLabel={
+                                    STRINGS.UpdateQuote
                                       .UpdateQuote_Label_Phone_Text
-                                      .accessibilityLabel,
-                                  )}
+                                      .accessibilityLabel
+                                  }
                                 >
-                                  {t(
-                                    KEYS.UpdateQuote
-                                      .UpdateQuote_Label_Phone_Text.label,
-                                  )}
+                                  {
+                                    STRINGS.UpdateQuote
+                                      .UpdateQuote_Label_Phone_Text.label
+                                  }
                                 </AppText>
                               </AppColumn>
                             </AppColumn>
@@ -299,16 +296,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                           containerStyle={
                             sharedStyles.createQuoteContainerBackgroundBorderDropDownContainer
                           }
-                          placeholder={t(
-                            KEYS.UpdateQuote
+                          placeholder={
+                            STRINGS.UpdateQuote
                               .UpdateQuote_Container_BackgroundBorder_DropDown
-                              .placeholder,
-                          )}
-                          searchPlaceholder={t(
-                            KEYS.UpdateQuote
+                              .placeholder
+                          }
+                          searchPlaceholder={
+                            STRINGS.UpdateQuote
                               .UpdateQuote_Container_BackgroundBorder_DropDown
-                              .searchPlaceholder,
-                          )}
+                              .searchPlaceholder
+                          }
                         />
                       </AppRow>
                       <AppRow
@@ -325,7 +322,7 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                           <AppImage
                             widgetId={'UpdateQuote_Image_Icon_Image_3'}
                             resizeMode={'stretch'}
-                            source={imageSources.image__lcpl}
+                            source={imageSources.image__c1w6}
                             style={styles.updateQuoteImageIconImage3Style}
                           />
                         </AppColumn>
@@ -342,17 +339,17 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.updateQuoteLabelYouCanChangeThisAmountTextStyle,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.UpdateQuote
+                            accessibilityLabel={
+                              STRINGS.UpdateQuote
                                 .UpdateQuote_Label_YouCanChangeThisAmount_Text
-                                .accessibilityLabel,
-                            )}
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.UpdateQuote
+                            {
+                              STRINGS.UpdateQuote
                                 .UpdateQuote_Label_YouCanChangeThisAmount_Text
-                                .label,
-                            )}
+                                .label
+                            }
                           </AppText>
                         </AppColumn>
                       </AppRow>
@@ -389,16 +386,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               sharedStyles.createQuoteLabelUserNameText2,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.UpdateQuote
+                            accessibilityLabel={
+                              STRINGS.UpdateQuote
                                 .UpdateQuote_Label_RecipientGets_Text
-                                .accessibilityLabel,
-                            )}
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.UpdateQuote
-                                .UpdateQuote_Label_RecipientGets_Text.label,
-                            )}
+                            {
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_RecipientGets_Text.label
+                            }
                           </AppText>
                         </AppColumn>
                       </AppRow>
@@ -426,14 +423,15 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                                   text.label.medium,
                                   sharedStyles.createQuoteLabelText,
                                 ]}
-                                accessibilityLabel={t(
-                                  KEYS.UpdateQuote.UpdateQuote_Label_Text
-                                    .accessibilityLabel,
-                                )}
+                                accessibilityLabel={
+                                  STRINGS.UpdateQuote.UpdateQuote_Label_Text
+                                    .accessibilityLabel
+                                }
                               >
-                                {t(
-                                  KEYS.UpdateQuote.UpdateQuote_Label_Text.label,
-                                )}
+                                {
+                                  STRINGS.UpdateQuote.UpdateQuote_Label_Text
+                                    .label
+                                }
                               </AppText>
                             </AppColumn>
                           </AppColumn>
@@ -453,16 +451,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                                 text.label.medium,
                                 sharedStyles.createQuoteLabelCalculatingText,
                               ]}
-                              accessibilityLabel={t(
-                                KEYS.UpdateQuote
+                              accessibilityLabel={
+                                STRINGS.UpdateQuote
                                   .UpdateQuote_Label_Calculating_Text
-                                  .accessibilityLabel,
-                              )}
+                                  .accessibilityLabel
+                              }
                             >
-                              {t(
-                                KEYS.UpdateQuote
-                                  .UpdateQuote_Label_Calculating_Text.label,
-                              )}
+                              {
+                                STRINGS.UpdateQuote
+                                  .UpdateQuote_Label_Calculating_Text.label
+                              }
                             </AppText>
                           </AppColumn>
                         </AppRow>
@@ -493,15 +491,15 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.updateQuoteLabelQuoteIdTextStyle,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_QuoteId_Text
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.UpdateQuote.UpdateQuote_Label_QuoteId_Text
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_QuoteId_Text
-                                .label,
-                            )}
+                            {
+                              STRINGS.UpdateQuote.UpdateQuote_Label_QuoteId_Text
+                                .label
+                            }
                           </AppText>
                         </AppColumn>
                       </AppColumn>
@@ -512,11 +510,11 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                         style={
                           styles.updateQuoteInputEnterRecipientFullNameInputStyle
                         }
-                        placeholder={t(
-                          KEYS.UpdateQuote
+                        placeholder={
+                          STRINGS.UpdateQuote
                             .UpdateQuote_Input_EnterRecipientFullName_Input
-                            .placeholder,
-                        )}
+                            .placeholder
+                        }
                       />
                       <AppColumn
                         widgetId={'UpdateQuote_Container_Column_12'}
@@ -534,15 +532,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.updateQuoteLabelUserNameTextStyle,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text
-                                .label,
-                            )}
+                            {
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text.label
+                            }
                           </AppText>
                         </AppColumn>
                       </AppColumn>
@@ -553,11 +552,11 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                         style={
                           styles.updateQuoteInputEnterRecipientFullNameInput2Style
                         }
-                        placeholder={t(
-                          KEYS.UpdateQuote
+                        placeholder={
+                          STRINGS.UpdateQuote
                             .UpdateQuote_Input_EnterRecipientFullName_Input_2
-                            .placeholder,
-                        )}
+                            .placeholder
+                        }
                       />
                     </AppColumn>
                   </AppColumn>
@@ -581,16 +580,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.updateQuoteLabelTransferSummaryTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.UpdateQuote
+                          accessibilityLabel={
+                            STRINGS.UpdateQuote
                               .UpdateQuote_Label_TransferSummary_Text
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.UpdateQuote
-                              .UpdateQuote_Label_TransferSummary_Text.label,
-                          )}
+                          {
+                            STRINGS.UpdateQuote
+                              .UpdateQuote_Label_TransferSummary_Text.label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -604,15 +603,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.updateQuoteLabelUsd0924EurTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.UpdateQuote.UpdateQuote_Label_Usd0924Eur_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.UpdateQuote
+                              .UpdateQuote_Label_Usd0924Eur_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.UpdateQuote.UpdateQuote_Label_Usd0924Eur_Text
-                              .label,
-                          )}
+                          {
+                            STRINGS.UpdateQuote
+                              .UpdateQuote_Label_Usd0924Eur_Text.label
+                          }
                         </AppText>
                       </AppColumn>
                     </AppColumn>
@@ -658,14 +658,15 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.updateQuoteLabelEurTextStyle,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_Eur_Text
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.UpdateQuote.UpdateQuote_Label_Eur_Text
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_Eur_Text.label,
-                            )}
+                            {
+                              STRINGS.UpdateQuote.UpdateQuote_Label_Eur_Text
+                                .label
+                            }
                           </AppText>
                         </AppColumn>
                       </AppRow>
@@ -699,15 +700,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               sharedStyles.createQuoteLabelUserNameText10,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text_2
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text_2
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text_2
-                                .label,
-                            )}
+                            {
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text_2.label
+                            }
                           </AppText>
                         </AppColumn>
                         <AppColumn
@@ -721,15 +723,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.updateQuoteLabelUserNameText3Style,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text_3
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text_3
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text_3
-                                .label,
-                            )}
+                            {
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text_3.label
+                            }
                           </AppText>
                         </AppColumn>
                       </AppRow>
@@ -748,15 +751,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               sharedStyles.createQuoteLabelUserNameText10,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text_4
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text_4
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text_4
-                                .label,
-                            )}
+                            {
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text_4.label
+                            }
                           </AppText>
                         </AppColumn>
                         <AppColumn
@@ -770,15 +774,16 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.updateQuoteLabelUserNameText5Style,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text_5
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text_5
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.UpdateQuote.UpdateQuote_Label_UserName_Text_5
-                                .label,
-                            )}
+                            {
+                              STRINGS.UpdateQuote
+                                .UpdateQuote_Label_UserName_Text_5.label
+                            }
                           </AppText>
                         </AppColumn>
                       </AppRow>
@@ -796,13 +801,14 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         sharedStyles.createTransferCtaConfirmButtonText,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.UpdateQuote.UpdateQuote_Cta_Continue_Button
-                          .accessibilityLabel,
-                      )}
-                      label={t(
-                        KEYS.UpdateQuote.UpdateQuote_Cta_Continue_Button.label,
-                      )}
+                      accessibilityLabel={
+                        STRINGS.UpdateQuote.UpdateQuote_Cta_Continue_Button
+                          .accessibilityLabel
+                      }
+                      label={
+                        STRINGS.UpdateQuote.UpdateQuote_Cta_Continue_Button
+                          .label
+                      }
                     />
                     <AppColumn
                       widgetId={'UpdateQuote_Container_Column_21'}
@@ -817,17 +823,17 @@ const UpdateQuote: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.updateQuoteLabelExchangeRatesMayChangeUntiTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.UpdateQuote
+                        accessibilityLabel={
+                          STRINGS.UpdateQuote
                             .UpdateQuote_Label_ExchangeRatesMayChangeUnti_Text
-                            .accessibilityLabel,
-                        )}
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.UpdateQuote
+                        {
+                          STRINGS.UpdateQuote
                             .UpdateQuote_Label_ExchangeRatesMayChangeUnti_Text
-                            .label,
-                        )}
+                            .label
+                        }
                       </AppText>
                     </AppColumn>
                   </AppColumn>

@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "appId": "7f2aa8bb-b945-4403-85a2-9b39711155cc",
+  "framework": "ReactNative",
+  "version": "0.79.1",
+  "buildId": "MoneyAppWithChanges2",
+  "generatedAt": "2026-06-22T07:44:28.300Z",
+  "files": {
+    "android/app/build.gradle": {
+      "hash": "ac95a65d2779e536662f4198ead29edfe1ba6c4e50248048be2f07f0d3366056",
+      "bytes": 7688
+    },
+    "android/app/build.gradle.bak": {
+      "hash": "fb0926b2ed5522efaf8313b602ab03f145b7ed0842e94754a769b90061f679f6",
+      "bytes": 6235
+    },
+    "android/app/src/main/res/values/styles.xml": {
+      "hash": "741624f1a125e54b35536047f642ac190869b51224c8fb63082ae356d098a32f",
+      "bytes": 409
+    },
+    "android/gradle.properties": {
+      "hash": "716a0bbfcc5f135b485f4ff4afb388ec11e5ec152c14d600e550fbde9ead26d0",
+      "bytes": 2250
+    },
+    "app.json": {
+      "hash": "316c08c422d36bdd54c8277a3aa019af403084a1c6d7827a1928b700512ebbcf",
+      "bytes": 105
+    },
+    "e2e/login.yaml": {
+      "hash": "e04dcb128f842fda992125f08677bb1bc4b6cc26eceb941be0a52d182a32958c",
+      "bytes": 11586
+    },
+    "e2e/master_suite.yaml": {
+      "hash": "fc545e45b150b63bd7c0af2eb9e7cfa136771d0436ac2e706dc7daedbd45a56f",
+      "bytes": 1353
+    },
+    "ios/Podfile": {
+      "hash": "f48a9f2b1576fa3c8b83e05c99adc11c5588e341c3eca1ef1a3f572b14c6b4b6",
+      "bytes": 2973
+    },
+    "package.json": {
+      "hash": "396c4b71b45426f68076192db273dbcaab49e8d927da274dd0241fca8439433a",
+      "bytes": 6336
+    },
+    "src/assets/imageSources.ts": {
+      "hash": "b44f741dfcfc414e9681444a51da9cb4122342544f02caf80614ac3daf48e85f",
+      "bytes": 2501
+    },
+    "src/components/shared/AppButton.tsx": {
+      "hash": "6fc5d621b4e2b2ffe3fd46193e4655ef21f226047a77b08151b1e4f38f31a369",
+      "bytes": 1176
+    },
+    "src/components/shared/sharedStyles.ts": {
+      "hash": "9e32a92ba740a190ed6dfc263800c627930da868022087f972f46c15fbf32559",
+      "bytes": 12706
+    },
+    "src/providers/AppProviders.tsx": {
+      "hash": "fccbb99407dab52c2f1acbc949e10a5c7652ad7c54e7fcb983c08c3d9e505fa1",
+      "bytes": 881
+    },
+    "src/screens/CreateQuote/CreateQuote.tsx": {
+      "hash": "357a17cd89d62c3d4ded3baa53008aa8469cce528aabb80001ad93b6b7e23041",
+      "bytes": 53401
+    },
+    "src/screens/CreateRecepient/CreateRecepient.tsx": {
+      "hash": "0bafed0a2338279229c9293317d69881fce477e08570accda8a1c7b6b5e07166",
+      "bytes": 51355
+    },
+    "src/screens/CreateTransfer/CreateTransfer.tsx": {
+      "hash": "d2523c45434062a4215b8eae71e8186383983ac982d08df110ce8d0ca824c1f2",
+      "bytes": 35454
+    },
+    "src/screens/FinishScreen/FinishScreen.tsx": {
+      "hash": "228547dd5de7b6e97faaa58c189a799d64b96a711fd9477964d9101a5ba595a9",
+      "bytes": 29351
+    },
+    "src/screens/FundTransfer/FundTransfer.tsx": {
+      "hash": "328b715155fb253780da72d6cef48abae2977e624a75e6cba56e159e5947841e",
+      "bytes": 50026
+    },
+    "src/screens/Login/Login.tsx": {
+      "hash": "821b2360765fdf650e1d8533d700f20162d54b064716745e7e33be3c736893f7",
+      "bytes": 18685
+    },
+    "src/screens/SignUp/SignUp.tsx": {
+      "hash": "2d1bf1731bd0bfc81b0bd6d6d93754303582ac2246a52ae7781833b0ba7f2f54",
+      "bytes": 28536
+    },
+    "src/screens/UpdateQuote/UpdateQuote.tsx": {
+      "hash": "a250237fa52e9befe5cde1c912186d246e2fb8cfcdf1922da569dfec26003de4",
+      "bytes": 49416
+    },
+    "src/screens/WelcomeScreen/WelcomeScreen.tsx": {
+      "hash": "d730dbf43b7718cf7a9ef63dafb1c927f284e8875f67f6a8b121731a47f119a1",
+      "bytes": 32151
+    },
+    "test-metadata.json": {
+      "hash": "3b7729094bb635d4a60a9014178a4411ddac45d662fc73dbc00d3e53410798fb",
+      "bytes": 447590
+    },
+    "src/assets/images/image__6fqw9.png": {
+      "hash": "22de833fd90227bf4759bdd6622480c87e9dbeae831f4d3e254afcf584ca0998",
+      "bytes": 666541
+    },
+    "src/assets/images/image__c25w.png": {
+      "hash": "971ade13a04ae24bedfb793aec2ae96698ba3df47885ec2285dfeea8f8c7c6c7",
+      "bytes": 859531
+    },
+    "src/assets/images/image__il5v.png": {
+      "hash": "e51a6f29c6825eebb6f8b7234cd8c90b4f3d39def1d800015fbb6bf20fa5b12b",
+      "bytes": 15716
+    },
+    "src/assets/images/image__psyw.png": {
+      "hash": "c4dae3d2b2df64b37cc15462898016b7f4e75bbb0c9f9ab918b4d7af7e360e60",
+      "bytes": 15610
+    },
+    "src/assets/images/image__wpuo0.png": {
+      "hash": "704ba3dfe99ffcae649231a045a220a10e47b96e03d8dd5af3f5bded3afae580",
+      "bytes": 613036
+    },
+    "src/assets/images/image__xcrro.png": {
+      "hash": "f853f619fb44180d581777de487092a49130cb93ecf6b7b3cc52c555e8d09c3d",
+      "bytes": 1202
+    },
+    "src/assets/svgs/SvgImage_645.tsx": {
+      "hash": "80c75a9b61c83f52ade134678bfdd8a85cb70e93a5b69cb063bb3d332db5d0b0",
+      "bytes": 1184
+    },
+    "src/assets/svgs/SvgImage_c1w6.tsx": {
+      "hash": "0d1ca5f4b67d8125cfb222f499bd5f8195aad7b96a99680b842c40b19a2dd09b",
+      "bytes": 899
+    },
+    "src/assets/svgs/SvgImage_dmsv0.tsx": {
+      "hash": "67dfd11ff00de15564d9ab2f432f7c2bf449eeefc9cdc3e9e689c9a092c1572d",
+      "bytes": 899
+    },
+    "src/assets/svgs/SvgImage_f3a6.tsx": {
+      "hash": "cba67ed84cde82818225233a53428aa50012e751f58c0ffdbb5774119f27e21e",
+      "bytes": 1019
+    },
+    "src/assets/svgs/SvgImage_f7tw0.tsx": {
+      "hash": "441ce19fa6cf319a5036ee7100ba676f4a154c292db652d437b66ff45e2a0350",
+      "bytes": 2497
+    },
+    "src/assets/svgs/SvgImage_fm93.tsx": {
+      "hash": "35bbf6bb2e3443391aa310e4cdde4d2bcc5123b823128a103613f6147b89573e",
+      "bytes": 834
+    },
+    "src/assets/svgs/SvgImage_gjna.tsx": {
+      "hash": "ce4f5c184c77fa272b21bed8044011e24b1266dc87ca7ff3d5ad47f49167ca19",
+      "bytes": 1544
+    },
+    "src/assets/svgs/SvgImage_hfxf.tsx": {
+      "hash": "be97e4c32df8d00d062fc1d028721a0578eff40cf76a0dccfe9cfb217afc10c2",
+      "bytes": 1719
+    },
+    "src/assets/svgs/SvgImage_ioc2.tsx": {
+      "hash": "2c497b9357de625f542227e2125f9637c5c41d53e32f981940aec1075d59cb0b",
+      "bytes": 851
+    },
+    "src/assets/svgs/SvgImage_jnxiq.tsx": {
+      "hash": "22afb7de26c315e4c5becc40db6d2014eff9928589b2af1580359e2bac05eb50",
+      "bytes": 1225
+    },
+    "src/assets/svgs/SvgImage_pzft.tsx": {
+      "hash": "dd24486f1556758b65087bc8613bc196004da05e187df111833a099235ae52ac",
+      "bytes": 834
+    },
+    "src/strings/index.ts": {
+      "hash": "6c8e261225efd0e040c25054926a5f8ee95a9c2a5bf4af49317394b0bca88d4f",
+      "bytes": 23503
+    }
+  },
+  "mergeFiles": [
+    "package.json",
+    "app.json"
+  ]
+}

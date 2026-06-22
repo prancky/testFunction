@@ -18,8 +18,7 @@ import { sharedStyles } from '@/components/shared/sharedStyles';
 
 import { useClearHeaderActions } from '@/utils/screen.effects';
 
-import { useTranslation } from 'react-i18next';
-import { KEYS } from '@/i18n/keys';
+import { STRINGS } from '@/strings';
 
 type ScreenRouteParams = {};
 
@@ -30,8 +29,6 @@ type ScreenProps = {
 };
 
 const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
-  const { t } = useTranslation();
-
   const navigation = useNavigation();
 
   useClearHeaderActions(navigation);
@@ -55,14 +52,14 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
           sharedStyles.createQuoteAppBarHeaderTopAppBarAppBarTextStyles,
         ]}
         style={sharedStyles.finishScreenAppBarHeaderTopNavigationAnchorAppBar}
-        title={t(
-          KEYS.FinishScreen.FinishScreen_AppBar_HeaderTopNavigationAnchor_AppBar
-            .title,
-        )}
+        title={
+          STRINGS.FinishScreen
+            .FinishScreen_AppBar_HeaderTopNavigationAnchor_AppBar.title
+        }
       >
         <AppImage
           widgetId={'FinishScreen_Image_UserProfile_Image'}
-          source={imageSources.image__9rq4m}
+          source={imageSources.image__il5v}
           resizeMode={'contain'}
           style={styles.finishScreenImageUserProfileImageStyle}
         />
@@ -128,12 +125,12 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     styles.finishScreenLabelUserNameTextStyle,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.FinishScreen.FinishScreen_Label_UserName_Text
-                      .accessibilityLabel,
-                  )}
+                  accessibilityLabel={
+                    STRINGS.FinishScreen.FinishScreen_Label_UserName_Text
+                      .accessibilityLabel
+                  }
                 >
-                  {t(KEYS.FinishScreen.FinishScreen_Label_UserName_Text.label)}
+                  {STRINGS.FinishScreen.FinishScreen_Label_UserName_Text.label}
                 </AppText>
               </AppColumn>
             </AppColumn>
@@ -148,16 +145,16 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                   text.label.medium,
                   styles.finishScreenLabelYourFundsAreBeingMovedThrTextStyle,
                 ]}
-                accessibilityLabel={t(
-                  KEYS.FinishScreen
+                accessibilityLabel={
+                  STRINGS.FinishScreen
                     .FinishScreen_Label_YourFundsAreBeingMovedThr_Text
-                    .accessibilityLabel,
-                )}
+                    .accessibilityLabel
+                }
               >
-                {t(
-                  KEYS.FinishScreen
-                    .FinishScreen_Label_YourFundsAreBeingMovedThr_Text.label,
-                )}
+                {
+                  STRINGS.FinishScreen
+                    .FinishScreen_Label_YourFundsAreBeingMovedThr_Text.label
+                }
               </AppText>
             </AppColumn>
           </AppColumn>
@@ -187,12 +184,12 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                   text.label.medium,
                   styles.finishScreenLabelUserNameText2Style,
                 ]}
-                accessibilityLabel={t(
-                  KEYS.FinishScreen.FinishScreen_Label_UserName_Text_2
-                    .accessibilityLabel,
-                )}
+                accessibilityLabel={
+                  STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_2
+                    .accessibilityLabel
+                }
               >
-                {t(KEYS.FinishScreen.FinishScreen_Label_UserName_Text_2.label)}
+                {STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_2.label}
               </AppText>
             </AppColumn>
             <AppColumn
@@ -206,12 +203,12 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                   text.label.medium,
                   styles.finishScreenLabelUsdTextStyle,
                 ]}
-                accessibilityLabel={t(
-                  KEYS.FinishScreen.FinishScreen_Label_Usd_Text
-                    .accessibilityLabel,
-                )}
+                accessibilityLabel={
+                  STRINGS.FinishScreen.FinishScreen_Label_Usd_Text
+                    .accessibilityLabel
+                }
               >
-                {t(KEYS.FinishScreen.FinishScreen_Label_Usd_Text.label)}
+                {STRINGS.FinishScreen.FinishScreen_Label_Usd_Text.label}
               </AppText>
             </AppColumn>
           </AppColumn>
@@ -235,14 +232,15 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     sharedStyles.createTransferLabelUserNameText3,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.FinishScreen.FinishScreen_Label_UserName_Text_3
-                      .accessibilityLabel,
-                  )}
+                  accessibilityLabel={
+                    STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_3
+                      .accessibilityLabel
+                  }
                 >
-                  {t(
-                    KEYS.FinishScreen.FinishScreen_Label_UserName_Text_3.label,
-                  )}
+                  {
+                    STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_3
+                      .label
+                  }
                 </AppText>
               </AppColumn>
               <AppRow
@@ -261,15 +259,15 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.finishScreenLabelUserNameText4Style,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.FinishScreen.FinishScreen_Label_UserName_Text_4
-                        .accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_4
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.FinishScreen.FinishScreen_Label_UserName_Text_4
-                        .label,
-                    )}
+                    {
+                      STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_4
+                        .label
+                    }
                   </AppText>
                 </AppColumn>
                 <AppRow
@@ -283,12 +281,12 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.finishScreenLabelAhTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.FinishScreen.FinishScreen_Label_Ah_Text
-                        .accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.FinishScreen.FinishScreen_Label_Ah_Text
+                        .accessibilityLabel
+                    }
                   >
-                    {t(KEYS.FinishScreen.FinishScreen_Label_Ah_Text.label)}
+                    {STRINGS.FinishScreen.FinishScreen_Label_Ah_Text.label}
                   </AppText>
                 </AppRow>
               </AppRow>
@@ -308,14 +306,15 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     sharedStyles.createTransferLabelUserNameText3,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.FinishScreen.FinishScreen_Label_UserName_Text_5
-                      .accessibilityLabel,
-                  )}
+                  accessibilityLabel={
+                    STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_5
+                      .accessibilityLabel
+                  }
                 >
-                  {t(
-                    KEYS.FinishScreen.FinishScreen_Label_UserName_Text_5.label,
-                  )}
+                  {
+                    STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_5
+                      .label
+                  }
                 </AppText>
               </AppColumn>
               <AppRow
@@ -338,15 +337,15 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.finishScreenLabelUserNameText6Style,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.FinishScreen.FinishScreen_Label_UserName_Text_6
-                        .accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_6
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.FinishScreen.FinishScreen_Label_UserName_Text_6
-                        .label,
-                    )}
+                    {
+                      STRINGS.FinishScreen.FinishScreen_Label_UserName_Text_6
+                        .label
+                    }
                   </AppText>
                 </AppColumn>
               </AppRow>
@@ -366,14 +365,15 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     sharedStyles.createTransferLabelUserNameText3,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.FinishScreen.FinishScreen_Label_TransferId_Text
-                      .accessibilityLabel,
-                  )}
+                  accessibilityLabel={
+                    STRINGS.FinishScreen.FinishScreen_Label_TransferId_Text
+                      .accessibilityLabel
+                  }
                 >
-                  {t(
-                    KEYS.FinishScreen.FinishScreen_Label_TransferId_Text.label,
-                  )}
+                  {
+                    STRINGS.FinishScreen.FinishScreen_Label_TransferId_Text
+                      .label
+                  }
                 </AppText>
               </AppColumn>
               <AppColumn
@@ -387,14 +387,15 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                     text.label.medium,
                     styles.finishScreenLabelTfr7712X92TextStyle,
                   ]}
-                  accessibilityLabel={t(
-                    KEYS.FinishScreen.FinishScreen_Label_Tfr7712X92_Text
-                      .accessibilityLabel,
-                  )}
+                  accessibilityLabel={
+                    STRINGS.FinishScreen.FinishScreen_Label_Tfr7712X92_Text
+                      .accessibilityLabel
+                  }
                 >
-                  {t(
-                    KEYS.FinishScreen.FinishScreen_Label_Tfr7712X92_Text.label,
-                  )}
+                  {
+                    STRINGS.FinishScreen.FinishScreen_Label_Tfr7712X92_Text
+                      .label
+                  }
                 </AppText>
               </AppColumn>
             </AppRow>
@@ -422,16 +423,16 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.finishScreenLabelNetworkConfirmationTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.FinishScreen
+                    accessibilityLabel={
+                      STRINGS.FinishScreen
                         .FinishScreen_Label_NetworkConfirmation_Text
-                        .accessibilityLabel,
-                    )}
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.FinishScreen
-                        .FinishScreen_Label_NetworkConfirmation_Text.label,
-                    )}
+                    {
+                      STRINGS.FinishScreen
+                        .FinishScreen_Label_NetworkConfirmation_Text.label
+                    }
                   </AppText>
                 </AppColumn>
                 <AppColumn
@@ -445,14 +446,15 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.finishScreenLabelCompleteTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.FinishScreen.FinishScreen_Label_Complete_Text
-                        .accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.FinishScreen.FinishScreen_Label_Complete_Text
+                        .accessibilityLabel
+                    }
                   >
-                    {t(
-                      KEYS.FinishScreen.FinishScreen_Label_Complete_Text.label,
-                    )}
+                    {
+                      STRINGS.FinishScreen.FinishScreen_Label_Complete_Text
+                        .label
+                    }
                   </AppText>
                 </AppColumn>
               </AppRow>
@@ -486,7 +488,7 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
           >
             <AppImage
               widgetId={'FinishScreen_Background_AbstractWealth_Image'}
-              source={imageSources.image__h3bbu}
+              source={imageSources.image__6fqw9}
               resizeMode={'cover'}
               style={styles.finishScreenBackgroundAbstractWealthImageStyle}
             />
@@ -499,10 +501,10 @@ const FinishScreen: React.FC<ScreenProps> = ({ route }) => {
             text.label.medium,
             sharedStyles.finishScreenCtaDoneButtonText,
           ]}
-          accessibilityLabel={t(
-            KEYS.FinishScreen.FinishScreen_Cta_Done_Button.accessibilityLabel,
-          )}
-          label={t(KEYS.FinishScreen.FinishScreen_Cta_Done_Button.label)}
+          accessibilityLabel={
+            STRINGS.FinishScreen.FinishScreen_Cta_Done_Button.accessibilityLabel
+          }
+          label={STRINGS.FinishScreen.FinishScreen_Cta_Done_Button.label}
         />
       </AppColumn>
     </AppContainer>

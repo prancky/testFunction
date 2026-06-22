@@ -282,6 +282,12 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
                   widgetId={'Login_Container_SecondaryActionMargin_Column'}
                   style={styles.loginContainerSecondaryActionMarginColumnStyle}
                 >
+                  <AppButton
+                    widgetId={'ASButton-931759'}
+                    style={styles.loginCtaLogInButtonStyle}
+                    textStyle={[text.label.medium, styles.createRecepientCtaContinueButtonText]}
+                    label={"SUMSUB"}
+                  />
                   <AppRow
                     widgetId={'Login_Container_SecondaryAction_Row'}
                     spacing={3.990000009536743}

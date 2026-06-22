@@ -25,8 +25,7 @@ import { FormikProps } from 'formik';
 import * as Yup from 'yup';
 import { useClearHeaderActions } from '@/utils/screen.effects';
 
-import { useTranslation } from 'react-i18next';
-import { KEYS } from '@/i18n/keys';
+import { STRINGS } from '@/strings';
 
 type FormValues = {
   CreateQuote_Container_BackgroundBorder_DropDown?: string;
@@ -43,8 +42,6 @@ type ScreenProps = {
 };
 
 const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
-  const { t } = useTranslation();
-
   const formikRef = useRef<FormikProps<FormValues>>(null);
 
   const navigation = useNavigation();
@@ -83,10 +80,10 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                   text.title.medium,
                   sharedStyles.createQuoteAppBarHeaderTopAppBarAppBarTextStyles,
                 ]}
-                title={t(
-                  KEYS.CreateQuote.CreateQuote_AppBar_HeaderTopAppBar_AppBar
-                    .title,
-                )}
+                title={
+                  STRINGS.CreateQuote.CreateQuote_AppBar_HeaderTopAppBar_AppBar
+                    .title
+                }
               />
               <AppColumn
                 widgetId={'CreateQuote_Container_Main_Column'}
@@ -107,12 +104,12 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                       text.label.medium,
                       styles.createQuoteLabelUserNameTextStyle,
                     ]}
-                    accessibilityLabel={t(
-                      KEYS.CreateQuote.CreateQuote_Label_UserName_Text
-                        .accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.CreateQuote.CreateQuote_Label_UserName_Text
+                        .accessibilityLabel
+                    }
                   >
-                    {t(KEYS.CreateQuote.CreateQuote_Label_UserName_Text.label)}
+                    {STRINGS.CreateQuote.CreateQuote_Label_UserName_Text.label}
                   </AppText>
                   <AppColumn
                     widgetId={'CreateQuote_Container_Column'}
@@ -127,17 +124,17 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                         text.label.medium,
                         styles.createQuoteLabelSendMoneyWorldwideWithRealTextStyle,
                       ]}
-                      accessibilityLabel={t(
-                        KEYS.CreateQuote
+                      accessibilityLabel={
+                        STRINGS.CreateQuote
                           .CreateQuote_Label_SendMoneyWorldwideWithReal_Text
-                          .accessibilityLabel,
-                      )}
+                          .accessibilityLabel
+                      }
                     >
-                      {t(
-                        KEYS.CreateQuote
+                      {
+                        STRINGS.CreateQuote
                           .CreateQuote_Label_SendMoneyWorldwideWithReal_Text
-                          .label,
-                      )}
+                          .label
+                      }
                     </AppText>
                   </AppColumn>
                 </AppColumn>
@@ -167,17 +164,17 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                           text.label.medium,
                           styles.createQuoteLabelRealExchangeRateAppliedTextStyle,
                         ]}
-                        accessibilityLabel={t(
-                          KEYS.CreateQuote
+                        accessibilityLabel={
+                          STRINGS.CreateQuote
                             .CreateQuote_Label_RealExchangeRateApplied_Text
-                            .accessibilityLabel,
-                        )}
+                            .accessibilityLabel
+                        }
                       >
-                        {t(
-                          KEYS.CreateQuote
+                        {
+                          STRINGS.CreateQuote
                             .CreateQuote_Label_RealExchangeRateApplied_Text
-                            .label,
-                        )}
+                            .label
+                        }
                       </AppText>
                     </AppColumn>
                   </AppColumn>
@@ -218,15 +215,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               sharedStyles.createQuoteLabelUserNameText2,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_2
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_2
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_2
-                                .label,
-                            )}
+                            {
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_2.label
+                            }
                           </AppText>
                         </AppColumn>
                         <AppDropDown
@@ -237,16 +235,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                           containerStyle={
                             sharedStyles.createQuoteContainerBackgroundBorderDropDownContainer
                           }
-                          placeholder={t(
-                            KEYS.CreateQuote
+                          placeholder={
+                            STRINGS.CreateQuote
                               .CreateQuote_Container_BackgroundBorder_DropDown
-                              .placeholder,
-                          )}
-                          searchPlaceholder={t(
-                            KEYS.CreateQuote
+                              .placeholder
+                          }
+                          searchPlaceholder={
+                            STRINGS.CreateQuote
                               .CreateQuote_Container_BackgroundBorder_DropDown
-                              .searchPlaceholder,
-                          )}
+                              .searchPlaceholder
+                          }
                         />
                       </AppRow>
                       <AppColumn
@@ -273,15 +271,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                                   text.label.medium,
                                   styles.createQuoteLabelPhoneTextStyle,
                                 ]}
-                                accessibilityLabel={t(
-                                  KEYS.CreateQuote.CreateQuote_Label_Phone_Text
-                                    .accessibilityLabel,
-                                )}
+                                accessibilityLabel={
+                                  STRINGS.CreateQuote
+                                    .CreateQuote_Label_Phone_Text
+                                    .accessibilityLabel
+                                }
                               >
-                                {t(
-                                  KEYS.CreateQuote.CreateQuote_Label_Phone_Text
-                                    .label,
-                                )}
+                                {
+                                  STRINGS.CreateQuote
+                                    .CreateQuote_Label_Phone_Text.label
+                                }
                               </AppText>
                             </AppColumn>
                           </AppColumn>
@@ -301,16 +300,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                                 text.label.medium,
                                 styles.createQuoteLabelUserNameText3Style,
                               ]}
-                              accessibilityLabel={t(
-                                KEYS.CreateQuote
+                              accessibilityLabel={
+                                STRINGS.CreateQuote
                                   .CreateQuote_Label_UserName_Text_3
-                                  .accessibilityLabel,
-                              )}
+                                  .accessibilityLabel
+                              }
                             >
-                              {t(
-                                KEYS.CreateQuote
-                                  .CreateQuote_Label_UserName_Text_3.label,
-                              )}
+                              {
+                                STRINGS.CreateQuote
+                                  .CreateQuote_Label_UserName_Text_3.label
+                              }
                             </AppText>
                           </AppColumn>
                         </AppRow>
@@ -344,7 +343,7 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                           <AppImage
                             widgetId={'CreateQuote_Image_Icon_Image'}
                             resizeMode={'stretch'}
-                            source={imageSources.image__30c77}
+                            source={imageSources.image__3knk2}
                             style={sharedStyles.createQuoteImageIconImage}
                           />
                         </AppColumn>
@@ -372,15 +371,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               sharedStyles.createQuoteLabelUserNameText2,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_4
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_4
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_4
-                                .label,
-                            )}
+                            {
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_4.label
+                            }
                           </AppText>
                         </AppColumn>
                         <AppDropDown
@@ -391,16 +391,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                           containerStyle={
                             styles.createQuoteContainerBackgroundBorderDropDown2ContainerStyle
                           }
-                          placeholder={t(
-                            KEYS.CreateQuote
+                          placeholder={
+                            STRINGS.CreateQuote
                               .CreateQuote_Container_BackgroundBorder_DropDown_2
-                              .placeholder,
-                          )}
-                          searchPlaceholder={t(
-                            KEYS.CreateQuote
+                              .placeholder
+                          }
+                          searchPlaceholder={
+                            STRINGS.CreateQuote
                               .CreateQuote_Container_BackgroundBorder_DropDown_2
-                              .searchPlaceholder,
-                          )}
+                              .searchPlaceholder
+                          }
                         />
                       </AppRow>
                       <AppColumn
@@ -427,14 +427,15 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                                   text.label.medium,
                                   sharedStyles.createQuoteLabelText,
                                 ]}
-                                accessibilityLabel={t(
-                                  KEYS.CreateQuote.CreateQuote_Label_Text
-                                    .accessibilityLabel,
-                                )}
+                                accessibilityLabel={
+                                  STRINGS.CreateQuote.CreateQuote_Label_Text
+                                    .accessibilityLabel
+                                }
                               >
-                                {t(
-                                  KEYS.CreateQuote.CreateQuote_Label_Text.label,
-                                )}
+                                {
+                                  STRINGS.CreateQuote.CreateQuote_Label_Text
+                                    .label
+                                }
                               </AppText>
                             </AppColumn>
                           </AppColumn>
@@ -454,16 +455,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                                 text.label.medium,
                                 styles.createQuoteLabelUserNameText5Style,
                               ]}
-                              accessibilityLabel={t(
-                                KEYS.CreateQuote
+                              accessibilityLabel={
+                                STRINGS.CreateQuote
                                   .CreateQuote_Label_UserName_Text_5
-                                  .accessibilityLabel,
-                              )}
+                                  .accessibilityLabel
+                              }
                             >
-                              {t(
-                                KEYS.CreateQuote
-                                  .CreateQuote_Label_UserName_Text_5.label,
-                              )}
+                              {
+                                STRINGS.CreateQuote
+                                  .CreateQuote_Label_UserName_Text_5.label
+                              }
                             </AppText>
                           </AppColumn>
                           <AppColumn
@@ -477,16 +478,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                                 text.label.medium,
                                 sharedStyles.createQuoteLabelCalculatingText,
                               ]}
-                              accessibilityLabel={t(
-                                KEYS.CreateQuote
+                              accessibilityLabel={
+                                STRINGS.CreateQuote
                                   .CreateQuote_Label_Calculating_Text
-                                  .accessibilityLabel,
-                              )}
+                                  .accessibilityLabel
+                              }
                             >
-                              {t(
-                                KEYS.CreateQuote
-                                  .CreateQuote_Label_Calculating_Text.label,
-                              )}
+                              {
+                                STRINGS.CreateQuote
+                                  .CreateQuote_Label_Calculating_Text.label
+                              }
                             </AppText>
                           </AppColumn>
                         </AppRow>
@@ -497,11 +498,12 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                     widgetId={'CreateQuote_Body_Text'}
                     numberOfLines={2}
                     style={[text.label.medium, styles.createQuoteBodyTextStyle]}
-                    accessibilityLabel={t(
-                      KEYS.CreateQuote.CreateQuote_Body_Text.accessibilityLabel,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.CreateQuote.CreateQuote_Body_Text
+                        .accessibilityLabel
+                    }
                   >
-                    {t(KEYS.CreateQuote.CreateQuote_Body_Text.label)}
+                    {STRINGS.CreateQuote.CreateQuote_Body_Text.label}
                   </AppText>
                   <AppColumn
                     widgetId={
@@ -528,15 +530,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createQuoteLabelUserNameText6Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateQuote.CreateQuote_Label_UserName_Text_6
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_UserName_Text_6
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateQuote.CreateQuote_Label_UserName_Text_6
-                              .label,
-                          )}
+                          {
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_UserName_Text_6.label
+                          }
                         </AppText>
                       </AppColumn>
                       <ASWrap
@@ -552,10 +555,10 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             sharedStyles.createQuoteCtaActionButton2Text,
                           ]}
-                          label={t(
-                            KEYS.CreateQuote.CreateQuote_Cta_Action_Button
-                              .label,
-                          )}
+                          label={
+                            STRINGS.CreateQuote.CreateQuote_Cta_Action_Button
+                              .label
+                          }
                         >
                           <AppColumn
                             widgetId={
@@ -581,15 +584,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.createQuoteLabelUserNameText7Style,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_7
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_7
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_7
-                                .label,
-                            )}
+                            {
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_7.label
+                            }
                           </AppText>
                         </AppButton>
                         <AppButton
@@ -599,10 +603,10 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             sharedStyles.createQuoteCtaActionButton2Text,
                           ]}
-                          label={t(
-                            KEYS.CreateQuote.CreateQuote_Cta_Action_Button_2
-                              .label,
-                          )}
+                          label={
+                            STRINGS.CreateQuote.CreateQuote_Cta_Action_Button_2
+                              .label
+                          }
                         >
                           <AppColumn
                             widgetId={
@@ -628,15 +632,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.createQuoteLabelUserNameText8Style,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_8
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_8
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_8
-                                .label,
-                            )}
+                            {
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_8.label
+                            }
                           </AppText>
                         </AppButton>
                         <AppButton
@@ -646,14 +651,14 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             sharedStyles.createQuoteCtaActionButton2Text,
                           ]}
                           style={styles.createQuoteCtaActionButton3Style}
-                          label={t(
-                            KEYS.CreateQuote.CreateQuote_Cta_Action_Button_3
-                              .label,
-                          )}
+                          label={
+                            STRINGS.CreateQuote.CreateQuote_Cta_Action_Button_3
+                              .label
+                          }
                         >
                           <AppImage
                             widgetId={'CreateQuote_Image_Icon_Image_2'}
-                            source={imageSources.image__d6w15}
+                            source={imageSources.image__uck4}
                             resizeMode={'contain'}
                             style={styles.createQuoteImageIconImage2Style}
                           />
@@ -664,15 +669,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                               text.label.medium,
                               styles.createQuoteLabelUserNameText9Style,
                             ]}
-                            accessibilityLabel={t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_9
-                                .accessibilityLabel,
-                            )}
+                            accessibilityLabel={
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_9
+                                .accessibilityLabel
+                            }
                           >
-                            {t(
-                              KEYS.CreateQuote.CreateQuote_Label_UserName_Text_9
-                                .label,
-                            )}
+                            {
+                              STRINGS.CreateQuote
+                                .CreateQuote_Label_UserName_Text_9.label
+                            }
                           </AppText>
                         </AppButton>
                       </ASWrap>
@@ -693,16 +699,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createQuoteLabelPurposeOfTransferTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateQuote
+                          accessibilityLabel={
+                            STRINGS.CreateQuote
                               .CreateQuote_Label_PurposeOfTransfer_Text
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateQuote
-                              .CreateQuote_Label_PurposeOfTransfer_Text.label,
-                          )}
+                          {
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_PurposeOfTransfer_Text.label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -715,16 +721,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                           containerStyle={
                             sharedStyles.createQuoteContainerOptionsDropDownContainer
                           }
-                          placeholder={t(
-                            KEYS.CreateQuote
+                          placeholder={
+                            STRINGS.CreateQuote
                               .CreateQuote_Container_Options_DropDown
-                              .placeholder,
-                          )}
-                          searchPlaceholder={t(
-                            KEYS.CreateQuote
+                              .placeholder
+                          }
+                          searchPlaceholder={
+                            STRINGS.CreateQuote
                               .CreateQuote_Container_Options_DropDown
-                              .searchPlaceholder,
-                          )}
+                              .searchPlaceholder
+                          }
                         />
                       </AppColumn>
                     </AppColumn>
@@ -751,15 +757,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             sharedStyles.createQuoteLabelUserNameText10,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateQuote.CreateQuote_Label_UserName_Text_10
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_UserName_Text_10
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateQuote.CreateQuote_Label_UserName_Text_10
-                              .label,
-                          )}
+                          {
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_UserName_Text_10.label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -773,15 +780,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createQuoteLabelUsd0924EurTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateQuote.CreateQuote_Label_Usd0924Eur_Text
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_Usd0924Eur_Text
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateQuote.CreateQuote_Label_Usd0924Eur_Text
-                              .label,
-                          )}
+                          {
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_Usd0924Eur_Text.label
+                          }
                         </AppText>
                       </AppColumn>
                     </AppRow>
@@ -800,15 +808,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             sharedStyles.createQuoteLabelUserNameText10,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateQuote.CreateQuote_Label_UserName_Text_11
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_UserName_Text_11
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateQuote.CreateQuote_Label_UserName_Text_11
-                              .label,
-                          )}
+                          {
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_UserName_Text_11.label
+                          }
                         </AppText>
                       </AppColumn>
                       <AppColumn
@@ -822,15 +831,16 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createQuoteLabelUserNameText12Style,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateQuote.CreateQuote_Label_UserName_Text_12
-                              .accessibilityLabel,
-                          )}
+                          accessibilityLabel={
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_UserName_Text_12
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateQuote.CreateQuote_Label_UserName_Text_12
-                              .label,
-                          )}
+                          {
+                            STRINGS.CreateQuote
+                              .CreateQuote_Label_UserName_Text_12.label
+                          }
                         </AppText>
                       </AppColumn>
                     </AppRow>
@@ -863,17 +873,17 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                             text.label.medium,
                             styles.createQuoteLabelCalculatedBasedOnLiveMidMTextStyle,
                           ]}
-                          accessibilityLabel={t(
-                            KEYS.CreateQuote
+                          accessibilityLabel={
+                            STRINGS.CreateQuote
                               .CreateQuote_Label_CalculatedBasedOnLiveMidM_Text
-                              .accessibilityLabel,
-                          )}
+                              .accessibilityLabel
+                          }
                         >
-                          {t(
-                            KEYS.CreateQuote
+                          {
+                            STRINGS.CreateQuote
                               .CreateQuote_Label_CalculatedBasedOnLiveMidM_Text
-                              .label,
-                          )}
+                              .label
+                          }
                         </AppText>
                       </AppColumn>
                     </AppColumn>
@@ -885,13 +895,13 @@ const CreateQuote: React.FC<ScreenProps> = ({ route }) => {
                       sharedStyles.createQuoteCtaContinueButtonText,
                     ]}
                     style={styles.createQuoteCtaContinueButtonStyle}
-                    accessibilityLabel={t(
-                      KEYS.CreateQuote.CreateQuote_Cta_Continue_Button
-                        .accessibilityLabel,
-                    )}
-                    label={t(
-                      KEYS.CreateQuote.CreateQuote_Cta_Continue_Button.label,
-                    )}
+                    accessibilityLabel={
+                      STRINGS.CreateQuote.CreateQuote_Cta_Continue_Button
+                        .accessibilityLabel
+                    }
+                    label={
+                      STRINGS.CreateQuote.CreateQuote_Cta_Continue_Button.label
+                    }
                   />
                 </AppColumn>
               </AppColumn>

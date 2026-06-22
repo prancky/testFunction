@@ -1,0 +1,274 @@
+appId: "${APP_ID}"
+name: "upcomingBillsTestFlow"
+# Suite: UpcomingBills
+# Consolidated test flow for UpcomingBills screen
+# Contains 36 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:UpcomingBills_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:UpcomingBills_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-UpcomingBills_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:UpcomingBills_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:UpcomingBills_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-UpcomingBills_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-UpcomingBills_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:UpcomingBills_Image is displayed on the screen: Verifies that the widget:UpcomingBills_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:UpcomingBills_Title_HiEsaaa_Text is displayed on the screen: Verifies that the widget:UpcomingBills_Title_HiEsaaa_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Title_HiEsaaa_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:UpcomingBills_Title_HiEsaaa_Text is displayed on the screen: Verifies that the label of widget:UpcomingBills_Title_HiEsaaa_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Title_HiEsaaa_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Title_HiEsaaa_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:UpcomingBills_Image_2 is displayed on the screen: Verifies that the widget:UpcomingBills_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Image_2"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASImage:UpcomingBills_Image_3 is displayed on the screen: Verifies that the widget:UpcomingBills_Image_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Image_3"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASImage:UpcomingBills_Image_4 is displayed on the screen: Verifies that the widget:UpcomingBills_Image_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Image_4"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASImage:UpcomingBills_Image_5 is displayed on the screen: Verifies that the widget:UpcomingBills_Image_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Image_5"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASImage:UpcomingBills_Image_6 is displayed on the screen: Verifies that the widget:UpcomingBills_Image_6 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Image_6"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASImage:UpcomingBills_Background_Image is displayed on the screen: Verifies that the widget:UpcomingBills_Background_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Background_Image"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASImage:group1597884430 is displayed on the screen: Verifies that the widget:group1597884430 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "group1597884430"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:adobeXd is displayed on the screen: Verifies that the widget:adobeXd renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "adobeXd"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:adobeXd is displayed on the screen: Verifies that the label of widget:adobeXd appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "adobeXd"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "adobeXd"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:text is displayed on the screen: Verifies that the widget:text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:text is displayed on the screen: Verifies that the label of widget:text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASText:aug192023 is displayed on the screen: Verifies that the widget:aug192023 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aug192023"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:aug192023 is displayed on the screen: Verifies that the label of widget:aug192023 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aug192023"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aug192023"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:Month is displayed on the screen: Verifies that the widget:Month renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Month"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:Month is displayed on the screen: Verifies that the label of widget:Month appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Month"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Month"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:subscriptions is displayed on the screen: Verifies that the widget:subscriptions renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "subscriptions"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:subscriptions is displayed on the screen: Verifies that the label of widget:subscriptions appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "subscriptions"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "subscriptions"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASButton:UpcomingBills_Cta_Pay_Button is displayed on the screen: Verifies that the widget:UpcomingBills_Cta_Pay_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-UpcomingBills_Cta_Pay_Button"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASButton:UpcomingBills_Cta_Pay_Button functionalities: Verifies that tapping button widget:UpcomingBills_Cta_Pay_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-UpcomingBills_Cta_Pay_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-UpcomingBills_Cta_Pay_Button"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASText:UpcomingBills_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:UpcomingBills_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:UpcomingBills_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:UpcomingBills_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:UpcomingBills_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:UpcomingBills_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:UpcomingBills_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:UpcomingBills_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:UpcomingBills_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:UpcomingBills_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:UpcomingBills_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:UpcomingBills_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:UpcomingBills_Label_UserName_Text_5 is displayed on the screen: Verifies that the widget:UpcomingBills_Label_UserName_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASText:UpcomingBills_Label_UserName_Text_5 is displayed on the screen: Verifies that the label of widget:UpcomingBills_Label_UserName_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASIconButton:UpcomingBills_Icon is displayed on the screen: Verifies that the widget:UpcomingBills_Icon renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-UpcomingBills_Icon"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASIconButton:UpcomingBills_Icon functionalities: Verifies that tapping button widget:UpcomingBills_Icon works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-UpcomingBills_Icon"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "icon-UpcomingBills_Icon"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASImage:UpcomingBills_Image_8 is displayed on the screen: Verifies that the widget:UpcomingBills_Image_8 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Image_8"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASImage:UpcomingBills_Image_9 is displayed on the screen: Verifies that the widget:UpcomingBills_Image_9 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "UpcomingBills_Image_9"

@@ -1,21 +1,26 @@
 export const typography = {
   fonts: [
     {
-      family: 'Inter',
-      styles: ['bold', 'medium', 'regular', 'semi bold'],
-      weights: [400, 500, 600, 700],
+      family: 'Plus Jakarta Sans',
+      styles: ['medium', 'regular'],
+      weights: [400, 500],
     },
     {
-      family: 'Manrope',
-      styles: ['bold', 'extrabold', 'semibold'],
-      weights: [500, 600, 700, 800],
+      family: 'Montserrat',
+      styles: ['medium', 'regular', 'semibold'],
+      weights: [400, 500, 600],
     },
     {
-      family: 'Liberation Mono',
-      styles: ['regular'],
-      weights: [400],
+      family: 'SF Pro Text',
+      styles: ['semibold'],
+      weights: [600],
+    },
+    {
+      family: 'Urbanist',
+      styles: ['semibold'],
+      weights: [600],
     },
   ],
-  primaryFont: 'Inter',
-  secondaryFont: 'Manrope',
+  primaryFont: 'Plus Jakarta Sans',
+  secondaryFont: 'Montserrat',
 };

@@ -56,7 +56,7 @@ const Login: React.FC<ScreenProps> = ({ route }) => {
       await executeCustomFunction(
         'DashboardFunctions.handleManageBooks',
         navigation,
-        globalData
+        globalData,
       );
     } catch (error) {
       console.error('Custom function failed:', error);

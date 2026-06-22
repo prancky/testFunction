@@ -1,0 +1,906 @@
+{
+  "schemaVersion": 1,
+  "appId": "87978af7-5590-4a29-b207-cc923b0707bc",
+  "framework": "ReactNative",
+  "version": "0.79.1",
+  "buildId": "testApp6",
+  "generatedAt": "2026-06-22T06:39:50.697Z",
+  "files": {
+    "android/app/build.gradle": {
+      "hash": "f5ecda10a66931009d3484f2ba45892a7372b0246da8886cc14033945a41bfc7",
+      "bytes": 7650
+    },
+    "android/app/build.gradle.bak": {
+      "hash": "1ebe4d29f5431584f627c08be087699627acc4896d0577076a2c958fbaaea6e7",
+      "bytes": 6215
+    },
+    "android/app/src/main/res/layout/launch_screen.xml": {
+      "hash": "3e4b06dbaef753dd9252a30d3d5176024d33ea7672464450a3a8de53eeb84274",
+      "bytes": 692
+    },
+    "android/app/src/main/res/values/styles.xml": {
+      "hash": "741624f1a125e54b35536047f642ac190869b51224c8fb63082ae356d098a32f",
+      "bytes": 409
+    },
+    "android/gradle.properties": {
+      "hash": "716a0bbfcc5f135b485f4ff4afb388ec11e5ec152c14d600e550fbde9ead26d0",
+      "bytes": 2250
+    },
+    "android/settings.gradle": {
+      "hash": "13ecc0913748a3172508056fe23e26bd3e684b6f3212e04578c25ab1f84abff6",
+      "bytes": 348
+    },
+    "app.json": {
+      "hash": "ca9afb8e030b3f71989b898c2227cb340410ab1f234013e8b40e16e904eb7a9b",
+      "bytes": 85
+    },
+    "e2e/master_suite.yaml": {
+      "hash": "e1dd4d12f8cda86d2613c4aa88dac20423aa669e95d50f309b71d72fcf757a11",
+      "bytes": 1647
+    },
+    "e2e/signUp.yaml": {
+      "hash": "486b77d201475ae4f6416b24c038ff8e0b44ade15666c9c434e6c444dbc899ba",
+      "bytes": 9340
+    },
+    "ios/Podfile": {
+      "hash": "7ee736c6957810a2f8976db8caa8fc70164f45d602fa2301d3412bd3b784fe0d",
+      "bytes": 2943
+    },
+    "package.json": {
+      "hash": "d88f7a4ba1ae2db1c83baf761aefda4db25e18436d53c535d8a845db59658034",
+      "bytes": 6246
+    },
+    "run_maestro_test.sh": {
+      "hash": "4ffcca564ac5549df67f96fde3630e674a46cc412d418bae50040a03827afcf5",
+      "bytes": 4159
+    },
+    "src/assets/imageSources.ts": {
+      "hash": "2d96579a46cd10551ed51d3514371a95c56dc23b15cb26be6cf821e43fd2234f",
+      "bytes": 9223
+    },
+    "src/assets/typography.ts": {
+      "hash": "b59ffaf71de6d4a55186bf13ef744c4e10770f93bebc6f27ac60a8d8fda7fc0d",
+      "bytes": 529
+    },
+    "src/components/shared/AppAppBar.tsx": {
+      "hash": "cb32f93eb1d2f1539d256b0b923409eabff8c52f322850e546396227f1772c45",
+      "bytes": 1598
+    },
+    "src/components/shared/AppButton.tsx": {
+      "hash": "81f407234af2cbe390566ffaf4e8de32afddd0eaacc913850ff6c1050e792f19",
+      "bytes": 1230
+    },
+    "src/components/shared/AppImage.tsx": {
+      "hash": "7bc3590680628bb365de9c1416f3146e54d9b67ecbddcfccfce3efa4708d5513",
+      "bytes": 1040
+    },
+    "src/components/shared/AppRow.tsx": {
+      "hash": "ccb13d90bc1ba0a7dc469412d2757028e43f66ba3f75a960c20db45c05fe7754",
+      "bytes": 916
+    },
+    "src/components/shared/AppText.tsx": {
+      "hash": "cd46c5774195c977fd2065871f61d3cb46734f3ff380df5ebc12a7a506632bc3",
+      "bytes": 977
+    },
+    "src/components/shared/index.ts": {
+      "hash": "1051ae07392d1fc3b9ec86a71142e566fc0a4e49aca969323aa655b4fb168c05",
+      "bytes": 816
+    },
+    "src/components/shared/sharedStyles.ts": {
+      "hash": "a2b65ebd821a7ecfe6df0c320a3d09f4d99aa3a1764f2d0e1ec41356a8af15ca",
+      "bytes": 25869
+    },
+    "src/providers/AppProviders.tsx": {
+      "hash": "fccbb99407dab52c2f1acbc949e10a5c7652ad7c54e7fcb983c08c3d9e505fa1",
+      "bytes": 881
+    },
+    "src/screens/CreateTransfer/CreateTransfer.tsx": {
+      "hash": "0cf9be7b0b375dadbf9ab1d0afb5746a4d1d9491f17332d5aaf3695742575816",
+      "bytes": 35423
+    },
+    "src/screens/FundTransfer/FundTransfer.tsx": {
+      "hash": "c7442f82a124202866fadd5dd521dfbb02e543280bd3ee119681bcf698f44754",
+      "bytes": 49676
+    },
+    "src/screens/Login/Login.tsx": {
+      "hash": "f7c9c77433024cd515f1aae4f057a7837fd6afe02d5f10b5fa9e93a0f999a48f",
+      "bytes": 18964
+    },
+    "src/screens/SignUp/SignUp.tsx": {
+      "hash": "f56855b93966f83b75f6a047a2b3db55a62cd94a1d4ff0ccbe16e7a40213a5ae",
+      "bytes": 10189
+    },
+    "test-metadata.json": {
+      "hash": "d18bfafde1d54e1cf77c8e68d8fc5ccb17b6fd627274e21a452f64b6a5c8a6b3",
+      "bytes": 461826
+    },
+    "e2e/analytics.yaml": {
+      "hash": "8b519d68d9ffe33846c98690ee04ba22d696d5af6ae1ac375dde31150e9d1e72",
+      "bytes": 8984
+    },
+    "e2e/bankAccount.yaml": {
+      "hash": "642218458ed115753f6bf28a225e266556221539d16fcd7d318d342f2d1d204f",
+      "bytes": 10261
+    },
+    "e2e/code.yaml": {
+      "hash": "f7f24d43d9d0816747b744cd04ed9b9adbcafee95edf8d4147dd9acd1485138c",
+      "bytes": 7655
+    },
+    "e2e/iphone15blue.yaml": {
+      "hash": "b9179bd56f95ae0560fbdc22b0665dbb607bd1ed568b4573f642cecff57f016d",
+      "bytes": 27393
+    },
+    "e2e/markets.yaml": {
+      "hash": "204801ab4387f8d1ce7035b1629a8716639873b84da620dab91792c2a64bba4b",
+      "bytes": 24659
+    },
+    "e2e/mybalance.yaml": {
+      "hash": "b8eca1f3bd4180561563e2dc168c0e30b972e714099204c429f254a5832b7a77",
+      "bytes": 24705
+    },
+    "e2e/profile.yaml": {
+      "hash": "de6b372bd86a0210657d924201ae72a618fd4bd5b2c1f32685166558c0500f9e",
+      "bytes": 18011
+    },
+    "e2e/send.yaml": {
+      "hash": "0ce527f6b18b59f5a62f91f1ae2f5b03cd250359927ad3fcec5368b82f251d6d",
+      "bytes": 15088
+    },
+    "e2e/send7.yaml": {
+      "hash": "f4d7e3ba4c10adb88a1ef4f7320545c13cbeb88259dfda1eb5fb5af3f67716ac",
+      "bytes": 22873
+    },
+    "e2e/transactions.yaml": {
+      "hash": "2fee2b1138ef4e9e274db0c12bfbb028bc4f903149fa59bab3fad9ec11688a91",
+      "bytes": 8976
+    },
+    "e2e/upcomingBills.yaml": {
+      "hash": "a562f840f63ae0098e4fb5d253f1fb93a1fd360b5e1dc4e6757a4ae70a80c3e3",
+      "bytes": 12752
+    },
+    "ios/BalanceFinanceApp.xcodeproj/xcshareddata/xcschemes/BalanceFinanceApp-Development.xcscheme": {
+      "hash": "b37af54bdfb596a0c9aad41ad117e113683baa8acaf8d04c0fec260d6bfe7783",
+      "bytes": 3580
+    },
+    "ios/BalanceFinanceApp.xcodeproj/xcshareddata/xcschemes/BalanceFinanceApp-Production.xcscheme": {
+      "hash": "3485fbb15f798993f348edbd82bd7216033fb4a4a15372af9b5fc1c518a2187a",
+      "bytes": 3579
+    },
+    "ios/BalanceFinanceApp.xcodeproj/xcshareddata/xcschemes/BalanceFinanceApp-Staging.xcscheme": {
+      "hash": "41ebf993c5c9097243b5a659c1f575b3a656b4422f45e0fa990bf839aebbe44d",
+      "bytes": 3576
+    },
+    "src/assets/fonts/Montserrat-400-italic.ttf": {
+      "hash": "7e87c0f96b39fbb919b30aef8991323d0b257649f391e6456bcf03c231448f49",
+      "bytes": 337132
+    },
+    "src/assets/fonts/Montserrat-400-normal.ttf": {
+      "hash": "ef9cf99f0175bef530b88934bd904fcf56f773cec6fd4dfb8ccaf7ce2bbd395e",
+      "bytes": 330948
+    },
+    "src/assets/fonts/Montserrat-500-italic.ttf": {
+      "hash": "6fff5b96f46799dd903d5cbf99f0901d3077e5b99843e5a92b6a3a324b6dd99f",
+      "bytes": 337092
+    },
+    "src/assets/fonts/Montserrat-500-normal.ttf": {
+      "hash": "cd161cba3a3cdcf68ad721920fcd164c87e7b7cc9e6bad510278c3fa378d91d2",
+      "bytes": 330872
+    },
+    "src/assets/fonts/Montserrat-600-italic.ttf": {
+      "hash": "f858d3964389a4e45eb340d9d35c0f4515ec7ee35d079e3800a5c22d9c697d50",
+      "bytes": 339028
+    },
+    "src/assets/fonts/Montserrat-600-normal.ttf": {
+      "hash": "9c4db3814875410e7d64fdc8e69676c3b84968bb15bf3ace8b3944c59fbc56b6",
+      "bytes": 333988
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-200-italic.ttf": {
+      "hash": "8aee12b1a4bb5109dab146b3e4e0c7aa2f9b787c7d7871c54e6c20b48fa87e1b",
+      "bytes": 97152
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-200-normal.ttf": {
+      "hash": "08caac023b501a6179ff16cbcf7a574a3a26dfa5071e65d4b8ee467169e81911",
+      "bytes": 94760
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-300-italic.ttf": {
+      "hash": "789707fda0f482e2a14a2b4c07e84107bbd74c7db37c62bfc56988a4e6d16734",
+      "bytes": 97148
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-300-normal.ttf": {
+      "hash": "e505e56b66a672aa9e513470c42e52bdc32950299de5b75132f9219f482a0179",
+      "bytes": 94788
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-400-italic.ttf": {
+      "hash": "7e1e7b651a58037bcfcc2cde3e71fb66a4e51c984e57838806b4ffce6af4bb94",
+      "bytes": 96916
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-400-normal.ttf": {
+      "hash": "ca6ef907028d1d1808870967d7b7ddcf68c0f33552d15d7f0c6c7d6ae97e7571",
+      "bytes": 94756
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-500-italic.ttf": {
+      "hash": "c139da073762d1da0426208888074096fa56dda61f04f2e7b7d67f5183d75d06",
+      "bytes": 97116
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-500-normal.ttf": {
+      "hash": "00ec347136c7f6d904fa8c54decba898cc2c74c17388e62fa4388433de8be226",
+      "bytes": 94808
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-600-italic.ttf": {
+      "hash": "9bb653d863c3f53a3928c9f155f5fa5542cfdc8ee94e528553473469eb2bdeee",
+      "bytes": 97080
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-600-normal.ttf": {
+      "hash": "bbaa1d21ce4839070547b1cc06d5db2a56f520abe90278d971665b3f6dca6851",
+      "bytes": 94836
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-700-italic.ttf": {
+      "hash": "d3551a045ea97f5dacc477876ad60ca739f7c2678a40c2ee7050b6aacc80def2",
+      "bytes": 97000
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-700-normal.ttf": {
+      "hash": "71af7a0aac7db1b7e30cd389d7aabdabb44b5b5553d470ddd5aa25c0537c8108",
+      "bytes": 94772
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-800-italic.ttf": {
+      "hash": "92fc37fed9e1e89afc9f54015d5791704a54a0a8cce291c543f31bd29bc736d2",
+      "bytes": 97032
+    },
+    "src/assets/fonts/Plus-Jakarta-Sans-800-normal.ttf": {
+      "hash": "f95af252acb2a09e79452366d05346975e7fda7e0a5831ff671effcb2568504c",
+      "bytes": 94780
+    },
+    "src/assets/fonts/Urbanist-600-italic.ttf": {
+      "hash": "c9cfa9f49801e40ec1297aad3829d24ba9bea3e53ad4e75602a2957675cefd69",
+      "bytes": 44084
+    },
+    "src/assets/fonts/Urbanist-600-normal.ttf": {
+      "hash": "28708d3bd77d5fff40619712c365f4c03344322eeae20803a6533dd2ae44d379",
+      "bytes": 42736
+    },
+    "src/assets/images/image__06kq.png": {
+      "hash": "7c8a304f681901d0f255e3de42d25234d4d05ced6a56d7ee062ab04d20309bc8",
+      "bytes": 975
+    },
+    "src/assets/images/image__06lv.png": {
+      "hash": "46cb5bb764c50ad5b96e30893ce3432300478de884cdb2494be35422effef07c",
+      "bytes": 758
+    },
+    "src/assets/images/image__09fy.png": {
+      "hash": "1c3afa1434646230ca0fcb3899b804edbc22046df39f75445931ab4ca186fb9b",
+      "bytes": 549
+    },
+    "src/assets/images/image__0c2w3.png": {
+      "hash": "1c3afa1434646230ca0fcb3899b804edbc22046df39f75445931ab4ca186fb9b",
+      "bytes": 549
+    },
+    "src/assets/images/image__0gvw.png": {
+      "hash": "37daae96e5f581e3442081192bc187b63150631a1d7ed00c9e43a7b8cf7db7ea",
+      "bytes": 3980
+    },
+    "src/assets/images/image__2zto.png": {
+      "hash": "d6bf9b264653b325d35ef2ba0d7dbafba08a98ef5082e84d57117eadc8e76286",
+      "bytes": 493
+    },
+    "src/assets/images/image__30y1y.png": {
+      "hash": "fe16d5bbc0d3757b550222cc6b054ff74302e17922b7749919c05d7ce20236aa",
+      "bytes": 363
+    },
+    "src/assets/images/image__369e.png": {
+      "hash": "93906e6e79e6d936b9a01c3294f59ef90897239d64696f340515faed358a3bda",
+      "bytes": 2921
+    },
+    "src/assets/images/image__3c5i.png": {
+      "hash": "c5368bcc5f042ce95d834a0af898eaad43d8dbf3654cc306a0652f145413479b",
+      "bytes": 755
+    },
+    "src/assets/images/image__3xxhx.png": {
+      "hash": "56759a7fa669c9a998b55ecd41afe269048368bef9cd452167ce65a2f6f59018",
+      "bytes": 34936
+    },
+    "src/assets/images/image__5ggv.png": {
+      "hash": "1ff4a337ffdf67ec250f510fee5062eb1ab876ac83a367dbd482078b90034bd0",
+      "bytes": 442
+    },
+    "src/assets/images/image__5gna.png": {
+      "hash": "d6bf9b264653b325d35ef2ba0d7dbafba08a98ef5082e84d57117eadc8e76286",
+      "bytes": 493
+    },
+    "src/assets/images/image__61ddv.png": {
+      "hash": "a0734ba71fd6a9a1adea827aadc969521658ae06a67f655b4e7ef3da979620c2",
+      "bytes": 3015
+    },
+    "src/assets/images/image__65iv.png": {
+      "hash": "6112336aa2d852576a8e22e8a0e73f5137948da686f9dcf4b10a045c4223449a",
+      "bytes": 32569
+    },
+    "src/assets/images/image__6ifi6.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__71606.png": {
+      "hash": "37daae96e5f581e3442081192bc187b63150631a1d7ed00c9e43a7b8cf7db7ea",
+      "bytes": 3980
+    },
+    "src/assets/images/image__71ovc.png": {
+      "hash": "1ff4a337ffdf67ec250f510fee5062eb1ab876ac83a367dbd482078b90034bd0",
+      "bytes": 442
+    },
+    "src/assets/images/image__760se.png": {
+      "hash": "bbf382b26f9176d74dccc2a8eea1ab89b389948ff6dcc86d5b0c51b414de49c1",
+      "bytes": 1127
+    },
+    "src/assets/images/image__77aa.png": {
+      "hash": "10740b59a3b8edecd3b023bc8fad42f7ac0721aab9ed305968aca59492e42c9e",
+      "bytes": 27710
+    },
+    "src/assets/images/image__7zo9.png": {
+      "hash": "10740b59a3b8edecd3b023bc8fad42f7ac0721aab9ed305968aca59492e42c9e",
+      "bytes": 27710
+    },
+    "src/assets/images/image__84lrb.png": {
+      "hash": "1fe84ec9f6bcef905a2e077e5f89d04a0954eda765c88497a0989041637b0164",
+      "bytes": 3180
+    },
+    "src/assets/images/image__84yb.png": {
+      "hash": "ba79a809ccdac1ebd2ab8e8e5bc68f2c7fa931afbe0a8d6a7d287df4302ba522",
+      "bytes": 3814
+    },
+    "src/assets/images/image__8biw7.png": {
+      "hash": "25d4ba9a19dbc0eb605c3722c48c9790aee1e325900c92a85dac33dfb2d6d691",
+      "bytes": 8161
+    },
+    "src/assets/images/image__8kaf8.png": {
+      "hash": "1fbfa5e5093c4ee78dc5e78cc047dc9eb0786dc379e80e0ea3108dfb3f18b766",
+      "bytes": 275
+    },
+    "src/assets/images/image__96y2.png": {
+      "hash": "97b9f24a213c7f2c4b880b43117724d1867f370588d44a6852ac035c55343546",
+      "bytes": 471
+    },
+    "src/assets/images/image__9ahp.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__adrqe.png": {
+      "hash": "d6bf9b264653b325d35ef2ba0d7dbafba08a98ef5082e84d57117eadc8e76286",
+      "bytes": 493
+    },
+    "src/assets/images/image__ae9jl.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__b99j9.png": {
+      "hash": "e7afbdd87e13c643d3a4908457c60e833eb70e0e8caad62e2402ad220828249d",
+      "bytes": 28696
+    },
+    "src/assets/images/image__csyxo.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__cyfu.png": {
+      "hash": "51b66a83f752d8e0bfd0fa1fe32a8636309697a6ae30ddccfed06042f75100a0",
+      "bytes": 3412
+    },
+    "src/assets/images/image__d9twv.png": {
+      "hash": "423bddcd18e9e415d7c9cbd673f1df6aeba09a49def003d215ae1bfc28329a6f",
+      "bytes": 2094
+    },
+    "src/assets/images/image__dmzl.png": {
+      "hash": "1fe84ec9f6bcef905a2e077e5f89d04a0954eda765c88497a0989041637b0164",
+      "bytes": 3180
+    },
+    "src/assets/images/image__dtym.png": {
+      "hash": "51b66a83f752d8e0bfd0fa1fe32a8636309697a6ae30ddccfed06042f75100a0",
+      "bytes": 3412
+    },
+    "src/assets/images/image__e0hra.png": {
+      "hash": "407f65257274afb8f8cbbd5118d8724bacd16d57f16a75283dd94d52de360572",
+      "bytes": 37611
+    },
+    "src/assets/images/image__eq0.png": {
+      "hash": "62c732717806a35499a65319cd90973e231fbf70dcb09af4bf26ce1d6c4a1121",
+      "bytes": 42085
+    },
+    "src/assets/images/image__euiga.png": {
+      "hash": "a0734ba71fd6a9a1adea827aadc969521658ae06a67f655b4e7ef3da979620c2",
+      "bytes": 3015
+    },
+    "src/assets/images/image__f1o76.png": {
+      "hash": "18a5c2cafe4f98962155f81fb55168cf44ee6620ef02d180062a0fceab812144",
+      "bytes": 931
+    },
+    "src/assets/images/image__f8.png": {
+      "hash": "62c732717806a35499a65319cd90973e231fbf70dcb09af4bf26ce1d6c4a1121",
+      "bytes": 42085
+    },
+    "src/assets/images/image__fa88e.png": {
+      "hash": "f07080a6eabe28d67c9a48466ca3db2670618a9ce471c7c261561a6536b3cafe",
+      "bytes": 41588
+    },
+    "src/assets/images/image__fjux.png": {
+      "hash": "10740b59a3b8edecd3b023bc8fad42f7ac0721aab9ed305968aca59492e42c9e",
+      "bytes": 27710
+    },
+    "src/assets/images/image__fmnbl.png": {
+      "hash": "56759a7fa669c9a998b55ecd41afe269048368bef9cd452167ce65a2f6f59018",
+      "bytes": 34936
+    },
+    "src/assets/images/image__fxfw.png": {
+      "hash": "c5bed915722a98bf2323c2fd1603ffbd61ca34665f166ffcbc23ea037169c837",
+      "bytes": 3009
+    },
+    "src/assets/images/image__grmt.png": {
+      "hash": "407f65257274afb8f8cbbd5118d8724bacd16d57f16a75283dd94d52de360572",
+      "bytes": 37611
+    },
+    "src/assets/images/image__hdpqf.png": {
+      "hash": "10740b59a3b8edecd3b023bc8fad42f7ac0721aab9ed305968aca59492e42c9e",
+      "bytes": 27710
+    },
+    "src/assets/images/image__hdy6.png": {
+      "hash": "e04d00a32983dd95d7311f3afcb991d253c319cf6481a0ab9aa1c9aa02f32daa",
+      "bytes": 36881
+    },
+    "src/assets/images/image__hez0.png": {
+      "hash": "5a2fba739573b5fe3abfa6b7af4cd750239a3a479b385b7d4c82586654b19d48",
+      "bytes": 3180
+    },
+    "src/assets/images/image__hrso.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__hwr96.png": {
+      "hash": "7590f4869dc973f8e859782c82319915ed2c33b9ca1c28308b552ec48c8e2f38",
+      "bytes": 411
+    },
+    "src/assets/images/image__i4fpq.png": {
+      "hash": "10740b59a3b8edecd3b023bc8fad42f7ac0721aab9ed305968aca59492e42c9e",
+      "bytes": 27710
+    },
+    "src/assets/images/image__ibd7.png": {
+      "hash": "e4e2ef4af1122c4e016d6a9474a1750fc6bd1963f7facb05b3894645862c0524",
+      "bytes": 2149
+    },
+    "src/assets/images/image__j911.png": {
+      "hash": "7e6d16ffc187f26542e483e947fa4c2bd73299c2cc7d74600091ec9e3ffffcc2",
+      "bytes": 4264
+    },
+    "src/assets/images/image__joj.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__jx46.png": {
+      "hash": "7590f4869dc973f8e859782c82319915ed2c33b9ca1c28308b552ec48c8e2f38",
+      "bytes": 411
+    },
+    "src/assets/images/image__k580.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__kjyk.png": {
+      "hash": "f163069f9980cbe4dfa972a4f9768f9483d3c9ce34d45eaa59b526b4f26c9c68",
+      "bytes": 1117
+    },
+    "src/assets/images/image__kxf9a.png": {
+      "hash": "1c3afa1434646230ca0fcb3899b804edbc22046df39f75445931ab4ca186fb9b",
+      "bytes": 549
+    },
+    "src/assets/images/image__l6lf.png": {
+      "hash": "f10bf45824fbfc87bae9673b1dff37c1109bc7dcf947853eaed0bea8365fd222",
+      "bytes": 1904
+    },
+    "src/assets/images/image__l71io.png": {
+      "hash": "2a002d5a079ac66e79ebb4b3361fb123e55095420d4d9b1eeee8fead950e6a3f",
+      "bytes": 19918
+    },
+    "src/assets/images/image__la7g.png": {
+      "hash": "d6bf9b264653b325d35ef2ba0d7dbafba08a98ef5082e84d57117eadc8e76286",
+      "bytes": 493
+    },
+    "src/assets/images/image__ldvk.png": {
+      "hash": "f07080a6eabe28d67c9a48466ca3db2670618a9ce471c7c261561a6536b3cafe",
+      "bytes": 41588
+    },
+    "src/assets/images/image__lnad.png": {
+      "hash": "f163069f9980cbe4dfa972a4f9768f9483d3c9ce34d45eaa59b526b4f26c9c68",
+      "bytes": 1117
+    },
+    "src/assets/images/image__m13yk.png": {
+      "hash": "46cb5bb764c50ad5b96e30893ce3432300478de884cdb2494be35422effef07c",
+      "bytes": 758
+    },
+    "src/assets/images/image__mcdc0.png": {
+      "hash": "570e15f80f899280c07b166240636fa2ab49335a480c297159449c6ab4853590",
+      "bytes": 18733
+    },
+    "src/assets/images/image__miyza.png": {
+      "hash": "97b9f24a213c7f2c4b880b43117724d1867f370588d44a6852ac035c55343546",
+      "bytes": 471
+    },
+    "src/assets/images/image__ml09.png": {
+      "hash": "7590f4869dc973f8e859782c82319915ed2c33b9ca1c28308b552ec48c8e2f38",
+      "bytes": 411
+    },
+    "src/assets/images/image__mm1k0.png": {
+      "hash": "7590f4869dc973f8e859782c82319915ed2c33b9ca1c28308b552ec48c8e2f38",
+      "bytes": 411
+    },
+    "src/assets/images/image__n8k9.png": {
+      "hash": "bca8f264669c56a31afa9874c40b1dca2d0365620124a860de7c7ccd71d6041c",
+      "bytes": 28866
+    },
+    "src/assets/images/image__nzk9.png": {
+      "hash": "7439b32ed2591e8762e3a9ece9cd5102caa749d062163e6eaaa3dcaac693bc67",
+      "bytes": 1829
+    },
+    "src/assets/images/image__obwe0.png": {
+      "hash": "bbf382b26f9176d74dccc2a8eea1ab89b389948ff6dcc86d5b0c51b414de49c1",
+      "bytes": 1127
+    },
+    "src/assets/images/image__olm4.png": {
+      "hash": "f10bf45824fbfc87bae9673b1dff37c1109bc7dcf947853eaed0bea8365fd222",
+      "bytes": 1904
+    },
+    "src/assets/images/image__olus.png": {
+      "hash": "7e6d16ffc187f26542e483e947fa4c2bd73299c2cc7d74600091ec9e3ffffcc2",
+      "bytes": 4264
+    },
+    "src/assets/images/image__ozly.png": {
+      "hash": "10740b59a3b8edecd3b023bc8fad42f7ac0721aab9ed305968aca59492e42c9e",
+      "bytes": 27710
+    },
+    "src/assets/images/image__p2m3n.png": {
+      "hash": "fe16d5bbc0d3757b550222cc6b054ff74302e17922b7749919c05d7ce20236aa",
+      "bytes": 363
+    },
+    "src/assets/images/image__p4v7.png": {
+      "hash": "7590f4869dc973f8e859782c82319915ed2c33b9ca1c28308b552ec48c8e2f38",
+      "bytes": 411
+    },
+    "src/assets/images/image__p9plc.png": {
+      "hash": "46cb5bb764c50ad5b96e30893ce3432300478de884cdb2494be35422effef07c",
+      "bytes": 758
+    },
+    "src/assets/images/image__pt40.png": {
+      "hash": "f5810527d964c152b4d924e0a89082e39f50caee75c088db7d37d5619d83e635",
+      "bytes": 1117
+    },
+    "src/assets/images/image__qkyr.png": {
+      "hash": "6c6184e4b571368d5c25ab04084ba245789f771e33cdd0a439c2a605c89cdb14",
+      "bytes": 5542
+    },
+    "src/assets/images/image__qojb.png": {
+      "hash": "f163069f9980cbe4dfa972a4f9768f9483d3c9ce34d45eaa59b526b4f26c9c68",
+      "bytes": 1117
+    },
+    "src/assets/images/image__qsc1.png": {
+      "hash": "c7bb22e98df6b063760d3d9927cde933d3e2c2d9ff4de1d3c895a861c0f0fbbc",
+      "bytes": 1397
+    },
+    "src/assets/images/image__qyii.png": {
+      "hash": "7590f4869dc973f8e859782c82319915ed2c33b9ca1c28308b552ec48c8e2f38",
+      "bytes": 411
+    },
+    "src/assets/images/image__s0hgy.png": {
+      "hash": "10740b59a3b8edecd3b023bc8fad42f7ac0721aab9ed305968aca59492e42c9e",
+      "bytes": 27710
+    },
+    "src/assets/images/image__sg3r.png": {
+      "hash": "25d4ba9a19dbc0eb605c3722c48c9790aee1e325900c92a85dac33dfb2d6d691",
+      "bytes": 8161
+    },
+    "src/assets/images/image__srq49.png": {
+      "hash": "e76d95b191a76a6d7c6147d434a8d0e4755b6a462ec187922ce0f0ac5db295b6",
+      "bytes": 3938
+    },
+    "src/assets/images/image__t6i8v.png": {
+      "hash": "c8dda15514ff6c0bb5114df8a0efe96e3a7b443395cd3c8e82c572ad2e2b5deb",
+      "bytes": 5478
+    },
+    "src/assets/images/image__tkac.png": {
+      "hash": "aa86b2dc42e6a84c799509e68ce2c13ee9e5249186f17c58fe7238cd4e501502",
+      "bytes": 1394
+    },
+    "src/assets/images/image__tkmt.png": {
+      "hash": "51b66a83f752d8e0bfd0fa1fe32a8636309697a6ae30ddccfed06042f75100a0",
+      "bytes": 3412
+    },
+    "src/assets/images/image__tqp0.png": {
+      "hash": "6453bdc778171befb148c47aaeac0de1db0ec28f7d56584f93cafc184991f5cf",
+      "bytes": 435
+    },
+    "src/assets/images/image__trn6y.png": {
+      "hash": "c8dda15514ff6c0bb5114df8a0efe96e3a7b443395cd3c8e82c572ad2e2b5deb",
+      "bytes": 5478
+    },
+    "src/assets/images/image__u6yh.png": {
+      "hash": "3aecf72520da609f4bbbb2d36f00de86b4a8deccad62b9bf2a797a3226a6f20b",
+      "bytes": 1388
+    },
+    "src/assets/images/image__udjta.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__v38n.png": {
+      "hash": "ba79a809ccdac1ebd2ab8e8e5bc68f2c7fa931afbe0a8d6a7d287df4302ba522",
+      "bytes": 3814
+    },
+    "src/assets/images/image__vdo3.png": {
+      "hash": "6c6184e4b571368d5c25ab04084ba245789f771e33cdd0a439c2a605c89cdb14",
+      "bytes": 5542
+    },
+    "src/assets/images/image__vl31.png": {
+      "hash": "10740b59a3b8edecd3b023bc8fad42f7ac0721aab9ed305968aca59492e42c9e",
+      "bytes": 27710
+    },
+    "src/assets/images/image__vyzr.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__w4lmu.png": {
+      "hash": "c7bb22e98df6b063760d3d9927cde933d3e2c2d9ff4de1d3c895a861c0f0fbbc",
+      "bytes": 1397
+    },
+    "src/assets/images/image__wgkw.png": {
+      "hash": "f10bf45824fbfc87bae9673b1dff37c1109bc7dcf947853eaed0bea8365fd222",
+      "bytes": 1904
+    },
+    "src/assets/images/image__wlox5.png": {
+      "hash": "ab352f6e136e87f4bbc166c4b9c29cd7b9f3b5c5c912a8e43713c8e8832f1393",
+      "bytes": 1182
+    },
+    "src/assets/images/image__x1yx4.png": {
+      "hash": "1c3afa1434646230ca0fcb3899b804edbc22046df39f75445931ab4ca186fb9b",
+      "bytes": 549
+    },
+    "src/assets/images/image__x4ug.png": {
+      "hash": "bbf382b26f9176d74dccc2a8eea1ab89b389948ff6dcc86d5b0c51b414de49c1",
+      "bytes": 1127
+    },
+    "src/assets/images/image__x747.png": {
+      "hash": "1fbfa5e5093c4ee78dc5e78cc047dc9eb0786dc379e80e0ea3108dfb3f18b766",
+      "bytes": 275
+    },
+    "src/assets/images/image__y0m6q.png": {
+      "hash": "5e6a016e50f11afa96982bc7daa02881111dfed1737022148a1eb3223d48a771",
+      "bytes": 405564
+    },
+    "src/assets/images/image__y7g9.png": {
+      "hash": "889c79f32cf9cc98068d35d0bdb6e2ae23ceebeec92b93f927399a0b116eb9fb",
+      "bytes": 1357
+    },
+    "src/assets/images/image__ywwfm.png": {
+      "hash": "1dd4ce635fc7c102aa9d8ed1e4cf19837770793a80132c2843d16248cb5475f5",
+      "bytes": 405585
+    },
+    "src/assets/images/image__z428n.png": {
+      "hash": "e04d00a32983dd95d7311f3afcb991d253c319cf6481a0ab9aa1c9aa02f32daa",
+      "bytes": 36881
+    },
+    "src/assets/svgs/SvgImage_2wd1.tsx": {
+      "hash": "8010ab1178ca21b055f471ac431b82d563c7afddd7602db362173eeb125247c7",
+      "bytes": 995
+    },
+    "src/assets/svgs/SvgImage_2wjho.tsx": {
+      "hash": "43d5996ccf5ff0797c27a7c6e0c170d00310c95d4f8b11d80e4af24a2647529f",
+      "bytes": 1362
+    },
+    "src/assets/svgs/SvgImage_4ecn.tsx": {
+      "hash": "2cb2c03d43a456ddc358227ba02f9796661d6db590e2177e963dadc4c7ea799d",
+      "bytes": 1430
+    },
+    "src/assets/svgs/SvgImage_6gw6e.tsx": {
+      "hash": "c071f3e0b95765bc1a937082cd511e204a896fc3a567969d2f7de754e43bdc5a",
+      "bytes": 830
+    },
+    "src/assets/svgs/SvgImage_7na31.tsx": {
+      "hash": "e651cff518b748a83433d7f6a27ac2ffb6e844be7208c1fe3ace3cd5573b4cac",
+      "bytes": 830
+    },
+    "src/assets/svgs/SvgImage_7xqv.tsx": {
+      "hash": "3d6f924011cb6df58f18e0c4f31daccdf2c5ed5fce67cc4be638480a0f4debb3",
+      "bytes": 4759
+    },
+    "src/assets/svgs/SvgImage_9435q.tsx": {
+      "hash": "dab46958b4505f89dc06444180d7aecf136910fd1302e4bb1c4e49e9def2bb18",
+      "bytes": 830
+    },
+    "src/assets/svgs/SvgImage_9ia3b.tsx": {
+      "hash": "8c7e54202188b43010fca21c9336f201b1bb105813e645738a2483b5ef7419d9",
+      "bytes": 830
+    },
+    "src/assets/svgs/SvgImage_9vxyw.tsx": {
+      "hash": "cdd17e995680b6ea55be36c1f8617ccb1bfd1b256997a81e2b7baa747f9d90de",
+      "bytes": 1433
+    },
+    "src/assets/svgs/SvgImage_cc2.tsx": {
+      "hash": "5010ec30a9eb73e5fd6209931fae64dcfb32f3258d09fa133daa3f77560fdac9",
+      "bytes": 824
+    },
+    "src/assets/svgs/SvgImage_d3aj6.tsx": {
+      "hash": "79d5fdbe81fe1c7b81b85450c1a85b3f0b814c79331d3bbabd3214cc893d3c56",
+      "bytes": 908
+    },
+    "src/assets/svgs/SvgImage_ery9k.tsx": {
+      "hash": "b253bfc4df4ec9ae9bbf6b4aa040da6ff483ccd145e05fc13a7bb20b59127b26",
+      "bytes": 830
+    },
+    "src/assets/svgs/SvgImage_g0l.tsx": {
+      "hash": "431fb14457b9a6559942b5d32015fa8f49977fd36fbe716413040cf32f193b3f",
+      "bytes": 970
+    },
+    "src/assets/svgs/SvgImage_g6s8x.tsx": {
+      "hash": "a6e5b9a5d931298c82f669f13e8c3e1ce28077c4d03153e9ade041f4a1112024",
+      "bytes": 830
+    },
+    "src/assets/svgs/SvgImage_gkxh.tsx": {
+      "hash": "99f4db64ff1c266156d370ce48a695fa1ef24333941a9c79828feca0b0a3b56f",
+      "bytes": 827
+    },
+    "src/assets/svgs/SvgImage_hhvkb.tsx": {
+      "hash": "874ec8f9c1ef805c8157066e8133155ba3b5e0cf994c123fe5537c989f709d58",
+      "bytes": 830
+    },
+    "src/assets/svgs/SvgImage_hm5x.tsx": {
+      "hash": "512448724adce79eb99bfced5921b55b12c606589891e5a4d1aab3bead58c091",
+      "bytes": 1637
+    },
+    "src/assets/svgs/SvgImage_iymf9.tsx": {
+      "hash": "295fa50943ddae1978996712b265f18dea8236d8d6bc43a574fb3314a36d6090",
+      "bytes": 957
+    },
+    "src/assets/svgs/SvgImage_jjpt1.tsx": {
+      "hash": "5f5082132913a581be123c4091628c1812e49f4651ab2d9503af11ca6bd0469b",
+      "bytes": 1578
+    },
+    "src/assets/svgs/SvgImage_lb8c.tsx": {
+      "hash": "02d7c336ab8afc49af6ca75da1c3bdce206b07bcc734692a2bf9fa39b7e8cd8b",
+      "bytes": 4762
+    },
+    "src/assets/svgs/SvgImage_nlgl.tsx": {
+      "hash": "6be22dd6a1157f0ec1302f3fe039530dcb5cf50a1387e14b46159594b01def7d",
+      "bytes": 827
+    },
+    "src/assets/svgs/SvgImage_p2le0.tsx": {
+      "hash": "48f50f293c0ed539c5494337abc73aa7a39ab121ba4006f2c55b122413a16c73",
+      "bytes": 4761
+    },
+    "src/assets/svgs/SvgImage_t3jr.tsx": {
+      "hash": "1330df2cd5cf76607b1640a6c46d9f4a31de17be7eb5060d1548ded664569b2f",
+      "bytes": 995
+    },
+    "src/assets/svgs/SvgImage_vklxx.tsx": {
+      "hash": "0a1194c05b2a6949765ff77299b81e888f9632b865d3566c4fed2e10531398f6",
+      "bytes": 830
+    },
+    "src/assets/svgs/SvgImage_w0df.tsx": {
+      "hash": "00b7b3f4ba3956f134279009da651f369cc1a42c6e22d6dec087c98b2c35abbd",
+      "bytes": 827
+    },
+    "src/assets/svgs/SvgImage_ya6nb.tsx": {
+      "hash": "cb16b108c00631f3f01a3b19320712aa0dde702f450b371e73be253209bb3130",
+      "bytes": 976
+    },
+    "src/assets/svgs/SvgImage_yct4u.tsx": {
+      "hash": "76abba602aad52d00c76f266f101865ca9eefb494bdc31d19d3259422ce9860d",
+      "bytes": 1640
+    },
+    "src/assets/svgs/SvgImage_z1jn4.tsx": {
+      "hash": "70ba9ee810a38229a3aa0d2cb6481b8d0dcffa7b56a348ceaca84baf68d17f5a",
+      "bytes": 830
+    },
+    "src/assets/svgs/SvgImage_zp9th.tsx": {
+      "hash": "ffe15ccbbc59ccf163e72d2bff3e10708e2276f95a66c890881bd4df86a52959",
+      "bytes": 830
+    },
+    "src/components/shared/AppListTile.tsx": {
+      "hash": "fb26eb2ed9f5dc9dc32bb62fa4d838c558f511d8b7616a9bbb8ef3d1eb28a6c2",
+      "bytes": 1428
+    },
+    "src/components/shared/AppListView.tsx": {
+      "hash": "551fa1278d870cc0ad06ec31894e23a19c62a112c948483d3522f0a7a6736840",
+      "bytes": 949
+    },
+    "src/components/shared/AppStack.tsx": {
+      "hash": "1f06212424fb77a593ac460ae8bac49af2f6a7ff8d93601e64068beacb216471",
+      "bytes": 874
+    },
+    "src/navigation/routes/Analytics.ts": {
+      "hash": "c1a7ea59661486a4650b656100667c40f016c864628927048fb2dbf39474d33c",
+      "bytes": 73
+    },
+    "src/navigation/routes/BankAccount.ts": {
+      "hash": "05eca2bea5a1dfc98f96aa5039f68f565598ab754aedd36647de0b89bd0b3355",
+      "bytes": 82
+    },
+    "src/navigation/routes/Code.ts": {
+      "hash": "b16c9de394d5294770f9c5fc8c3bed58a0b005260574d513d145f1a2767e726b",
+      "bytes": 53
+    },
+    "src/navigation/routes/Iphone15blue.ts": {
+      "hash": "43ffc681bc39c3c15e9954a86ebdec600c8b4826211e9ea7b556e7276cad39dc",
+      "bytes": 85
+    },
+    "src/navigation/routes/Markets.ts": {
+      "hash": "927496d22c99215984ead48ed682fd2830b29253ff6f0bddcc452b88373a0b27",
+      "bytes": 65
+    },
+    "src/navigation/routes/Mybalance.ts": {
+      "hash": "6f95cdb96ab6f0e828b8ab50f70bd5e9b24f5a7d91d8000cb155ae0640623ce9",
+      "bytes": 73
+    },
+    "src/navigation/routes/Profile.ts": {
+      "hash": "b80b9ac11124e4e2f098af6b25efbbf876a44eeede53957efc50a2fc04c55f7e",
+      "bytes": 65
+    },
+    "src/navigation/routes/Send.ts": {
+      "hash": "50a76ce11533f16d469bbd9fb2dd97dea5b17b5a078d18cad2340f291b0d7000",
+      "bytes": 53
+    },
+    "src/navigation/routes/Send7.ts": {
+      "hash": "cd3f28b54a0d21d67ef7eb40a554590ad63da1809f57c705c55b0a26a96a7830",
+      "bytes": 57
+    },
+    "src/navigation/routes/Transactions.ts": {
+      "hash": "704d88934bcd451f94e1f36bb62b08aad4f2cc89d4c617c6f41a10f01b9710eb",
+      "bytes": 85
+    },
+    "src/navigation/routes/UpcomingBills.ts": {
+      "hash": "170ceb7fa67ad491bdb144c135885279c32c706cb56752ee6779c6ab0a61b3c2",
+      "bytes": 90
+    },
+    "src/screens/Analytics/Analytics.tsx": {
+      "hash": "9a0576195a922de1510328502f70690f98575bc9c39a1d1ec039896fc6016d40",
+      "bytes": 13910
+    },
+    "src/screens/BankAccount/BankAccount.tsx": {
+      "hash": "0e40636733d43e215696ab512e5a480a3a44f102c1a080279b99628b3122e8df",
+      "bytes": 14445
+    },
+    "src/screens/Code/Code.tsx": {
+      "hash": "342067e88dd311cba7153d7cac76629355d012e2f2710decb60e382cdaed9504",
+      "bytes": 10301
+    },
+    "src/screens/Iphone15blue/Iphone15blue.tsx": {
+      "hash": "5bee2e63ed60f3f6495cd0f5004e703fa1553a2b62eb2d78e44b9f733bb107b0",
+      "bytes": 48766
+    },
+    "src/screens/Markets/Markets.tsx": {
+      "hash": "8f529aed1aa2246a41d96c98550151db1952504673484b83a28e6fd62c605baa",
+      "bytes": 38033
+    },
+    "src/screens/Mybalance/Mybalance.tsx": {
+      "hash": "0e16f947c5a3f072448635a5e6e9d2c137fd4b43eba235ed5882e84797ed9e27",
+      "bytes": 34983
+    },
+    "src/screens/Profile/Profile.tsx": {
+      "hash": "03bfac8e2e90ad58d96ba0333c98c68d8d7f7a2ca59a3d4abca89b61a4ff3a86",
+      "bytes": 24248
+    },
+    "src/screens/Send/Send.tsx": {
+      "hash": "932b15b657154229b5ad04182092f55ea488ee3a5f8377fed23fef73340dae7e",
+      "bytes": 24346
+    },
+    "src/screens/Send7/Send7.tsx": {
+      "hash": "05d15d0c74d364908f968372e94a1e1ebe61a71362ce6ff7a4d7ee38685ff0b0",
+      "bytes": 41002
+    },
+    "src/screens/Transactions/Transactions.tsx": {
+      "hash": "b0d5a0e2277135e2c11d40871456baed057005812c1a7f3304041c28c93504bc",
+      "bytes": 11434
+    },
+    "src/screens/UpcomingBills/UpcomingBills.tsx": {
+      "hash": "88a2210d360616cfa02052a62f5ae2c14d6ba08ed3e534fc2f320aad1d89c2d7",
+      "bytes": 16048
+    },
+    "src/strings/index.ts": {
+      "hash": "734d561485cde314cb8267ba381350a33b196db6b69041937940ba2b88558206",
+      "bytes": 19600
+    }
+  },
+  "mergeFiles": [
+    "package.json",
+    "app.json"
+  ]
+}

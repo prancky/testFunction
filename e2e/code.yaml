@@ -1,0 +1,174 @@
+appId: "${APP_ID}"
+name: "codeTestFlow"
+# Suite: Code
+# Consolidated test flow for Code screen
+# Contains 19 test case(s):
+---
+- launchApp: {}
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Signup_Cta_Continue_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Signup_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "ca85cbe8-7214-45b4-9569-b45969e59296"
+    optional: true
+# 1. Verify widget ASAppBar:Code_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:Code_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Code_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:Code_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:Code_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Code_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Code_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASButton:Code_Cta_Action_Button is displayed on the screen: Verifies that the widget:Code_Cta_Action_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Code_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASButton:Code_Cta_Action_Button functionalities: Verifies that tapping button widget:Code_Cta_Action_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Code_Cta_Action_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Code_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASImage:Code_Image is displayed on the screen: Verifies that the widget:Code_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Image"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:Code_Image_2 is displayed on the screen: Verifies that the widget:Code_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Image_2"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASImage:Code_Background_Image is displayed on the screen: Verifies that the widget:Code_Background_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Background_Image"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:Code_Label_ResendCode_Text is displayed on the screen: Verifies that the widget:Code_Label_ResendCode_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Label_ResendCode_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:Code_Label_ResendCode_Text is displayed on the screen: Verifies that the label of widget:Code_Label_ResendCode_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Label_ResendCode_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Label_ResendCode_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASPin:Code_Container_NumberBoxInferredRow1_Pin is displayed on the screen: Verifies that the widget:Code_Container_NumberBoxInferredRow1_Pin renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Container_NumberBoxInferredRow1_Pin"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASPin:Code_Container_NumberBoxInferredRow1_Pin functionalities: Verifies that pin widget:Code_Container_NumberBoxInferredRow1_Pin accepts and processes PIN values correctly.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Container_NumberBoxInferredRow1_Pin"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Container_NumberBoxInferredRow1_Pin"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Container_NumberBoxInferredRow1_Pin"
+- runFlow:
+    file: "common/enterPinAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Container_NumberBoxInferredRow1_Pin"
+      PIN_VALUE: "1234"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:Code_Label_EnterCode_Text is displayed on the screen: Verifies that the widget:Code_Label_EnterCode_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Label_EnterCode_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:Code_Label_EnterCode_Text is displayed on the screen: Verifies that the label of widget:Code_Label_EnterCode_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Label_EnterCode_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Label_EnterCode_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:Code_Body_Text is displayed on the screen: Verifies that the widget:Code_Body_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Body_Text"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:Code_Body_Text is displayed on the screen: Verifies that the label of widget:Code_Body_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Body_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Body_Text"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASButton:Code_Cta_Continue_Button is displayed on the screen: Verifies that the widget:Code_Cta_Continue_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Code_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASButton:Code_Cta_Continue_Button functionalities: Verifies that tapping button widget:Code_Cta_Continue_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Code_Cta_Continue_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Code_Cta_Continue_Button"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:Code_Label_Otp_Text is displayed on the screen: Verifies that the widget:Code_Label_Otp_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Label_Otp_Text"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:Code_Label_Otp_Text is displayed on the screen: Verifies that the label of widget:Code_Label_Otp_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Label_Otp_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Code_Label_Otp_Text"

@@ -1,0 +1,222 @@
+appId: "${APP_ID}"
+name: "bankAccountTestFlow"
+# Suite: BankAccount
+# Consolidated test flow for BankAccount screen
+# Contains 30 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:BankAccount_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:BankAccount_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-BankAccount_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:BankAccount_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:BankAccount_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-BankAccount_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-BankAccount_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:BankAccount_Image is displayed on the screen: Verifies that the widget:BankAccount_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASImage:BankAccount_Image_2 is displayed on the screen: Verifies that the widget:BankAccount_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Image_2"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASImage:BankAccount_Image_3 is displayed on the screen: Verifies that the widget:BankAccount_Image_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Image_3"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:BankAccount_Background_Image is displayed on the screen: Verifies that the widget:BankAccount_Background_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Background_Image"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:BankAccount_Label_UserName_Text is displayed on the screen: Verifies that the widget:BankAccount_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:BankAccount_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:BankAccount_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASImage:group15978827261 is displayed on the screen: Verifies that the widget:group15978827261 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "group15978827261"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:sl is displayed on the screen: Verifies that the widget:sl renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "sl"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:sl is displayed on the screen: Verifies that the label of widget:sl appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "sl"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "sl"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:solana is displayed on the screen: Verifies that the widget:solana renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "solana"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:solana is displayed on the screen: Verifies that the label of widget:solana appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "solana"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "solana"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:text2 is displayed on the screen: Verifies that the widget:text2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text2"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:text2 is displayed on the screen: Verifies that the label of widget:text2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text2"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASImage:BankAccount_Image_5 is displayed on the screen: Verifies that the widget:BankAccount_Image_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Image_5"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASListTile:BankAccount_Item_ListItem is displayed on the screen: Verifies that the widget:BankAccount_Item_ListItem renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Item_ListItem"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASImage:BankAccount_Image_6 is displayed on the screen: Verifies that the widget:BankAccount_Image_6 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Image_6"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASImage:BankAccount_Image_7 is displayed on the screen: Verifies that the widget:BankAccount_Image_7 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Image_7"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASImage:BankAccount_Image_8 is displayed on the screen: Verifies that the widget:BankAccount_Image_8 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Image_8"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASImage:BankAccount_Image_9 is displayed on the screen: Verifies that the widget:BankAccount_Image_9 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Image_9"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:BankAccount_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:BankAccount_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:BankAccount_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:BankAccount_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:BankAccount_Label_Text is displayed on the screen: Verifies that the widget:BankAccount_Label_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_Text"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASText:BankAccount_Label_Text is displayed on the screen: Verifies that the label of widget:BankAccount_Label_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_Text"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:BankAccount_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:BankAccount_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:BankAccount_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:BankAccount_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:BankAccount_Label_Text_2 is displayed on the screen: Verifies that the widget:BankAccount_Label_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_Text_2"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:BankAccount_Label_Text_2 is displayed on the screen: Verifies that the label of widget:BankAccount_Label_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Label_Text_2"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASImage:BankAccount_Image_10 is displayed on the screen: Verifies that the widget:BankAccount_Image_10 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "BankAccount_Image_10"

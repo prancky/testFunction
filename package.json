@@ -1,5 +1,5 @@
 {
-  "name": "symplrmoneytransferdemocopy",
+  "name": "balancefinanceapp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -18,11 +18,11 @@
     "start": "react-native start",
     "test": "jest",
     "android-dev": "react-native run-android --mode=developmentDebug --appIdSuffix dev",
-    "ios-dev": "react-native run-ios --scheme=SymplrMoneyTransferDemoCopy-Development",
+    "ios-dev": "react-native run-ios --scheme=BalanceFinanceApp-Development",
     "android-staging": "react-native run-android --mode=stagingDebug --appIdSuffix staging",
-    "ios-staging": "react-native run-ios --scheme=SymplrMoneyTransferDemoCopy-Staging",
+    "ios-staging": "react-native run-ios --scheme=BalanceFinanceApp-Staging",
     "android-prod": "react-native run-android --mode=productionDebug",
-    "ios-prod": "react-native run-ios --scheme=SymplrMoneyTransferDemoCopy-Production",
+    "ios-prod": "react-native run-ios --scheme=BalanceFinanceApp-Production",
     "postinstall": "patch-package && npx react-native-asset",
     "format": "npx prettier --write .",
     "build-android": "export ENVFILE=.env.staging && cd android && ./gradlew assembleRelease",

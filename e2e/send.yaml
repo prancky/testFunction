@@ -1,0 +1,341 @@
+appId: "${APP_ID}"
+name: "sendTestFlow"
+# Suite: Send
+# Consolidated test flow for Send screen
+# Contains 43 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:Send_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:Send_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Send_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:Send_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:Send_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Send_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Send_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:Send_Image is displayed on the screen: Verifies that the widget:Send_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASImage:Send_Image_2 is displayed on the screen: Verifies that the widget:Send_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Image_2"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASImage:Send_Image_3 is displayed on the screen: Verifies that the widget:Send_Image_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Image_3"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:Send_Background_Image is displayed on the screen: Verifies that the widget:Send_Background_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Background_Image"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASText:Send_Label_UserName_Text is displayed on the screen: Verifies that the widget:Send_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:Send_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:Send_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASImage:Send_Image_4 is displayed on the screen: Verifies that the widget:Send_Image_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Image_4"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:Send_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:Send_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:Send_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:Send_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:Send_Label_Text is displayed on the screen: Verifies that the widget:Send_Label_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:Send_Label_Text is displayed on the screen: Verifies that the label of widget:Send_Label_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASImage:Send_Image_5 is displayed on the screen: Verifies that the widget:Send_Image_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Image_5"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:Send_Label_Price_Text is displayed on the screen: Verifies that the widget:Send_Label_Price_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:Send_Label_Price_Text is displayed on the screen: Verifies that the label of widget:Send_Label_Price_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Price_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASText:Send_Label_Text_2 is displayed on the screen: Verifies that the widget:Send_Label_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_2"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:Send_Label_Text_2 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_2"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:Send_Label_Text_3 is displayed on the screen: Verifies that the widget:Send_Label_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_3"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:Send_Label_Text_3 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_3"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:Send_Label_Text_4 is displayed on the screen: Verifies that the widget:Send_Label_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_4"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:Send_Label_Text_4 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_4"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:Send_Label_Text_5 is displayed on the screen: Verifies that the widget:Send_Label_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_5"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:Send_Label_Text_5 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_5"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASText:Send_Label_Text_6 is displayed on the screen: Verifies that the widget:Send_Label_Text_6 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_6"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:Send_Label_Text_6 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_6 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_6"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_6"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:Send_Label_Text_7 is displayed on the screen: Verifies that the widget:Send_Label_Text_7 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_7"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:Send_Label_Text_7 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_7 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_7"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_7"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:Send_Label_Text_8 is displayed on the screen: Verifies that the widget:Send_Label_Text_8 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_8"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:Send_Label_Text_8 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_8 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_8"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_8"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:Send_Label_Text_9 is displayed on the screen: Verifies that the widget:Send_Label_Text_9 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_9"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASText:Send_Label_Text_9 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_9 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_9"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_9"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASText:Send_Label_Text_10 is displayed on the screen: Verifies that the widget:Send_Label_Text_10 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_10"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASText:Send_Label_Text_10 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_10 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_10"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_10"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASText:Send_Label_Text_11 is displayed on the screen: Verifies that the widget:Send_Label_Text_11 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_11"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASText:Send_Label_Text_11 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_11 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_11"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_11"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASText:Send_Label_Text_12 is displayed on the screen: Verifies that the widget:Send_Label_Text_12 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_12"
+- waitForAnimationToEnd: {}
+# 38. Verify widget ASText:Send_Label_Text_12 is displayed on the screen: Verifies that the label of widget:Send_Label_Text_12 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_12"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_Text_12"
+- waitForAnimationToEnd: {}
+# 39. Verify widget ASText:Send_Label_X_Text is displayed on the screen: Verifies that the widget:Send_Label_X_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_X_Text"
+- waitForAnimationToEnd: {}
+# 40. Verify widget ASText:Send_Label_X_Text is displayed on the screen: Verifies that the label of widget:Send_Label_X_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_X_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Send_Label_X_Text"
+- waitForAnimationToEnd: {}
+# 41. Verify widget ASButton:Send_Cta_Send_Button is displayed on the screen: Verifies that the widget:Send_Cta_Send_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Send_Cta_Send_Button"
+- waitForAnimationToEnd: {}
+# 42. Verify event:onPress using widget ASButton:Send_Cta_Send_Button in screen Send should navigate to Send7: Verify that triggering event:onPress using widget: Send_Cta_Send_Button in screen Send correctly navigates to the next screen Send7 with all required fields filled beforehand.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Send_Cta_Send_Button"
+- runFlow:
+    file: "common/tapAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Send_Cta_Send_Button"
+- runFlow:
+    file: "common/assertScreenVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "ff0a0833-021b-4ecd-bc38-c753b31deaea"
+    optional: true
+- waitForAnimationToEnd: {}
+# 43. Navigate back after verifying event:onPress from ASButton:Send_Cta_Send_Button: This test case checks if the Navigate back after verifying event:onPress from ASButton:Send_Cta_Send_Button works correctly.
+- runFlow:
+    file: "common/backAndWait.yaml"
+    env: {}
+- waitForAnimationToEnd: {}

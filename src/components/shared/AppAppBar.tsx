@@ -21,22 +21,27 @@ type Props = React.ComponentProps<typeof ASAppBar> & {
  */
 const AppAppBar: React.FC<Props> = ({ widgetId, ...rest }) => (
   <ASAppBar
-    leadingIconSize={16}
+    trailingShow={false}
+    variant={'transparent'}
+    centerMode={'custom'}
+    leadingShow={false}
     backIconColor={color.brand.primary}
     backIconSize={component.icon.size.lg}
-    leadingShow={true}
+    leadingIconSize={24}
     centerAlignment={'left'}
     leadingMode={'auto'}
-    trailingShow={true}
-    centerMode={'auto'}
+    leadingIcon={'arrow_back'}
     bottomShape={'flat'}
-    variant={'default'}
     backgroundImageResizeMode={'cover'}
     actionsLayout={'row'}
     centerShow={true}
+    textStyles={[
+      text.title.medium,
+      sharedStyles.analyticsAppBarSyntheticAppBarAppBarTextStyles,
+    ]}
     subtitleStyle={[
       text.body.medium,
-      sharedStyles.createQuoteAppBarHeaderTopAppBarAppBarSubtitle,
+      sharedStyles.analyticsAppBarSyntheticAppBarAppBarSubtitle,
     ]}
     name={widgetId}
     testId={widgetId}

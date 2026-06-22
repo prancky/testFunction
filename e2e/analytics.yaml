@@ -1,0 +1,186 @@
+appId: "${APP_ID}"
+name: "analyticsTestFlow"
+# Suite: Analytics
+# Consolidated test flow for Analytics screen
+# Contains 24 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:Analytics_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:Analytics_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Analytics_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:Analytics_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:Analytics_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Analytics_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Analytics_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:Analytics_Image is displayed on the screen: Verifies that the widget:Analytics_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASImage:Analytics_Image_2 is displayed on the screen: Verifies that the widget:Analytics_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Image_2"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASImage:Analytics_Image_3 is displayed on the screen: Verifies that the widget:Analytics_Image_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Image_3"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:Analytics_Background_Image is displayed on the screen: Verifies that the widget:Analytics_Background_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Background_Image"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASImage:Analytics_Background_Image_2 is displayed on the screen: Verifies that the widget:Analytics_Background_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Background_Image_2"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASText:Analytics_Label_Text is displayed on the screen: Verifies that the widget:Analytics_Label_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_Text"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASText:Analytics_Label_Text is displayed on the screen: Verifies that the label of widget:Analytics_Label_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_Text"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASText:Analytics_Label_TotalIncome_Text is displayed on the screen: Verifies that the widget:Analytics_Label_TotalIncome_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_TotalIncome_Text"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASText:Analytics_Label_TotalIncome_Text is displayed on the screen: Verifies that the label of widget:Analytics_Label_TotalIncome_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_TotalIncome_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_TotalIncome_Text"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:Analytics_Label_Price_Text is displayed on the screen: Verifies that the widget:Analytics_Label_Price_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:Analytics_Label_Price_Text is displayed on the screen: Verifies that the label of widget:Analytics_Label_Price_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_Price_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:Analytics_Label_TotalExpenses_Text is displayed on the screen: Verifies that the widget:Analytics_Label_TotalExpenses_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_TotalExpenses_Text"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:Analytics_Label_TotalExpenses_Text is displayed on the screen: Verifies that the label of widget:Analytics_Label_TotalExpenses_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_TotalExpenses_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_TotalExpenses_Text"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:Analytics_Label_Price_Text_2 is displayed on the screen: Verifies that the widget:Analytics_Label_Price_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_Price_Text_2"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASText:Analytics_Label_Price_Text_2 is displayed on the screen: Verifies that the label of widget:Analytics_Label_Price_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_Price_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_Price_Text_2"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:Analytics_Label_UserName_Text is displayed on the screen: Verifies that the widget:Analytics_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:Analytics_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:Analytics_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:Analytics_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:Analytics_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:Analytics_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:Analytics_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASButton:Analytics_Cta_Action_Button is displayed on the screen: Verifies that the widget:Analytics_Cta_Action_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Analytics_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASButton:Analytics_Cta_Action_Button functionalities: Verifies that tapping button widget:Analytics_Cta_Action_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Analytics_Cta_Action_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-Analytics_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASListTile:Analytics_Item_ListItem is displayed on the screen: Verifies that the widget:Analytics_Item_ListItem renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Analytics_Item_ListItem"

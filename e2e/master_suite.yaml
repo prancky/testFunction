@@ -2,58 +2,76 @@ appId: ${APP_ID}
 name: Master Test Suite
 # Generated Consolidated Test Suite Information:
 # Each screen has a single consolidated flow file containing all its test cases
-# Suite: Login
-# Consolidated flow file: login.yaml
-# Contains 23 test case(s):
+# Suite: Mybalance
+# Consolidated flow file: mybalance.yaml
+# Contains 68 test case(s):
 
-# Suite: SignUp
-# Consolidated flow file: signUp.yaml
-# Contains 37 test case(s):
+# Suite: UpcomingBills
+# Consolidated flow file: upcomingBills.yaml
+# Contains 36 test case(s):
 
-# Suite: CreateQuote
-# Consolidated flow file: createQuote.yaml
-# Contains 64 test case(s):
+# Suite: Transactions
+# Consolidated flow file: transactions.yaml
+# Contains 25 test case(s):
 
-# Suite: CreateRecepient
-# Consolidated flow file: createRecepient.yaml
-# Contains 72 test case(s):
+# Suite: BankAccount
+# Consolidated flow file: bankAccount.yaml
+# Contains 30 test case(s):
 
-# Suite: UpdateQuote
-# Consolidated flow file: updateQuote.yaml
+# Suite: Profile
+# Consolidated flow file: profile.yaml
 # Contains 53 test case(s):
 
-# Suite: CreateTransfer
-# Consolidated flow file: createTransfer.yaml
-# Contains 43 test case(s):
+# Suite: Markets
+# Consolidated flow file: markets.yaml
+# Contains 68 test case(s):
 
-# Suite: FundTransfer
-# Consolidated flow file: fundTransfer.yaml
-# Contains 54 test case(s):
+# Suite: Send
+# Consolidated flow file: send.yaml
+# Contains 44 test case(s):
 
-# Suite: FinishScreen
-# Consolidated flow file: finishScreen.yaml
-# Contains 34 test case(s):
+# Suite: Send7
+# Consolidated flow file: send7.yaml
+# Contains 64 test case(s):
 
-# Suite: WelcomeScreen
-# Consolidated flow file: welcomeScreen.yaml
-# Contains 39 test case(s):
+# Suite: Analytics
+# Consolidated flow file: analytics.yaml
+# Contains 24 test case(s):
+
+# Suite: Signup
+# Consolidated flow file: signup.yaml
+# Contains 26 test case(s):
+
+# Suite: Code
+# Consolidated flow file: code.yaml
+# Contains 19 test case(s):
+
+# Suite: iPhone15Blue
+# Consolidated flow file: iphone15blue.yaml
+# Contains 74 test case(s):
 
 ---
 - runFlow:
-    file: login.yaml
+    file: mybalance.yaml
 - runFlow:
-    file: signUp.yaml
+    file: upcomingBills.yaml
 - runFlow:
-    file: createQuote.yaml
+    file: transactions.yaml
 - runFlow:
-    file: createRecepient.yaml
+    file: bankAccount.yaml
 - runFlow:
-    file: updateQuote.yaml
+    file: profile.yaml
 - runFlow:
-    file: createTransfer.yaml
+    file: markets.yaml
 - runFlow:
-    file: fundTransfer.yaml
+    file: send.yaml
 - runFlow:
-    file: finishScreen.yaml
+    file: send7.yaml
 - runFlow:
-    file: welcomeScreen.yaml
+    file: analytics.yaml
+- runFlow:
+    file: signup.yaml
+- runFlow:
+    file: code.yaml
+- runFlow:
+    file: iphone15blue.yaml

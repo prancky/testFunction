@@ -20,9 +20,10 @@ type Props = React.ComponentProps<typeof ASImage> & {
  */
 const AppImage: React.FC<Props> = ({ widgetId, ...rest }) => (
   <ASImage
+    resizeMode={'contain'}
     roundImageSize={0}
     resizeMethod={'auto'}
-    hardCodeStyle={sharedStyles.createQuoteImageIconImage2HardCode}
+    hardCodeStyle={sharedStyles.analyticsBackgroundImage2HardCode}
     name={widgetId}
     testId={widgetId}
     {...rest}

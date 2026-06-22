@@ -23,13 +23,9 @@ const AppButton: React.FC<Props> = ({ widgetId, ...rest }) => (
     iconPosition={'leading'}
     simpleTextButton={false}
     backgroundImageResizeMode={'contain'}
-    trailingIconStyles={
-      sharedStyles.createQuoteCtaActionButton2TrailingIconStyles
-    }
-    leadingIconStyles={
-      sharedStyles.createQuoteCtaActionButton2LeadingIconStyles
-    }
-    iconStyles={sharedStyles.createQuoteCtaActionButton2IconStyles}
+    trailingIconStyles={sharedStyles.analyticsCtaActionButtonTrailingIconStyles}
+    leadingIconStyles={sharedStyles.analyticsCtaActionButtonLeadingIconStyles}
+    iconStyles={sharedStyles.analyticsCtaActionButtonIconStyles}
     name={widgetId}
     testId={widgetId}
     {...rest}

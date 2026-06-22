@@ -7,6 +7,7 @@ import {
   AppForm,
   AppIconButton,
   AppImage,
+  AppListView,
   AppRow,
   AppText,
   AppTextField,
@@ -15,8 +16,6 @@ import {
 import { useNavigation } from '@react-navigation/native';
 
 import { color, imageSources, space, component, text, border } from '@/assets';
-
-import { ASListView } from '@/components';
 
 import { Platform, StyleSheet } from 'react-native';
 import { sharedStyles } from '@/components/shared/sharedStyles';
@@ -374,11 +373,9 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                     spacing={12}
                     style={sharedStyles.createQuoteContainerColumn3}
                   >
-                    <ASListView
-                      itemSpacing={12}
+                    <AppListView
+                      widgetId={'FundTransfer_List_ContainerList_List'}
                       orientation={'vertical'}
-                      showsHorizontalScrollIndicator={false}
-                      name={'FundTransfer_List_ContainerList_List'}
                       style={styles.fundTransferListContainerListListStyle}
                       renderItem={
                         renderItem_FundTransfer_List_ContainerList_List
@@ -395,7 +392,6 @@ const FundTransfer: React.FC<ScreenProps> = ({ route }) => {
                         { text55: 'FAST', BusinessDays: 'Immediate clearing' },
                         { text55: 'SWIFT', BusinessDays: '2-5 business days' },
                       ]}
-                      testId={'FundTransfer_List_ContainerList_List'}
                     />
                     <AppRow
                       widgetId={

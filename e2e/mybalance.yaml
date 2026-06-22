@@ -1,0 +1,510 @@
+appId: "${APP_ID}"
+name: "mybalanceTestFlow"
+# Suite: Mybalance
+# Consolidated test flow for Mybalance screen
+# Contains 68 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:MyBalance_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:MyBalance_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-MyBalance_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:MyBalance_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:MyBalance_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-MyBalance_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-MyBalance_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:MyBalance_Image is displayed on the screen: Verifies that the widget:MyBalance_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:MyBalance_Title_HiEsaaa_Text is displayed on the screen: Verifies that the widget:MyBalance_Title_HiEsaaa_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Title_HiEsaaa_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:MyBalance_Title_HiEsaaa_Text is displayed on the screen: Verifies that the label of widget:MyBalance_Title_HiEsaaa_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Title_HiEsaaa_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Title_HiEsaaa_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:MyBalance_Image_2 is displayed on the screen: Verifies that the widget:MyBalance_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_2"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASImage:MyBalance_Image_3 is displayed on the screen: Verifies that the widget:MyBalance_Image_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_3"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASImage:MyBalance_Image_4 is displayed on the screen: Verifies that the widget:MyBalance_Image_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_4"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASImage:MyBalance_Image_5 is displayed on the screen: Verifies that the widget:MyBalance_Image_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_5"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASImage:MyBalance_Image_6 is displayed on the screen: Verifies that the widget:MyBalance_Image_6 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_6"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASImage:MyBalance_Background_Image is displayed on the screen: Verifies that the widget:MyBalance_Background_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Background_Image"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:MyBalance_Label_UserName_Text is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:MyBalance_Label_UserName_Text is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:MyBalance_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:MyBalance_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:MyBalance_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASText:MyBalance_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASImage:MyBalance_Image_7 is displayed on the screen: Verifies that the widget:MyBalance_Image_7 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_7"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:MyBalance_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:MyBalance_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASImage:MyBalance_Image_8 is displayed on the screen: Verifies that the widget:MyBalance_Image_8 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_8"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASImage:MyBalance_Image_9 is displayed on the screen: Verifies that the widget:MyBalance_Image_9 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_9"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:MyBalance_Label_UserName_Text_5 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:MyBalance_Label_UserName_Text_5 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASImage:MyBalance_Image_10 is displayed on the screen: Verifies that the widget:MyBalance_Image_10 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_10"
+- waitForAnimationToEnd: {}
+# 26. Verify widget ASText:MyBalance_Label_UserName_Text_6 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_6 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_6"
+- waitForAnimationToEnd: {}
+# 27. Verify widget ASText:MyBalance_Label_UserName_Text_6 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_6 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_6"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_6"
+- waitForAnimationToEnd: {}
+# 28. Verify widget ASText:MyBalance_Label_UserName_Text_7 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_7 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_7"
+- waitForAnimationToEnd: {}
+# 29. Verify widget ASText:MyBalance_Label_UserName_Text_7 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_7 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_7"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_7"
+- waitForAnimationToEnd: {}
+# 30. Verify widget ASText:MyBalance_Label_Price_Text is displayed on the screen: Verifies that the widget:MyBalance_Label_Price_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 31. Verify widget ASText:MyBalance_Label_Price_Text is displayed on the screen: Verifies that the label of widget:MyBalance_Label_Price_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_Price_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_Price_Text"
+- waitForAnimationToEnd: {}
+# 32. Verify widget ASButton:MyBalance_Cta_Action_Button is displayed on the screen: Verifies that the widget:MyBalance_Cta_Action_Button renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MyBalance_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 33. Verify widget ASButton:MyBalance_Cta_Action_Button functionalities: Verifies that tapping button widget:MyBalance_Cta_Action_Button works correctly and triggers the expected action.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MyBalance_Cta_Action_Button"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "button-MyBalance_Cta_Action_Button"
+- waitForAnimationToEnd: {}
+# 34. Verify widget ASImage:MyBalance_Image_11 is displayed on the screen: Verifies that the widget:MyBalance_Image_11 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_11"
+- waitForAnimationToEnd: {}
+# 35. Verify widget ASImage:MyBalance_Image_12 is displayed on the screen: Verifies that the widget:MyBalance_Image_12 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_12"
+- waitForAnimationToEnd: {}
+# 36. Verify widget ASText:MyBalance_Label_TransferList_Text is displayed on the screen: Verifies that the widget:MyBalance_Label_TransferList_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_TransferList_Text"
+- waitForAnimationToEnd: {}
+# 37. Verify widget ASText:MyBalance_Label_TransferList_Text is displayed on the screen: Verifies that the label of widget:MyBalance_Label_TransferList_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_TransferList_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_TransferList_Text"
+- waitForAnimationToEnd: {}
+# 38. Verify widget ASImage:MyBalance_Image_13 is displayed on the screen: Verifies that the widget:MyBalance_Image_13 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_13"
+- waitForAnimationToEnd: {}
+# 39. Verify widget ASImage:MyBalance_Image_14 is displayed on the screen: Verifies that the widget:MyBalance_Image_14 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_14"
+- waitForAnimationToEnd: {}
+# 40. Verify widget ASImage:MyBalance_Image_15 is displayed on the screen: Verifies that the widget:MyBalance_Image_15 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_15"
+- waitForAnimationToEnd: {}
+# 41. Verify widget ASImage:MyBalance_Image_16 is displayed on the screen: Verifies that the widget:MyBalance_Image_16 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_16"
+- waitForAnimationToEnd: {}
+# 42. Verify widget ASImage:MyBalance_Image_17 is displayed on the screen: Verifies that the widget:MyBalance_Image_17 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_17"
+- waitForAnimationToEnd: {}
+# 43. Verify widget ASImage:MyBalance_Image_18 is displayed on the screen: Verifies that the widget:MyBalance_Image_18 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_18"
+- waitForAnimationToEnd: {}
+# 44. Verify widget ASText:MyBalance_Label_FinancialHealth_Text is displayed on the screen: Verifies that the widget:MyBalance_Label_FinancialHealth_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_FinancialHealth_Text"
+- waitForAnimationToEnd: {}
+# 45. Verify widget ASText:MyBalance_Label_FinancialHealth_Text is displayed on the screen: Verifies that the label of widget:MyBalance_Label_FinancialHealth_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_FinancialHealth_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_FinancialHealth_Text"
+- waitForAnimationToEnd: {}
+# 46. Verify widget ASText:MyBalance_Label_Latest7Days_Text is displayed on the screen: Verifies that the widget:MyBalance_Label_Latest7Days_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_Latest7Days_Text"
+- waitForAnimationToEnd: {}
+# 47. Verify widget ASText:MyBalance_Label_Latest7Days_Text is displayed on the screen: Verifies that the label of widget:MyBalance_Label_Latest7Days_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_Latest7Days_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_Latest7Days_Text"
+- waitForAnimationToEnd: {}
+# 48. Verify widget ASImage:MyBalance_Image_19 is displayed on the screen: Verifies that the widget:MyBalance_Image_19 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Image_19"
+- waitForAnimationToEnd: {}
+# 49. Verify widget ASText:MyBalance_Label_UserName_Text_8 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_8 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_8"
+- waitForAnimationToEnd: {}
+# 50. Verify widget ASText:MyBalance_Label_UserName_Text_8 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_8 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_8"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_8"
+- waitForAnimationToEnd: {}
+# 51. Verify widget ASText:MyBalance_Label_UserName_Text_9 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_9 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_9"
+- waitForAnimationToEnd: {}
+# 52. Verify widget ASText:MyBalance_Label_UserName_Text_9 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_9 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_9"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_9"
+- waitForAnimationToEnd: {}
+# 53. Verify widget ASText:MyBalance_Label_UserName_Text_10 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_10 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_10"
+- waitForAnimationToEnd: {}
+# 54. Verify widget ASText:MyBalance_Label_UserName_Text_10 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_10 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_10"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_10"
+- waitForAnimationToEnd: {}
+# 55. Verify widget ASText:MyBalance_Label_UserName_Text_11 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_11 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_11"
+- waitForAnimationToEnd: {}
+# 56. Verify widget ASText:MyBalance_Label_UserName_Text_11 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_11 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_11"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_11"
+- waitForAnimationToEnd: {}
+# 57. Verify widget ASText:MyBalance_Label_UserName_Text_12 is displayed on the screen: Verifies that the widget:MyBalance_Label_UserName_Text_12 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_12"
+- waitForAnimationToEnd: {}
+# 58. Verify widget ASText:MyBalance_Label_UserName_Text_12 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_UserName_Text_12 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_12"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_UserName_Text_12"
+- waitForAnimationToEnd: {}
+# 59. Verify widget ASText:MyBalance_Label_K_Text is displayed on the screen: Verifies that the widget:MyBalance_Label_K_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text"
+- waitForAnimationToEnd: {}
+# 60. Verify widget ASText:MyBalance_Label_K_Text is displayed on the screen: Verifies that the label of widget:MyBalance_Label_K_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text"
+- waitForAnimationToEnd: {}
+# 61. Verify widget ASText:MyBalance_Label_K_Text_2 is displayed on the screen: Verifies that the widget:MyBalance_Label_K_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_2"
+- waitForAnimationToEnd: {}
+# 62. Verify widget ASText:MyBalance_Label_K_Text_2 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_K_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_2"
+- waitForAnimationToEnd: {}
+# 63. Verify widget ASText:MyBalance_Label_K_Text_3 is displayed on the screen: Verifies that the widget:MyBalance_Label_K_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_3"
+- waitForAnimationToEnd: {}
+# 64. Verify widget ASText:MyBalance_Label_K_Text_3 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_K_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_3"
+- waitForAnimationToEnd: {}
+# 65. Verify widget ASText:MyBalance_Label_K_Text_4 is displayed on the screen: Verifies that the widget:MyBalance_Label_K_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_4"
+- waitForAnimationToEnd: {}
+# 66. Verify widget ASText:MyBalance_Label_K_Text_4 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_K_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_4"
+- waitForAnimationToEnd: {}
+# 67. Verify widget ASText:MyBalance_Label_K_Text_5 is displayed on the screen: Verifies that the widget:MyBalance_Label_K_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_5"
+- waitForAnimationToEnd: {}
+# 68. Verify widget ASText:MyBalance_Label_K_Text_5 is displayed on the screen: Verifies that the label of widget:MyBalance_Label_K_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "MyBalance_Label_K_Text_5"

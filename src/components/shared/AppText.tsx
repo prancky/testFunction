@@ -20,8 +20,9 @@ type Props = React.ComponentProps<typeof ASText> & {
  */
 const AppText: React.FC<Props> = ({ widgetId, ...rest }) => (
   <ASText
+    numberOfLines={1}
     labelType={'string'}
-    dragStyle={sharedStyles.businessDaysDrag}
+    dragStyle={sharedStyles.adobeXdDrag}
     name={widgetId}
     testId={widgetId}
     {...rest}

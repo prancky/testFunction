@@ -1,0 +1,192 @@
+appId: "${APP_ID}"
+name: "transactionsTestFlow"
+# Suite: Transactions
+# Consolidated test flow for Transactions screen
+# Contains 25 test case(s):
+---
+- launchApp: {}
+# 1. Verify widget ASAppBar:Transactions_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the widget:Transactions_AppBar_SyntheticAppBar_AppBar renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Transactions_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 2. Verify widget ASAppBar:Transactions_AppBar_SyntheticAppBar_AppBar is displayed on the screen: Verifies that the label of widget:Transactions_AppBar_SyntheticAppBar_AppBar appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Transactions_AppBar_SyntheticAppBar_AppBar"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "title-Transactions_AppBar_SyntheticAppBar_AppBar"
+- waitForAnimationToEnd: {}
+# 3. Verify widget ASImage:Transactions_Image is displayed on the screen: Verifies that the widget:Transactions_Image renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Image"
+- waitForAnimationToEnd: {}
+# 4. Verify widget ASText:Transactions_Title_HiEsaaa_Text is displayed on the screen: Verifies that the widget:Transactions_Title_HiEsaaa_Text renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Title_HiEsaaa_Text"
+- waitForAnimationToEnd: {}
+# 5. Verify widget ASText:Transactions_Title_HiEsaaa_Text is displayed on the screen: Verifies that the label of widget:Transactions_Title_HiEsaaa_Text appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Title_HiEsaaa_Text"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Title_HiEsaaa_Text"
+- waitForAnimationToEnd: {}
+# 6. Verify widget ASImage:Transactions_Image_2 is displayed on the screen: Verifies that the widget:Transactions_Image_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Image_2"
+- waitForAnimationToEnd: {}
+# 7. Verify widget ASImage:Transactions_Image_3 is displayed on the screen: Verifies that the widget:Transactions_Image_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Image_3"
+- waitForAnimationToEnd: {}
+# 8. Verify widget ASImage:Transactions_Image_4 is displayed on the screen: Verifies that the widget:Transactions_Image_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Image_4"
+- waitForAnimationToEnd: {}
+# 9. Verify widget ASImage:Transactions_Image_5 is displayed on the screen: Verifies that the widget:Transactions_Image_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Image_5"
+- waitForAnimationToEnd: {}
+# 10. Verify widget ASImage:Transactions_Image_6 is displayed on the screen: Verifies that the widget:Transactions_Image_6 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Image_6"
+- waitForAnimationToEnd: {}
+# 11. Verify widget ASImage:group630 is displayed on the screen: Verifies that the widget:group630 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "group630"
+- waitForAnimationToEnd: {}
+# 12. Verify widget ASText:transfered is displayed on the screen: Verifies that the widget:transfered renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "transfered"
+- waitForAnimationToEnd: {}
+# 13. Verify widget ASText:transfered is displayed on the screen: Verifies that the label of widget:transfered appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "transfered"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "transfered"
+- waitForAnimationToEnd: {}
+# 14. Verify widget ASText:aug1920231 is displayed on the screen: Verifies that the widget:aug1920231 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aug1920231"
+- waitForAnimationToEnd: {}
+# 15. Verify widget ASText:aug1920231 is displayed on the screen: Verifies that the label of widget:aug1920231 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aug1920231"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "aug1920231"
+- waitForAnimationToEnd: {}
+# 16. Verify widget ASText:text1 is displayed on the screen: Verifies that the widget:text1 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text1"
+- waitForAnimationToEnd: {}
+# 17. Verify widget ASText:text1 is displayed on the screen: Verifies that the label of widget:text1 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text1"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "text1"
+- waitForAnimationToEnd: {}
+# 18. Verify widget ASText:Transactions_Label_UserName_Text_2 is displayed on the screen: Verifies that the widget:Transactions_Label_UserName_Text_2 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 19. Verify widget ASText:Transactions_Label_UserName_Text_2 is displayed on the screen: Verifies that the label of widget:Transactions_Label_UserName_Text_2 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_2"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_2"
+- waitForAnimationToEnd: {}
+# 20. Verify widget ASText:Transactions_Label_UserName_Text_3 is displayed on the screen: Verifies that the widget:Transactions_Label_UserName_Text_3 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 21. Verify widget ASText:Transactions_Label_UserName_Text_3 is displayed on the screen: Verifies that the label of widget:Transactions_Label_UserName_Text_3 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_3"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_3"
+- waitForAnimationToEnd: {}
+# 22. Verify widget ASText:Transactions_Label_UserName_Text_4 is displayed on the screen: Verifies that the widget:Transactions_Label_UserName_Text_4 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 23. Verify widget ASText:Transactions_Label_UserName_Text_4 is displayed on the screen: Verifies that the label of widget:Transactions_Label_UserName_Text_4 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_4"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_4"
+- waitForAnimationToEnd: {}
+# 24. Verify widget ASText:Transactions_Label_UserName_Text_5 is displayed on the screen: Verifies that the widget:Transactions_Label_UserName_Text_5 renders properly and is visible to the user.
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_5"
+- waitForAnimationToEnd: {}
+# 25. Verify widget ASText:Transactions_Label_UserName_Text_5 is displayed on the screen: Verifies that the label of widget:Transactions_Label_UserName_Text_5 appears correctly and is readable.
+- runFlow:
+    file: "common/scrollUntilVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_5"
+- runFlow:
+    file: "common/assertVisibleAndWait.yaml"
+    env:
+      WIDGET_ID: "Transactions_Label_UserName_Text_5"

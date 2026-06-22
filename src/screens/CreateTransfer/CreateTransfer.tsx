@@ -8,6 +8,7 @@ import {
   AppForm,
   AppImage,
   AppRow,
+  AppStack,
   AppText,
   AppTextField,
 } from '@/components/shared';
@@ -15,8 +16,6 @@ import {
 import { useNavigation } from '@react-navigation/native';
 
 import { color, imageSources, space, component, text, border } from '@/assets';
-
-import { ASStack } from '@/components';
 
 import { Platform, StyleSheet } from 'react-native';
 import { sharedStyles } from '@/components/shared/sharedStyles';
@@ -546,13 +545,14 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                     }
                   />
                 </AppColumn>
-                <ASStack
+                <AppStack
+                  widgetId={
+                    'CreateTransfer_Container_SectionCtaLegalNote_Stack'
+                  }
                   backgroundImageResizeMode={'contain'}
-                  name={'CreateTransfer_Container_SectionCtaLegalNote_Stack'}
                   style={
                     styles.createTransferContainerSectionCtaLegalNoteStackStyle
                   }
-                  testId={'CreateTransfer_Container_SectionCtaLegalNote_Stack'}
                 >
                   <AppButton
                     widgetId={'CreateTransfer_Cta_Confirm_Button'}
@@ -570,7 +570,7 @@ const CreateTransfer: React.FC<ScreenProps> = ({ route }) => {
                         .accessibilityLabel,
                     )}
                   />
-                </ASStack>
+                </AppStack>
                 <AppText
                   widgetId={
                     'CreateTransfer_Label_ByConfirmingYouAgreeToCo_Text'
